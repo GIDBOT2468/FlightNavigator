@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PROHIBITED.kml</name>
+	<Schema id="AirspaceId">
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Category"><displayName>&lt;b&gt;Category:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Top"><displayName>&lt;b&gt;Ceiling:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Base"><displayName>&lt;b&gt;Floor:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Radio"><displayName>&lt;b&gt;Radio frequency (MHz):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Xpndr"><displayName>&lt;b&gt;Transponder code:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area"><displayName>&lt;b&gt;Area (Km&lt;sup&gt;2&lt;/sup&gt;):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Perimeter"><displayName>&lt;b&gt;Perimeter (Km):&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="StylePROHIBITED">
+		<LineStyle>
+			<color>60000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>65830057</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>PROHIBITED</name>
+		<open>1</open>
+		<Region>
+			<LatLonAltBox>
+				<north>90</north>
+				<south>-90</south>
+				<east>180</east>
+				<west>-180</west>
+				<minAltitude>0</minAltitude>
+				<maxAltitude>200000</maxAltitude>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>10000</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<Placemark>
+			<name>P611 COULPORT/FASLANE</name>
+			<styleUrl>#StylePROHIBITED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">P611 COULPORT/FASLANE</SimpleData>
+					<SimpleData name="Category">Prohibited area</SimpleData>
+					<SimpleData name="Top">2200 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.86639,56.0919,670.5599999999999 -4.88111,56.09080000000001,670.5599999999999 -4.89528,56.08779999999999,670.5599999999999 -4.90722,56.08280000000001,670.5599999999999 -4.91667,56.0764,670.5599999999999 -4.92306,56.0689,670.5599999999999 -4.92583,56.0606,670.5599999999999 -4.925,56.05220000000001,670.5599999999999 -4.92028,56.0444,670.5599999999999 -4.91222,56.03749999999999,670.5599999999999 -4.89833,56.0306,670.5599999999999 -4.88472,56.0269,670.5599999999999 -4.86639,56.02529999999999,670.5599999999999 -4.84806,56.0269,670.5599999999999 -4.83444,56.0306,670.5599999999999 -4.82056,56.03749999999999,670.5599999999999 -4.8125,56.0444,670.5599999999999 -4.80778,56.05220000000001,670.5599999999999 -4.80694,56.0606,670.5599999999999 -4.80972,56.0689,670.5599999999999 -4.81611,56.0764,670.5599999999999 -4.82556,56.08280000000001,670.5599999999999 -4.8375,56.08779999999999,670.5599999999999 -4.85167,56.09080000000001,670.5599999999999 -4.86639,56.0919,670.5599999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>P813 DOUNREAY</name>
+			<styleUrl>#StylePROHIBITED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">P813 DOUNREAY</SimpleData>
+					<SimpleData name="Category">Prohibited area</SimpleData>
+					<SimpleData name="Top">2100 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.74278,58.6097,640.08 -3.77,58.6064,640.08 -3.78361,58.6019,640.08 -3.79444,58.5958,640.08 -3.80222,58.5886,640.08 -3.80611,58.5806,640.08 -3.80611,58.5722,640.08 -3.80222,58.5642,640.08 -3.79444,58.55670000000001,640.08 -3.78028,58.5494,640.08 -3.7625,58.54469999999999,640.08 -3.74278,58.5431,640.08 -3.72306,58.54469999999999,640.08 -3.70528,58.5494,640.08 -3.69111,58.55670000000001,640.08 -3.68333,58.5642,640.08 -3.67944,58.5722,640.08 -3.67944,58.5806,640.08 -3.68333,58.5886,640.08 -3.69111,58.5958,640.08 -3.70194,58.6019,640.08 -3.71556,58.6064,640.08 -3.74278,58.6097,640.08 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

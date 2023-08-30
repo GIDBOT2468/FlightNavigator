@@ -1,0 +1,2446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ATZ.kml</name>
+	<Schema id="AirspaceId">
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Category"><displayName>&lt;b&gt;Category:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Top"><displayName>&lt;b&gt;Ceiling:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Base"><displayName>&lt;b&gt;Floor:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Radio"><displayName>&lt;b&gt;Radio frequency (MHz):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Xpndr"><displayName>&lt;b&gt;Transponder code:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area"><displayName>&lt;b&gt;Area (Km&lt;sup&gt;2&lt;/sup&gt;):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Perimeter"><displayName>&lt;b&gt;Perimeter (Km):&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="StyleATZ">
+		<LineStyle>
+			<color>60000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>652f30df</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>ATZ</name>
+		<open>1</open>
+		<Region>
+			<LatLonAltBox>
+				<north>90</north>
+				<south>-90</south>
+				<east>180</east>
+				<west>-180</west>
+				<minAltitude>0</minAltitude>
+				<maxAltitude>200000</maxAltitude>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>10000</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<Placemark>
+			<name>ATZ BARKSTON HEATH</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ BARKSTON HEATH</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2367 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.5602780000000001,52.9964,721.462 -0.574167,52.9953,721.462 -0.586944,52.9922,721.462 -0.598056,52.98719999999999,721.462 -0.608889,52.97919999999999,721.462 -0.613889,52.9714,721.462 -0.615556,52.96079999999999,721.462 -0.612778,52.9528,721.462 -0.605,52.9433,721.462 -0.595556,52.9375,721.462 -0.583889,52.9328,721.462 -0.570556,52.9303,721.462 -0.553333,52.93,721.462 -0.54,52.93189999999999,721.462 -0.527778,52.9361,721.462 -0.517778,52.9419,721.462 -0.510278,52.94890000000001,721.462 -0.505833,52.9567,721.462 -0.505,52.965,721.462 -0.507778,52.97330000000001,721.462 -0.513611,52.9808,721.462 -0.5225,52.98719999999999,721.462 -0.5336109999999999,52.9922,721.462 -0.546389,52.9953,721.462 -0.5602780000000001,52.9964,721.462 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ BENSON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ BENSON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2203 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.09583,51.6483,671.474 -1.10917,51.64720000000001,671.474 -1.12472,51.6431,671.474 -1.135,51.6378,671.474 -1.14444,51.6292,671.474 -1.14861,51.6211,671.474 -1.14917,51.61079999999999,671.474 -1.14583,51.6028,671.474 -1.13722,51.5939,671.474 -1.12722,51.5881,671.474 -1.11556,51.5839,671.474 -1.1025,51.58189999999999,671.474 -1.08917,51.58189999999999,671.474 -1.07611,51.5839,671.474 -1.06444,51.5881,671.474 -1.05444,51.5939,671.474 -1.04722,51.6008,671.474 -1.04306,51.6086,671.474 -1.04222,51.6169,671.474 -1.04472,51.6253,671.474 -1.05056,51.63280000000001,671.474 -1.05917,51.6392,671.474 -1.07,51.6442,671.474 -1.0825,51.64720000000001,671.474 -1.09583,51.6483,671.474 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ BOSCOMBE DOWN</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ BOSCOMBE DOWN</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2407 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.75111,51.195,733.654 -1.7675,51.19360000000001,733.654 -1.78667,51.18860000000001,733.654 -1.79944,51.1819,733.654 -1.81111,51.1711,733.654 -1.81639,51.1611,733.654 -1.81694,51.1481,733.654 -1.81278,51.1381,733.654 -1.80222,51.1267,733.654 -1.79,51.1197,733.654 -1.77556,51.1147,733.654 -1.75944,51.11190000000001,733.654 -1.74278,51.11190000000001,733.654 -1.72667,51.1147,733.654 -1.71222,51.1197,733.654 -1.7,51.1267,733.654 -1.69111,51.1356,733.654 -1.68583,51.1456,733.654 -1.68472,51.1558,733.654 -1.68806,51.1661,733.654 -1.695,51.1756,733.654 -1.70556,51.18360000000001,733.654 -1.71917,51.1897,733.654 -1.73472,51.19360000000001,733.654 -1.75111,51.195,733.654 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ CONINGSBY</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ CONINGSBY</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2024 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.166111,53.1347,616.915 -0.183333,53.1333,616.915 -0.199444,53.1294,616.915 -0.213611,53.1233,616.915 -0.226944,53.1131,616.915 -0.233333,53.1033,616.915 -0.235278,53.09060000000001,616.915 -0.231944,53.0803,616.915 -0.222222,53.0686,616.915 -0.210278,53.0608,616.915 -0.195556,53.0553,616.915 -0.179167,53.05220000000001,616.915 -0.1575,53.0517,616.915 -0.140556,53.0544,616.915 -0.125278,53.0594,616.915 -0.112778,53.06639999999999,616.915 -0.103333,53.0753,616.915 -0.09805560000000002,53.0853,616.915 -0.0969444,53.0956,616.915 -0.100278,53.1058,616.915 -0.1075,53.1153,616.915 -0.118611,53.1233,616.915 -0.132778,53.1294,616.915 -0.148889,53.1333,616.915 -0.166111,53.1347,616.915 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ COSFORD</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ COSFORD</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2272 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.30528,52.6739,692.506 -2.31889,52.67280000000001,692.506 -2.33167,52.6697,692.506 -2.34278,52.6647,692.506 -2.35167,52.6583,692.506 -2.3575,52.65079999999999,692.506 -2.36,52.6425,692.506 -2.35917,52.6342,692.506 -2.355,52.62639999999999,692.506 -2.3475,52.6194,692.506 -2.3375,52.6136,692.506 -2.32556,52.6094,692.506 -2.31222,52.6075,692.506 -2.295,52.6078,692.506 -2.28194,52.61030000000001,692.506 -2.27028,52.61499999999999,692.506 -2.26083,52.6208,692.506 -2.25306,52.6303,692.506 -2.25056,52.6383,692.506 -2.25222,52.6489,692.506 -2.25722,52.6567,692.506 -2.26778,52.6647,692.506 -2.27889,52.6697,692.506 -2.29167,52.67280000000001,692.506 -2.30528,52.6739,692.506 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ CRANWELL</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ CRANWELL</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2222 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.492778,53.0714,677.266 -0.51,53.07,677.266 -0.526111,53.06609999999999,677.266 -0.540278,53.06,677.266 -0.553611,53.04969999999999,677.266 -0.5597220000000001,53.04000000000001,677.266 -0.561944,53.0272,677.266 -0.558611,53.0169,677.266 -0.548889,53.0053,677.266 -0.536944,52.9975,677.266 -0.522222,52.9919,677.266 -0.505833,52.9889,677.266 -0.484167,52.9883,677.266 -0.467222,52.9911,677.266 -0.452222,52.9961,677.266 -0.439444,53.0031,677.266 -0.4302779999999999,53.0119,677.266 -0.424722,53.0219,677.266 -0.423611,53.0322,677.266 -0.426944,53.0425,677.266 -0.434167,53.0519,677.266 -0.445278,53.06,677.266 -0.4594440000000001,53.06609999999999,677.266 -0.475556,53.07,677.266 -0.492778,53.0714,677.266 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ CULDROSE</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ CULDROSE</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2268 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.25417,50.12689999999999,691.2859999999999 -5.27028,50.1256,691.2859999999999 -5.28889,50.1206,691.2859999999999 -5.30139,50.1139,691.2859999999999 -5.31278,50.1031,691.2859999999999 -5.31806,50.0931,691.2859999999999 -5.31861,50.08,691.2859999999999 -5.31278,50.0675,691.2859999999999 -5.30139,50.05670000000001,691.2859999999999 -5.28889,50.05,691.2859999999999 -5.27417,50.0456,691.2859999999999 -5.25833,50.0436,691.2859999999999 -5.24194,50.0444,691.2859999999999 -5.22667,50.04750000000001,691.2859999999999 -5.21278,50.0531,691.2859999999999 -5.20167,50.0608,691.2859999999999 -5.19389,50.07,691.2859999999999 -5.18972,50.08,691.2859999999999 -5.18972,50.09060000000001,691.2859999999999 -5.19389,50.1006,691.2859999999999 -5.20167,50.1097,691.2859999999999 -5.21278,50.1172,691.2859999999999 -5.22639,50.1231,691.2859999999999 -5.25417,50.12689999999999,691.2859999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ FAIRFORD</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ FAIRFORD</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2286 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.79,51.7253,696.773 -1.80667,51.72390000000001,696.773 -1.82611,51.7189,696.773 -1.83889,51.7122,696.773 -1.85083,51.7014,696.773 -1.85611,51.6914,696.773 -1.85667,51.67829999999999,696.773 -1.8525,51.6683,696.773 -1.84167,51.65689999999999,696.773 -1.82944,51.65,696.773 -1.81472,51.64500000000001,696.773 -1.79833,51.6422,696.773 -1.78167,51.6422,696.773 -1.76528,51.64500000000001,696.773 -1.75056,51.65,696.773 -1.73833,51.65689999999999,696.773 -1.72917,51.6658,696.773 -1.72417,51.6758,696.773 -1.72306,51.68610000000001,696.773 -1.72611,51.6964,696.773 -1.73333,51.7058,696.773 -1.74389,51.7139,696.773 -1.7575,51.72,696.773 -1.77333,51.72390000000001,696.773 -1.79,51.7253,696.773 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ HALTON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ HALTON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2366 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.736389,51.8256,721.157 -0.7497219999999999,51.8244,721.157 -0.765278,51.82030000000001,721.157 -0.775556,51.815,721.157 -0.7850000000000001,51.8064,721.157 -0.7891670000000001,51.79829999999999,721.157 -0.789722,51.78809999999999,721.157 -0.786389,51.78,721.157 -0.7777780000000001,51.7711,721.157 -0.7680560000000001,51.7653,721.157 -0.7561109999999999,51.7611,721.157 -0.743056,51.75919999999999,721.157 -0.7297220000000001,51.75919999999999,721.157 -0.7166669999999999,51.7611,721.157 -0.7047219999999998,51.7653,721.157 -0.695,51.7711,721.157 -0.687778,51.7781,721.157 -0.683611,51.7858,721.157 -0.6825,51.7942,721.157 -0.6852780000000001,51.8025,721.157 -0.690833,51.81,721.157 -0.699444,51.8164,721.157 -0.7105559999999999,51.8214,721.157 -0.7230559999999999,51.8244,721.157 -0.736389,51.8256,721.157 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ HONINGTON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ HONINGTON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2174 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.7799999999999999,52.37669999999999,662.635 0.7663889999999999,52.3756,662.635 0.7536110000000001,52.3725,662.635 0.742778,52.36750000000001,662.635 0.732222,52.3594,662.635 0.727222,52.3517,662.635 0.725556,52.3411,662.635 0.7280560000000001,52.3331,662.635 0.735833,52.3236,662.635 0.7452779999999999,52.3178,662.635 0.7566670000000001,52.3131,662.635 0.7697219999999999,52.3106,662.635 0.786944,52.3103,662.635 0.8,52.3122,662.635 0.811944,52.3164,662.635 0.821944,52.3222,662.635 0.829444,52.3292,662.635 0.8336109999999999,52.33690000000001,662.635 0.834444,52.3453,662.635 0.831944,52.3536,662.635 0.8261109999999999,52.3611,662.635 0.817222,52.36750000000001,662.635 0.806389,52.3725,662.635 0.793611,52.3756,662.635 0.7799999999999999,52.37669999999999,662.635 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ LAKENHEATH</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ LAKENHEATH</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2031 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.561111,52.45109999999999,619.049 0.544167,52.44970000000001,619.049 0.5283330000000001,52.4458,619.049 0.514444,52.43969999999999,619.049 0.503333,52.43169999999999,619.049 0.496111,52.4222,619.049 0.4930559999999999,52.4119,619.049 0.494167,52.4017,619.049 0.4994439999999999,52.3917,619.049 0.508611,52.3828,619.049 0.521111,52.3758,619.049 0.536111,52.3708,619.049 0.5525,52.3681,619.049 0.573889,52.3686,619.049 0.590278,52.37169999999999,619.049 0.604722,52.37719999999999,619.049 0.616389,52.385,619.049 0.626111,52.3967,619.049 0.629167,52.4069,619.049 0.6272219999999999,52.4197,619.049 0.620833,52.4294,619.049 0.607778,52.43969999999999,619.049 0.593889,52.4458,619.049 0.578056,52.44970000000001,619.049 0.561111,52.45109999999999,619.049 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ LEEMING</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ LEEMING</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2132 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.53528,54.3342,649.8339999999999 -1.55306,54.3328,649.8339999999999 -1.56972,54.3289,649.8339999999999 -1.58417,54.3228,649.8339999999999 -1.59778,54.3125,649.8339999999999 -1.60444,54.30279999999999,649.8339999999999 -1.60667,54.2925,649.8339999999999 -1.60444,54.2822,649.8339999999999 -1.59556,54.2703,649.8339999999999 -1.58417,54.2622,649.8339999999999 -1.56972,54.2561,649.8339999999999 -1.55306,54.2522,649.8339999999999 -1.53083,54.25080000000001,649.8339999999999 -1.51333,54.25280000000001,649.8339999999999 -1.49722,54.2572,649.8339999999999 -1.48333,54.2639,649.8339999999999 -1.47278,54.27250000000001,649.8339999999999 -1.46528,54.28470000000001,649.8339999999999 -1.46417,54.295,649.8339999999999 -1.4675,54.3053,649.8339999999999 -1.475,54.3147,649.8339999999999 -1.48639,54.3228,649.8339999999999 -1.50083,54.3289,649.8339999999999 -1.5175,54.3328,649.8339999999999 -1.53528,54.3342,649.8339999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ LEUCHARS</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ LEUCHARS</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2038 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.85889,56.41670000000001,621.182 -2.8775,56.4153,621.182 -2.89528,56.4114,621.182 -2.91028,56.4053,621.182 -2.9225,56.3972,621.182 -2.930559999999999,56.38780000000001,621.182 -2.93389,56.3775,621.182 -2.93278,56.3672,621.182 -2.92694,56.35720000000001,621.182 -2.916669999999999,56.3483,621.182 -2.89917,56.3397,621.182 -2.88222,56.3353,621.182 -2.85889,56.33330000000001,621.182 -2.83556,56.3353,621.182 -2.81861,56.3397,621.182 -2.80111,56.3483,621.182 -2.79083,56.35720000000001,621.182 -2.785,56.3672,621.182 -2.78389,56.3775,621.182 -2.78722,56.38780000000001,621.182 -2.79528,56.3972,621.182 -2.8075,56.4053,621.182 -2.8225,56.4114,621.182 -2.84028,56.4153,621.182 -2.85889,56.41670000000001,621.182 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ LITTLE RISSINGTON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ LITTLE RISSINGTON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2731 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.69417,51.90059999999999,832.4090000000001 -1.7075,51.89939999999999,832.4090000000001 -1.72306,51.8953,832.4090000000001 -1.73361,51.89,832.4090000000001 -1.74306,51.8814,832.4090000000001 -1.74722,51.87330000000001,832.4090000000001 -1.74778,51.86310000000001,832.4090000000001 -1.74444,51.855,832.4090000000001 -1.73583,51.84609999999999,832.4090000000001 -1.72583,51.8403,832.4090000000001 -1.71389,51.8361,832.4090000000001 -1.70083,51.8342,832.4090000000001 -1.6875,51.8342,832.4090000000001 -1.67444,51.8361,832.4090000000001 -1.6625,51.8403,832.4090000000001 -1.6525,51.84609999999999,832.4090000000001 -1.64528,51.8531,832.4090000000001 -1.64111,51.8608,832.4090000000001 -1.64028,51.8692,832.4090000000001 -1.64278,51.8775,832.4090000000001 -1.64861,51.885,832.4090000000001 -1.65722,51.89139999999999,832.4090000000001 -1.66806,51.89639999999999,832.4090000000001 -1.68083,51.89939999999999,832.4090000000001 -1.69417,51.90059999999999,832.4090000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ LOSSIEMOUTH</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ LOSSIEMOUTH</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2042 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.33778,57.7483,622.402 -3.35722,57.7469,622.402 -3.37528,57.7431,622.402 -3.39111,57.7369,622.402 -3.40361,57.7289,622.402 -3.41194,57.71940000000001,622.402 -3.41556,57.70920000000001,622.402 -3.41444,57.6989,622.402 -3.40833,57.6889,622.402 -3.39778,57.67999999999999,622.402 -3.37944,57.6714,622.402 -3.36194,57.6669,622.402 -3.33778,57.665,622.402 -3.31361,57.6669,622.402 -3.29611,57.6714,622.402 -3.27778,57.67999999999999,622.402 -3.26722,57.6889,622.402 -3.26111,57.6989,622.402 -3.26,57.70920000000001,622.402 -3.26361,57.71940000000001,622.402 -3.27194,57.7289,622.402 -3.28444,57.7369,622.402 -3.300279999999999,57.7431,622.402 -3.31833,57.7469,622.402 -3.33778,57.7483,622.402 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ MARHAM</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ MARHAM</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2077 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.550556,52.69,633.0700000000001 0.5333329999999999,52.6886,633.0700000000001 0.5175,52.68470000000001,633.0700000000001 0.503611,52.6786,633.0700000000001 0.490278,52.66830000000001,633.0700000000001 0.484167,52.6586,633.0700000000001 0.481944,52.6458,633.0700000000001 0.485278,52.63559999999999,633.0700000000001 0.495,52.6239,633.0700000000001 0.506944,52.6161,633.0700000000001 0.521389,52.6106,633.0700000000001 0.537778,52.6075,633.0700000000001 0.559167,52.6069,633.0700000000001 0.575833,52.60969999999999,633.0700000000001 0.5908330000000001,52.61469999999999,633.0700000000001 0.603333,52.6217,633.0700000000001 0.6125,52.6306,633.0700000000001 0.618056,52.64059999999999,633.0700000000001 0.619167,52.65079999999999,633.0700000000001 0.615833,52.6611,633.0700000000001 0.608611,52.6706,633.0700000000001 0.5975,52.6786,633.0700000000001 0.583611,52.68470000000001,633.0700000000001 0.567778,52.6886,633.0700000000001 0.550556,52.69,633.0700000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ MERRYFIELD</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ MERRYFIELD</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2144 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.93889,51.0047,653.491 -2.95528,51.0033,653.491 -2.97444,50.9983,653.491 -2.98722,50.9917,653.491 -2.99861,50.9808,653.491 -3.00389,50.9708,653.491 -3.004440000000001,50.9578,653.491 -3.00028,50.94779999999999,653.491 -2.989720000000001,50.9364,653.491 -2.97778,50.92940000000001,653.491 -2.96333,50.92440000000001,653.491 -2.94722,50.92170000000001,653.491 -2.930559999999999,50.92170000000001,653.491 -2.91444,50.92440000000001,653.491 -2.9,50.92940000000001,653.491 -2.88806,50.9364,653.491 -2.87917,50.9453,653.491 -2.87389,50.95530000000001,653.491 -2.87278,50.9656,653.491 -2.87611,50.9758,653.491 -2.88306,50.9853,653.491 -2.89361,50.9933,653.491 -2.90694,50.9994,653.491 -2.9225,51.0033,653.491 -2.93889,51.0047,653.491 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ MIDDLE WALLOP</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ MIDDLE WALLOP</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2297 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.57278,51.17440000000001,700.126 -1.58611,51.1733,700.126 -1.59833,51.1703,700.126 -1.60917,51.1653,700.126 -1.6175,51.1589,700.126 -1.62333,51.1514,700.126 -1.62583,51.1431,700.126 -1.625,51.1347,700.126 -1.62083,51.1269,700.126 -1.61361,51.12,700.126 -1.60389,51.1142,700.126 -1.59222,51.11,700.126 -1.57944,51.1081,700.126 -1.56611,51.1081,700.126 -1.55333,51.11,700.126 -1.54167,51.1142,700.126 -1.53194,51.12,700.126 -1.52333,51.1289,700.126 -1.52,51.1369,700.126 -1.52056,51.14719999999999,700.126 -1.52472,51.1553,700.126 -1.53417,51.16389999999999,700.126 -1.54444,51.1692,700.126 -1.55944,51.1733,700.126 -1.57278,51.17440000000001,700.126 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ MILDENHALL</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ MILDENHALL</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2032 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.486389,52.4036,619.354 0.469444,52.4022,619.354 0.4536109999999999,52.3983,619.354 0.439722,52.39220000000001,619.354 0.426667,52.3819,619.354 0.420278,52.37219999999999,619.354 0.418333,52.3594,619.354 0.4216670000000001,52.3492,619.354 0.431389,52.3375,619.354 0.443056,52.32970000000001,619.354 0.4575,52.3242,619.354 0.473611,52.3211,619.354 0.495,52.3206,619.354 0.511389,52.3233,619.354 0.526389,52.3283,619.354 0.538889,52.3353,619.354 0.548056,52.3442,619.354 0.553333,52.3542,619.354 0.554444,52.3644,619.354 0.551389,52.3747,619.354 0.543889,52.38420000000001,619.354 0.533056,52.39220000000001,619.354 0.519167,52.3983,619.354 0.503333,52.4022,619.354 0.486389,52.4036,619.354 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ MONA</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ MONA</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2202 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.37389,53.2925,671.17 -4.38778,53.2914,671.17 -4.40083,53.2883,671.17 -4.41194,53.2833,671.17 -4.42278,53.27529999999999,671.17 -4.42778,53.2675,671.17 -4.42944,53.2592,671.17 -4.42778,53.2508,671.17 -4.42083,53.24139999999999,671.17 -4.41194,53.235,671.17 -4.40083,53.23,671.17 -4.38778,53.2269,671.17 -4.37028,53.2258,671.17 -4.35667,53.22750000000001,671.17 -4.34417,53.2311,671.17 -4.33333,53.2364,671.17 -4.325,53.2431,671.17 -4.31917,53.2528,671.17 -4.31833,53.26110000000001,671.17 -4.32083,53.2694,671.17 -4.32694,53.2769,671.17 -4.33583,53.2833,671.17 -4.34694,53.2883,671.17 -4.36,53.2914,671.17 -4.37389,53.2925,671.17 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ NETHERAVON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ NETHERAVON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2454 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.75472,51.28139999999999,747.979 -1.76806,51.2803,747.979 -1.78028,51.27719999999999,747.979 -1.79111,51.27219999999999,747.979 -1.79972,51.2658,747.979 -1.80528,51.25830000000001,747.979 -1.80778,51.25,747.979 -1.80694,51.2417,747.979 -1.80278,51.23390000000001,747.979 -1.79583,51.22689999999999,747.979 -1.78611,51.2211,747.979 -1.77417,51.2169,747.979 -1.76139,51.21500000000001,747.979 -1.74806,51.21500000000001,747.979 -1.73528,51.2169,747.979 -1.72333,51.2211,747.979 -1.71361,51.22689999999999,747.979 -1.70528,51.2358,747.979 -1.70194,51.2439,747.979 -1.7025,51.2542,747.979 -1.70667,51.2622,747.979 -1.71583,51.2708,747.979 -1.72611,51.2761,747.979 -1.74139,51.2803,747.979 -1.75472,51.28139999999999,747.979 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ ODIHAM</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ ODIHAM</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2405 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.942778,51.26750000000001,733.044 -0.9561110000000002,51.2664,733.044 -0.9713889999999999,51.2622,733.044 -0.981667,51.2569,733.044 -0.990833,51.24829999999999,733.044 -0.9950000000000001,51.24029999999999,733.044 -0.995556,51.23,733.044 -0.992222,51.22189999999999,733.044 -0.983889,51.2131,733.044 -0.974167,51.2072,733.044 -0.962222,51.2031,733.044 -0.9494439999999998,51.2011,733.044 -0.936111,51.2011,733.044 -0.923333,51.2031,733.044 -0.911389,51.2072,733.044 -0.901667,51.2131,733.044 -0.894722,51.22,733.044 -0.890556,51.2278,733.044 -0.889722,51.23609999999999,733.044 -0.892222,51.2444,733.044 -0.897778,51.2519,733.044 -0.906389,51.25830000000001,733.044 -0.917222,51.26330000000001,733.044 -0.929444,51.2664,733.044 -0.942778,51.26750000000001,733.044 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ FLEETLANDS</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ FLEETLANDS</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2027 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.15806,50.8028,617.83 -1.14528,50.80559999999999,617.83 -1.13444,50.8103,617.83 -1.12583,50.8167,617.83 -1.11972,50.8242,617.83 -1.11694,50.8322,617.83 -1.1175,50.8406,617.83 -1.12111,50.8486,617.83 -1.12778,50.8558,617.83 -1.13722,50.8617,617.83 -1.14861,50.8658,617.83 -1.16139,50.8683,617.83 -1.17472,50.8683,617.83 -1.1875,50.8667,617.83 -1.19917,50.8628,617.83 -1.20917,50.85720000000001,617.83 -1.21667,50.8503,617.83 -1.21806,50.8483,617.83 -1.20139,50.8489,617.83 -1.18806,50.8469,617.83 -1.15583,50.8067,617.83 -1.15806,50.8028,617.83 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ PREDANNACK</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ PREDANNACK</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2299 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.23167,50.03530000000001,700.735 -5.25361,50.0319,700.735 -5.26472,50.0275,700.735 -5.27361,50.0214,700.735 -5.28,50.0142,700.735 -5.28306,50.0061,700.735 -5.28306,49.9978,700.735 -5.27972,49.98969999999999,700.735 -5.27361,49.9822,700.735 -5.26472,49.9764,700.735 -5.25361,49.9717,700.735 -5.24139,49.9692,700.735 -5.22833,49.96860000000001,700.735 -5.21556,49.97029999999999,700.735 -5.20389,49.9739,700.735 -5.19389,49.9792,700.735 -5.18472,49.9878,700.735 -5.18028,49.9978,700.735 -5.18083,50.0081,700.735 -5.18472,50.01609999999999,700.735 -5.19389,50.0247,700.735 -5.20389,50.03,700.735 -5.21889,50.0342,700.735 -5.23167,50.03530000000001,700.735 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ SHAWBURY</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ SHAWBURY</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2249 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.66806,52.82690000000001,685.495 -2.68167,52.8258,685.495 -2.69472,52.8228,685.495 -2.70583,52.8178,685.495 -2.71472,52.81139999999999,685.495 -2.72056,52.8039,685.495 -2.72306,52.7956,685.495 -2.72222,52.7872,685.495 -2.71778,52.7794,685.495 -2.71056,52.7725,685.495 -2.70028,52.7667,685.495 -2.68833,52.7625,685.495 -2.675,52.76059999999999,685.495 -2.65778,52.7608,685.495 -2.64472,52.7633,685.495 -2.63306,52.7681,685.495 -2.62361,52.7739,685.495 -2.61556,52.7833,685.495 -2.61306,52.7914,685.495 -2.61472,52.8019,685.495 -2.61972,52.80970000000001,685.495 -2.63028,52.8178,685.495 -2.64139,52.8228,685.495 -2.65444,52.8258,685.495 -2.66806,52.82690000000001,685.495 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ SYERSTON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ SYERSTON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2231 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.911667,53.05670000000001,680.009 -0.925556,53.0556,680.009 -0.938333,53.05250000000001,680.009 -0.949722,53.0475,680.009 -0.9602780000000001,53.0394,680.009 -0.965278,53.0317,680.009 -0.9669440000000001,53.0211,680.009 -0.964444,53.01309999999999,680.009 -0.956389,53.00359999999999,680.009 -0.9469440000000001,52.9978,680.009 -0.9352780000000001,52.9931,680.009 -0.9219440000000001,52.9906,680.009 -0.904722,52.9903,680.009 -0.891389,52.9922,680.009 -0.8791670000000001,52.9964,680.009 -0.8688890000000001,53.00220000000001,680.009 -0.8616669999999998,53.0092,680.009 -0.857222,53.0169,680.009 -0.856389,53.02529999999999,680.009 -0.858889,53.0336,680.009 -0.8649999999999999,53.0411,680.009 -0.873611,53.0475,680.009 -0.885,53.05250000000001,680.009 -0.897778,53.0556,680.009 -0.911667,53.05670000000001,680.009 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ TERNHILL</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ TERNHILL</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2285 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.53222,52.9064,696.468 -2.54583,52.9053,696.468 -2.55889,52.9022,696.468 -2.57,52.8972,696.468 -2.58056,52.8892,696.468 -2.58556,52.88140000000001,696.468 -2.58722,52.8708,696.468 -2.58472,52.8628,696.468 -2.57694,52.8533,696.468 -2.5675,52.84749999999999,696.468 -2.55583,52.8428,696.468 -2.5425,52.84029999999999,696.468 -2.52528,52.84,696.468 -2.51194,52.8419,696.468 -2.49972,52.8461,696.468 -2.48972,52.8519,696.468 -2.48222,52.8589,696.468 -2.47806,52.86669999999999,696.468 -2.47722,52.875,696.468 -2.47972,52.8833,696.468 -2.48556,52.8908,696.468 -2.49444,52.8972,696.468 -2.50556,52.9022,696.468 -2.51861,52.9053,696.468 -2.53222,52.9064,696.468 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ TOPCLIFFE</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ TOPCLIFFE</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2091 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.38056,54.24060000000001,637.337 -1.39472,54.23940000000001,637.337 -1.40806,54.23640000000001,637.337 -1.41944,54.23140000000001,637.337 -1.43056,54.2233,637.337 -1.43583,54.2156,637.337 -1.4375,54.20719999999999,637.337 -1.43583,54.1989,637.337 -1.42861,54.1894,637.337 -1.41944,54.1831,637.337 -1.40806,54.17809999999999,637.337 -1.39472,54.175,637.337 -1.37694,54.17390000000001,637.337 -1.36306,54.1756,637.337 -1.35,54.1792,637.337 -1.33917,54.1844,637.337 -1.33056,54.1911,637.337 -1.32472,54.2008,637.337 -1.32361,54.2092,637.337 -1.32639,54.2175,637.337 -1.3325,54.225,637.337 -1.34167,54.23140000000001,637.337 -1.35306,54.23640000000001,637.337 -1.36639,54.23940000000001,637.337 -1.38056,54.24060000000001,637.337 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ VALLEY</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ VALLEY</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2036 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.53528,53.2897,620.573 -4.5525,53.2883,620.573 -4.56889,53.2844,620.573 -4.58306,53.27830000000001,620.573 -4.59639,53.2681,620.573 -4.60278,53.2583,620.573 -4.605,53.2481,620.573 -4.60278,53.2378,620.573 -4.59389,53.2258,620.573 -4.58278,53.2178,620.573 -4.56889,53.2117,620.573 -4.5525,53.20779999999999,620.573 -4.53083,53.2064,620.573 -4.51389,53.20829999999999,620.573 -4.49806,53.21279999999999,620.573 -4.48472,53.2194,620.573 -4.47444,53.2281,620.573 -4.46694,53.2403,620.573 -4.46583,53.25059999999999,620.573 -4.46917,53.2608,620.573 -4.47639,53.27030000000001,620.573 -4.4875,53.27830000000001,620.573 -4.50167,53.2844,620.573 -4.51806,53.2883,620.573 -4.53528,53.2897,620.573 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ WADDINGTON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ WADDINGTON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2231 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.523889,53.20779999999999,680.009 -0.541111,53.2064,680.009 -0.5575,53.2025,680.009 -0.571389,53.1964,680.009 -0.584722,53.1861,680.009 -0.5911110000000001,53.1764,680.009 -0.593333,53.1661,680.009 -0.5911110000000001,53.15580000000001,680.009 -0.5825,53.1439,680.009 -0.571389,53.1358,680.009 -0.557222,53.1297,680.009 -0.541111,53.1258,680.009 -0.519444,53.12439999999999,680.009 -0.5024999999999999,53.1264,680.009 -0.4866670000000001,53.1308,680.009 -0.473333,53.1375,680.009 -0.463056,53.1461,680.009 -0.455556,53.1583,680.009 -0.454444,53.1686,680.009 -0.457778,53.17889999999999,680.009 -0.4652780000000001,53.1883,680.009 -0.4763890000000001,53.1964,680.009 -0.490278,53.2025,680.009 -0.506667,53.2064,680.009 -0.523889,53.20779999999999,680.009 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ WATTISHAM</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ WATTISHAM</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2284 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.955278,52.1686,696.163 0.938333,52.1672,696.163 0.9225,52.16329999999999,696.163 0.9088889999999999,52.1572,696.163 0.895833,52.1469,696.163 0.8894439999999999,52.13720000000001,696.163 0.8875,52.1244,696.163 0.890833,52.1142,696.163 0.900556,52.1025,696.163 0.911944,52.0947,696.163 0.926389,52.0892,696.163 0.9425000000000001,52.0861,696.163 0.963889,52.0856,696.163 0.9802779999999999,52.0883,696.163 0.9950000000000001,52.0933,696.163 1.0075,52.10029999999999,696.163 1.01667,52.1092,696.163 1.02194,52.1192,696.163 1.02306,52.1294,696.163 1.01972,52.1397,696.163 1.0125,52.1492,696.163 1.00167,52.1572,696.163 0.988056,52.16329999999999,696.163 0.972222,52.1672,696.163 0.955278,52.1686,696.163 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ WITTERING</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ WITTERING</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2273 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.475833,52.6547,692.8099999999999 -0.492778,52.6533,692.8099999999999 -0.508889,52.6494,692.8099999999999 -0.522778,52.6433,692.8099999999999 -0.5338889999999999,52.6353,692.8099999999999 -0.541111,52.6258,692.8099999999999 -0.544167,52.6156,692.8099999999999 -0.543056,52.60530000000001,692.8099999999999 -0.537778,52.59529999999999,692.8099999999999 -0.5286110000000001,52.5864,692.8099999999999 -0.516111,52.57940000000001,692.8099999999999 -0.501111,52.5744,692.8099999999999 -0.484444,52.57170000000001,692.8099999999999 -0.463056,52.57220000000001,692.8099999999999 -0.446667,52.5753,692.8099999999999 -0.432222,52.5808,692.8099999999999 -0.420278,52.58860000000001,692.8099999999999 -0.410556,52.6003,692.8099999999999 -0.4075,52.6106,692.8099999999999 -0.409444,52.6233,692.8099999999999 -0.415833,52.6331,692.8099999999999 -0.428889,52.6433,692.8099999999999 -0.4427780000000001,52.6494,692.8099999999999 -0.458889,52.6533,692.8099999999999 -0.475833,52.6547,692.8099999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ WOODVALE</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ WOODVALE</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2037 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.0575,53.615,620.878 -3.07139,53.61389999999999,620.878 -3.08444,53.6108,620.878 -3.09583,53.6058,620.878 -3.105,53.5994,620.878 -3.11083,53.5919,620.878 -3.11361,53.5836,620.878 -3.1125,53.57530000000001,620.878 -3.10667,53.5656,620.878 -3.09833,53.55890000000001,620.878 -3.0875,53.5536,620.878 -3.07472,53.55,620.878 -3.061110000000001,53.5483,620.878 -3.04361,53.54939999999999,620.878 -3.03056,53.5525,620.878 -3.01917,53.5575,620.878 -3.01028,53.5639,620.878 -3.00306,53.5733,620.878 -3.00139,53.5817,620.878 -3.00306,53.59,620.878 -3.00833,53.5978,620.878 -3.01917,53.6058,620.878 -3.03056,53.6108,620.878 -3.04361,53.61389999999999,620.878 -3.0575,53.615,620.878 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ YEOVILTON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ YEOVILTON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2075 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.67639,50.9714,632.46 -2.62972,50.9678,632.46 -2.61639,50.9711,632.46 -2.6025,50.97670000000001,632.46 -2.58917,50.9867,632.46 -2.58111,50.9986,632.46 -2.57972,51.0117,632.46 -2.58306,51.0219,632.46 -2.59028,51.0314,632.46 -2.60111,51.03920000000001,632.46 -2.61472,51.0453,632.46 -2.63028,51.0489,632.46 -2.65917,51.0492,632.46 -2.675,51.0456,632.46 -2.68861,51.04,632.46 -2.69722,51.03420000000001,632.46 -2.70611,51.0253,632.46 -2.71083,51.0153,632.46 -2.71139,51.005,632.46 -2.70806,50.9947,632.46 -2.70083,50.9853,632.46 -2.69,50.9775,632.46 -2.67639,50.9714,632.46 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ ANDREWSFIELD</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ ANDREWSFIELD</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2286 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.449167,51.92830000000001,696.773 0.435833,51.9272,696.773 0.420278,51.9231,696.773 0.409722,51.9178,696.773 0.400278,51.9092,696.773 0.396111,51.9011,696.773 0.395556,51.8908,696.773 0.3988889999999999,51.8828,696.773 0.4075,51.8739,696.773 0.4175,51.8681,696.773 0.429444,51.8639,696.773 0.4425,51.8619,696.773 0.4558329999999999,51.8619,696.773 0.468889,51.8639,696.773 0.480833,51.8681,696.773 0.4908330000000001,51.8739,696.773 0.498056,51.8808,696.773 0.5022219999999999,51.8886,696.773 0.5030559999999999,51.8969,696.773 0.500556,51.9053,696.773 0.494722,51.91279999999999,696.773 0.486111,51.9192,696.773 0.475278,51.9242,696.773 0.4625,51.9272,696.773 0.449167,51.92830000000001,696.773 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ WALNEY</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ WALNEY</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2044 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.26333,54.16439999999999,623.011 -3.2775,54.1633,623.011 -3.29083,54.1603,623.011 -3.30222,54.1553,623.011 -3.31306,54.14719999999999,623.011 -3.31833,54.1394,623.011 -3.32028,54.13110000000001,623.011 -3.31833,54.12279999999999,623.011 -3.31139,54.1133,623.011 -3.30222,54.1069,623.011 -3.29083,54.10189999999999,623.011 -3.2775,54.09889999999999,623.011 -3.25972,54.0978,623.011 -3.24583,54.0994,623.011 -3.23278,54.10309999999999,623.011 -3.22194,54.1083,623.011 -3.213610000000001,54.115,623.011 -3.2075,54.1247,623.011 -3.20667,54.1331,623.011 -3.20917,54.1414,623.011 -3.21528,54.1489,623.011 -3.22444,54.1553,623.011 -3.23583,54.1603,623.011 -3.249169999999999,54.1633,623.011 -3.26333,54.16439999999999,623.011 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ BIGGIN HILL</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ BIGGIN HILL</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2599 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.0325,51.3725,792.175 0.0158333,51.3711,792.175 0.000277778,51.3672,792.175 -0.0130556,51.36109999999999,792.175 -0.0238889,51.35309999999999,792.175 -0.0308333,51.3436,792.175 -0.0338889,51.3333,792.175 -0.0330556,51.3231,792.175 -0.0277778,51.3131,792.175 -0.0188889,51.3042,792.175 -0.00666667,51.2972,792.175 0.00805556,51.2922,792.175 0.0241667,51.28939999999999,792.175 0.0408333,51.28939999999999,792.175 0.05694439999999999,51.2922,792.175 0.0716667,51.2972,792.175 0.0838889,51.3042,792.175 0.0944444,51.31560000000001,792.175 0.09861109999999999,51.3256,792.175 0.09805560000000002,51.3386,792.175 0.09277779999999999,51.3486,792.175 0.08111110000000001,51.35940000000001,792.175 0.0683333,51.3661,792.175 0.0491667,51.3711,792.175 0.0325,51.3725,792.175 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ BLACKBUSHE</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ BLACKBUSHE</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2325 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.870833,51.29390000000001,708.66 -0.807778,51.3017,708.66 -0.799444,51.3094,708.66 -0.7952780000000002,51.3172,708.66 -0.794444,51.32749999999999,708.66 -0.7977779999999999,51.3358,708.66 -0.803889,51.3431,708.66 -0.813056,51.34920000000001,708.66 -0.824167,51.3539,708.66 -0.8369439999999999,51.35640000000001,708.66 -0.86,51.35640000000001,708.66 -0.8725000000000001,51.3533,708.66 -0.883611,51.3483,708.66 -0.890278,51.34389999999999,708.66 -0.8969439999999999,51.33669999999999,708.66 -0.9002780000000001,51.3286,708.66 -0.900556,51.31999999999999,708.66 -0.897222,51.3119,708.66 -0.891111,51.3047,708.66 -0.881944,51.29859999999999,708.66 -0.870833,51.29390000000001,708.66 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ BLACKPOOL</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ BLACKPOOL</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2034 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.02861,53.81329999999999,619.963 -3.04611,53.8119,619.963 -3.0625,53.8081,619.963 -3.07694,53.8019,619.963 -3.090279999999999,53.79170000000001,619.963 -3.09694,53.7819,619.963 -3.09917,53.7717,619.963 -3.09694,53.7614,619.963 -3.08806,53.74940000000001,619.963 -3.07667,53.74140000000001,619.963 -3.0625,53.7353,619.963 -3.04611,53.73139999999999,619.963 -3.02417,53.73,619.963 -3.00694,53.7319,619.963 -2.99083,53.7364,619.963 -2.97722,53.74309999999999,619.963 -2.96694,53.7517,619.963 -2.95944,53.7639,619.963 -2.95833,53.7742,619.963 -2.96167,53.78439999999999,619.963 -2.96917,53.79389999999999,619.963 -2.98028,53.8019,619.963 -2.99472,53.8081,619.963 -3.01111,53.8119,619.963 -3.02861,53.81329999999999,619.963 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ CAERNARFON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ CAERNARFON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2014 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.3375,53.1353,613.867 -4.35139,53.1342,613.867 -4.36417,53.1311,613.867 -4.37556,53.1261,613.867 -4.38611,53.1181,613.867 -4.39111,53.1103,613.867 -4.39278,53.0997,613.867 -4.39028,53.0917,613.867 -4.3825,53.0822,613.867 -4.37278,53.0764,613.867 -4.36111,53.0717,613.867 -4.34778,53.0692,613.867 -4.33056,53.06890000000001,613.867 -4.31722,53.0708,613.867 -4.305,53.075,613.867 -4.29472,53.0808,613.867 -4.28722,53.08779999999999,613.867 -4.28306,53.0956,613.867 -4.28222,53.1039,613.867 -4.28472,53.11219999999999,613.867 -4.29056,53.11970000000001,613.867 -4.29944,53.1261,613.867 -4.31083,53.1311,613.867 -4.32361,53.1342,613.867 -4.3375,53.1353,613.867 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ CAMBRIDGE</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ CAMBRIDGE</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2048 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.175,52.24669999999999,624.23 0.158056,52.2453,624.23 0.142222,52.2414,624.23 0.128333,52.2353,624.23 0.1175,52.2272,624.23 0.110278,52.21779999999999,624.23 0.107222,52.2075,624.23 0.108333,52.1972,624.23 0.113611,52.18719999999999,624.23 0.122778,52.17830000000001,624.23 0.135,52.1714,624.23 0.15,52.1664,624.23 0.166389,52.1636,624.23 0.187778,52.1642,624.23 0.203889,52.1672,624.23 0.218333,52.1728,624.23 0.23,52.1806,624.23 0.239722,52.19219999999999,624.23 0.242778,52.2025,624.23 0.240833,52.2153,624.23 0.234444,52.225,624.23 0.221667,52.2353,624.23 0.207778,52.2414,624.23 0.191944,52.2453,624.23 0.175,52.24669999999999,624.23 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ CAMPBELTOWN</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ CAMPBELTOWN</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2042 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.68806,55.4708,622.402 -5.702780000000001,55.4697,622.402 -5.71639,55.4667,622.402 -5.728330000000001,55.4617,622.402 -5.73778,55.4553,622.402 -5.74389,55.4478,622.402 -5.74667,55.43939999999999,622.402 -5.74583,55.4311,622.402 -5.73944,55.4214,622.402 -5.73083,55.4147,622.402 -5.71944,55.4094,622.402 -5.70611,55.40579999999999,622.402 -5.68806,55.4042,622.402 -5.67,55.40579999999999,622.402 -5.65667,55.4094,622.402 -5.64528,55.4147,622.402 -5.63667,55.4214,622.402 -5.63028,55.4311,622.402 -5.62944,55.43939999999999,622.402 -5.632220000000001,55.4478,622.402 -5.63833,55.4553,622.402 -5.64778,55.4617,622.402 -5.65972,55.4667,622.402 -5.67333,55.4697,622.402 -5.68806,55.4708,622.402 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ CARLISLE</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ CARLISLE</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2190 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.80917,54.97079999999999,667.5119999999999 -2.82361,54.9697,667.5119999999999 -2.83722,54.9667,667.5119999999999 -2.84889,54.9617,667.5119999999999 -2.85806,54.9553,667.5119999999999 -2.86444,54.9478,667.5119999999999 -2.86694,54.9394,667.5119999999999 -2.86611,54.9311,667.5119999999999 -2.86,54.9214,667.5119999999999 -2.85139,54.9147,667.5119999999999 -2.84028,54.9094,667.5119999999999 -2.82694,54.9058,667.5119999999999 -2.80917,54.9042,667.5119999999999 -2.79139,54.9058,667.5119999999999 -2.77806,54.9094,667.5119999999999 -2.76694,54.9147,667.5119999999999 -2.75833,54.9214,667.5119999999999 -2.75222,54.9311,667.5119999999999 -2.75139,54.9394,667.5119999999999 -2.75389,54.9478,667.5119999999999 -2.76028,54.9553,667.5119999999999 -2.76944,54.9617,667.5119999999999 -2.78111,54.9667,667.5119999999999 -2.79472,54.9697,667.5119999999999 -2.80917,54.97079999999999,667.5119999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ GOODWOOD</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ GOODWOOD</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2109 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.759167,50.89280000000001,642.823 -0.772222,50.8917,642.823 -0.7874999999999999,50.8875,642.823 -0.7977779999999999,50.8822,642.823 -0.806944,50.8736,642.823 -0.811111,50.8656,642.823 -0.8113889999999999,50.8553,642.823 -0.806944,50.8453,642.823 -0.7975,50.8367,642.823 -0.7874999999999999,50.8314,642.823 -0.775556,50.8278,642.823 -0.7625,50.8261,642.823 -0.7491670000000001,50.8267,642.823 -0.736667,50.8292,642.823 -0.725556,50.8339,642.823 -0.7163890000000001,50.8397,642.823 -0.71,50.84719999999999,642.823 -0.7069439999999999,50.8553,642.823 -0.7069439999999999,50.86359999999999,642.823 -0.71,50.8717,642.823 -0.7163890000000001,50.8789,642.823 -0.725556,50.885,642.823 -0.736667,50.8894,642.823 -0.759167,50.89280000000001,642.823 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ COMPTON ABBAS</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ COMPTON ABBAS</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2811 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.15361,51.00060000000001,856.7929999999999 -2.16667,50.9994,856.7929999999999 -2.18194,50.9953,856.7929999999999 -2.19222,50.99,856.7929999999999 -2.20139,50.98139999999999,856.7929999999999 -2.20556,50.9733,856.7929999999999 -2.20611,50.9631,856.7929999999999 -2.20278,50.95499999999999,856.7929999999999 -2.19444,50.94610000000001,856.7929999999999 -2.18472,50.9403,856.7929999999999 -2.17306,50.9361,856.7929999999999 -2.16028,50.9342,856.7929999999999 -2.14694,50.9342,856.7929999999999 -2.13417,50.9361,856.7929999999999 -2.1225,50.9403,856.7929999999999 -2.11278,50.94610000000001,856.7929999999999 -2.10583,50.9531,856.7929999999999 -2.10167,50.9608,856.7929999999999 -2.10083,50.96919999999999,856.7929999999999 -2.10333,50.9775,856.7929999999999 -2.10889,50.985,856.7929999999999 -2.1175,50.9914,856.7929999999999 -2.12806,50.99640000000001,856.7929999999999 -2.14056,50.9994,856.7929999999999 -2.15361,51.00060000000001,856.7929999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ COVENTRY</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ COVENTRY</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2267 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.47972,52.4114,690.982 -1.49667,52.41,690.982 -1.5125,52.4061,690.982 -1.52639,52.4,690.982 -1.53944,52.3897,690.982 -1.54583,52.38000000000001,690.982 -1.54778,52.36719999999999,690.982 -1.54444,52.3569,690.982 -1.535,52.3453,690.982 -1.52306,52.3375,690.982 -1.50861,52.3319,690.982 -1.4925,52.3289,690.982 -1.47111,52.3283,690.982 -1.45472,52.3311,690.982 -1.43972,52.3361,690.982 -1.42722,52.34310000000001,690.982 -1.41806,52.3519,690.982 -1.41278,52.3619,690.982 -1.41167,52.37219999999999,690.982 -1.41472,52.3825,690.982 -1.42222,52.39190000000001,690.982 -1.43306,52.4,690.982 -1.44694,52.4061,690.982 -1.46278,52.41,690.982 -1.47972,52.4114,690.982 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ CRANFIELD</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ CRANFIELD</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2360 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.616667,52.10560000000001,719.328 -0.630278,52.1044,719.328 -0.642778,52.1014,719.328 -0.6538890000000001,52.09640000000001,719.328 -0.664167,52.0883,719.328 -0.669167,52.0806,719.328 -0.670833,52.07000000000001,719.328 -0.668333,52.0619,719.328 -0.660556,52.0525,719.328 -0.651111,52.0467,719.328 -0.639722,52.0419,719.328 -0.6269439999999999,52.0394,719.328 -0.61,52.0392,719.328 -0.5966669999999999,52.04110000000001,719.328 -0.584722,52.0453,719.328 -0.575,52.0511,719.328 -0.567778,52.0581,719.328 -0.563333,52.06580000000001,719.328 -0.5625,52.0742,719.328 -0.5649999999999999,52.0825,719.328 -0.570833,52.09,719.328 -0.579444,52.09640000000001,719.328 -0.590556,52.1014,719.328 -0.603056,52.1044,719.328 -0.616667,52.10560000000001,719.328 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ CUMBERNAULD</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ CUMBERNAULD</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2350 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.97556,56.00809999999999,716.28 -3.99028,56.00690000000001,716.28 -4.00417,56.00390000000001,716.28 -4.01639,55.99890000000001,716.28 -4.02583,55.9925,716.28 -4.03222,55.985,716.28 -4.035,55.9767,716.28 -4.03389,55.96830000000001,716.28 -4.02778,55.9586,716.28 -4.01889,55.95190000000001,716.28 -4.0075,55.9467,716.28 -3.99389,55.9431,716.28 -3.97556,55.94139999999999,716.28 -3.95722,55.9431,716.28 -3.943610000000001,55.9467,716.28 -3.93222,55.95190000000001,716.28 -3.92333,55.9586,716.28 -3.917219999999999,55.96830000000001,716.28 -3.91611,55.9767,716.28 -3.91889,55.985,716.28 -3.92528,55.9925,716.28 -3.93472,55.99890000000001,716.28 -3.94694,56.00390000000001,716.28 -3.96083,56.00690000000001,716.28 -3.97556,56.00809999999999,716.28 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ DENHAM</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ DENHAM</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2249 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.513056,51.6217,685.495 -0.526389,51.62060000000001,685.495 -0.538889,51.6175,685.495 -0.549722,51.6125,685.495 -0.558333,51.6061,685.495 -0.564167,51.59859999999999,685.495 -0.566667,51.5903,685.495 -0.565833,51.58189999999999,685.495 -0.561667,51.57419999999999,685.495 -0.554444,51.5672,685.495 -0.544444,51.5614,685.495 -0.532778,51.5572,685.495 -0.519722,51.5553,685.495 -0.506389,51.5553,685.495 -0.493333,51.5572,685.495 -0.481667,51.5614,685.495 -0.471667,51.5672,685.495 -0.463333,51.5761,685.495 -0.46,51.5842,685.495 -0.460278,51.59439999999999,685.495 -0.464444,51.6025,685.495 -0.473889,51.61110000000001,685.495 -0.484444,51.6164,685.495 -0.4997220000000001,51.62060000000001,685.495 -0.513056,51.6217,685.495 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ DERBY</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ DERBY</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2175 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.6175,52.8931,662.9400000000001 -1.63111,52.8919,662.9400000000001 -1.64417,52.88890000000001,662.9400000000001 -1.65528,52.8839,662.9400000000001 -1.66583,52.8758,662.9400000000001 -1.67083,52.8681,662.9400000000001 -1.6725,52.85749999999999,662.9400000000001 -1.67,52.8494,662.9400000000001 -1.66222,52.84,662.9400000000001 -1.65278,52.8342,662.9400000000001 -1.64111,52.8294,662.9400000000001 -1.62778,52.82690000000001,662.9400000000001 -1.61056,52.8267,662.9400000000001 -1.59722,52.82859999999999,662.9400000000001 -1.585,52.83279999999999,662.9400000000001 -1.575,52.83860000000001,662.9400000000001 -1.5675,52.8456,662.9400000000001 -1.56333,52.8533,662.9400000000001 -1.5625,52.86169999999999,662.9400000000001 -1.565,52.87,662.9400000000001 -1.57083,52.8775,662.9400000000001 -1.57972,52.8839,662.9400000000001 -1.59083,52.88890000000001,662.9400000000001 -1.60389,52.8919,662.9400000000001 -1.6175,52.8931,662.9400000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ DUNDEE</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ DUNDEE</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2017 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.02583,56.4858,614.782 -3.040830000000001,56.4847,614.782 -3.055,56.4817,614.782 -3.06722,56.47669999999999,614.782 -3.07667,56.4703,614.782 -3.08306,56.46280000000001,614.782 -3.08611,56.4544,614.782 -3.085,56.44610000000001,614.782 -3.08028,56.4383,614.782 -3.07222,56.4314,614.782 -3.05806,56.42440000000001,614.782 -3.044439999999999,56.4208,614.782 -3.02583,56.4192,614.782 -3.007219999999999,56.4208,614.782 -2.99361,56.42440000000001,614.782 -2.97944,56.4314,614.782 -2.97139,56.4383,614.782 -2.96667,56.44610000000001,614.782 -2.96556,56.4544,614.782 -2.96861,56.46280000000001,614.782 -2.975,56.4703,614.782 -2.98444,56.47669999999999,614.782 -2.99667,56.4817,614.782 -3.01083,56.4847,614.782 -3.02583,56.4858,614.782 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ DUNKESWELL</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ DUNKESWELL</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2839 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.23472,50.8933,865.3269999999999 -3.247780000000001,50.8922,865.3269999999999 -3.263059999999999,50.88810000000001,865.3269999999999 -3.27333,50.8828,865.3269999999999 -3.2825,50.8742,865.3269999999999 -3.28667,50.8661,865.3269999999999 -3.28694,50.8558,865.3269999999999 -3.2825,50.8458,865.3269999999999 -3.27306,50.8372,865.3269999999999 -3.263059999999999,50.8319,865.3269999999999 -3.25111,50.82830000000001,865.3269999999999 -3.23806,50.8267,865.3269999999999 -3.22472,50.8272,865.3269999999999 -3.21222,50.8297,865.3269999999999 -3.201109999999999,50.8344,865.3269999999999 -3.19194,50.8403,865.3269999999999 -3.18556,50.8478,865.3269999999999 -3.1825,50.8558,865.3269999999999 -3.1825,50.8642,865.3269999999999 -3.18556,50.8722,865.3269999999999 -3.19194,50.8794,865.3269999999999 -3.201109999999999,50.8856,865.3269999999999 -3.21222,50.89,865.3269999999999 -3.23472,50.8933,865.3269999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ DUXFORD</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ DUXFORD</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2125 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.131389,52.1239,647.7 0.117778,52.1228,647.7 0.105278,52.1197,647.7 0.09416670000000001,52.1147,647.7 0.0838889,52.1067,647.7 0.0788889,52.0989,647.7 0.0772222,52.0883,647.7 0.07972219999999999,52.0803,647.7 0.08749999999999999,52.0708,647.7 0.0969444,52.065,647.7 0.108333,52.0603,647.7 0.121111,52.05780000000001,647.7 0.138056,52.0575,647.7 0.151389,52.0594,647.7 0.163333,52.0636,647.7 0.173056,52.0694,647.7 0.180556,52.07639999999999,647.7 0.184722,52.08420000000001,647.7 0.185556,52.0925,647.7 0.183056,52.10079999999999,647.7 0.177222,52.10829999999999,647.7 0.168611,52.1147,647.7 0.1575,52.1197,647.7 0.145,52.1228,647.7 0.131389,52.1239,647.7 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ EARLS COLNE</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ EARLS COLNE</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2227 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.6825,51.9478,678.79 0.669167,51.94669999999999,678.79 0.6536110000000001,51.9425,678.79 0.643056,51.93719999999999,678.79 0.633611,51.92860000000001,678.79 0.629444,51.92060000000001,678.79 0.628889,51.9103,678.79 0.632222,51.9022,678.79 0.640833,51.8933,678.79 0.650833,51.88750000000001,678.79 0.6625,51.8833,678.79 0.675833,51.8814,678.79 0.689167,51.8814,678.79 0.7025,51.8833,678.79 0.714167,51.88750000000001,678.79 0.7241669999999999,51.8933,678.79 0.731389,51.9003,678.79 0.7355560000000001,51.90809999999999,678.79 0.736389,51.91640000000001,678.79 0.733889,51.9247,678.79 0.7280560000000001,51.9322,678.79 0.7194440000000001,51.9386,678.79 0.7086110000000001,51.9436,678.79 0.695833,51.94669999999999,678.79 0.6825,51.9478,678.79 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ ELSTREE</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ ELSTREE</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2332 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.325833,51.6892,710.794 -0.339167,51.6881,710.794 -0.351667,51.685,710.794 -0.3625,51.68,710.794 -0.3711110000000001,51.67360000000001,710.794 -0.376944,51.66609999999999,710.794 -0.379444,51.6578,710.794 -0.3786109999999999,51.6494,710.794 -0.374444,51.64169999999999,710.794 -0.367222,51.6347,710.794 -0.3575,51.6289,710.794 -0.345556,51.6247,710.794 -0.3325,51.62280000000001,710.794 -0.319167,51.62280000000001,710.794 -0.306111,51.6247,710.794 -0.294167,51.6289,710.794 -0.284444,51.6347,710.794 -0.275833,51.6436,710.794 -0.2725,51.6517,710.794 -0.273056,51.6619,710.794 -0.277222,51.67,710.794 -0.286667,51.67860000000001,710.794 -0.296944,51.6839,710.794 -0.3125,51.6881,710.794 -0.325833,51.6892,710.794 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ EXETER</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ EXETER</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2102 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.41389,50.7758,640.6900000000001 -3.43028,50.7744,640.6900000000001 -3.449170000000001,50.7694,640.6900000000001 -3.46194,50.76280000000001,640.6900000000001 -3.47333,50.7519,640.6900000000001 -3.47861,50.74189999999999,640.6900000000001 -3.47917,50.7289,640.6900000000001 -3.47333,50.7164,640.6900000000001 -3.46194,50.7056,640.6900000000001 -3.449170000000001,50.6989,640.6900000000001 -3.43417,50.6944,640.6900000000001 -3.41806,50.6925,640.6900000000001 -3.40167,50.6933,640.6900000000001 -3.38583,50.6964,640.6900000000001 -3.37194,50.7019,640.6900000000001 -3.36056,50.7097,640.6900000000001 -3.35278,50.7189,640.6900000000001 -3.34861,50.7289,640.6900000000001 -3.34861,50.7394,640.6900000000001 -3.35278,50.74940000000001,640.6900000000001 -3.36056,50.75860000000001,640.6900000000001 -3.37194,50.76610000000001,640.6900000000001 -3.38583,50.7719,640.6900000000001 -3.41389,50.7758,640.6900000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ FAIROAKS</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ FAIROAKS</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2080 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.558611,51.3814,633.984 -0.571944,51.38030000000001,633.984 -0.584444,51.3772,633.984 -0.595278,51.3722,633.984 -0.603611,51.3658,633.984 -0.609444,51.3583,633.984 -0.611944,51.35,633.984 -0.611111,51.3417,633.984 -0.606944,51.3339,633.984 -0.599722,51.3269,633.984 -0.59,51.3211,633.984 -0.578333,51.3169,633.984 -0.5652779999999999,51.31499999999999,633.984 -0.551944,51.31499999999999,633.984 -0.538889,51.3169,633.984 -0.527222,51.3211,633.984 -0.5175,51.3269,633.984 -0.509167,51.3358,633.984 -0.505833,51.34389999999999,633.984 -0.506111,51.3542,633.984 -0.510278,51.3622,633.984 -0.519722,51.3708,633.984 -0.53,51.37610000000001,633.984 -0.545278,51.38030000000001,633.984 -0.558611,51.3814,633.984 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ FENLAND</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ FENLAND</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2006 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.03,52.77279999999999,611.429 -0.0436111,52.7717,611.429 -0.0563889,52.76859999999999,611.429 -0.0677778,52.7636,611.429 -0.07833329999999999,52.7556,611.429 -0.0833333,52.7478,611.429 -0.08500000000000001,52.7372,611.429 -0.0822222,52.7292,611.429 -0.07444439999999999,52.7197,611.429 -0.065,52.7139,611.429 -0.0533333,52.7092,611.429 -0.0402778,52.7067,611.429 -0.0230556,52.70640000000001,611.429 -0.00972222,52.7083,611.429 0.00222222,52.7125,611.429 0.0125,52.71829999999999,611.429 0.0197222,52.7253,611.429 0.0241667,52.7331,611.429 0.025,52.7414,611.429 0.0222222,52.7497,611.429 0.0163889,52.7572,611.429 0.00777778,52.7636,611.429 -0.00361111,52.76859999999999,611.429 -0.0163889,52.7717,611.429 -0.03,52.77279999999999,611.429 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ GLOUCESTER</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ GLOUCESTER</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2101 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.16722,51.9275,640.385 -2.18056,51.9264,640.385 -2.19611,51.9222,640.385 -2.20667,51.9169,640.385 -2.21611,51.9083,640.385 -2.22028,51.9003,640.385 -2.22083,51.89,640.385 -2.2175,51.8819,640.385 -2.20889,51.8731,640.385 -2.19889,51.8672,640.385 -2.18694,51.86310000000001,640.385 -2.17389,51.86110000000001,640.385 -2.16056,51.86110000000001,640.385 -2.1475,51.86310000000001,640.385 -2.13556,51.8672,640.385 -2.12556,51.8731,640.385 -2.11833,51.88,640.385 -2.11417,51.8878,640.385 -2.11333,51.8961,640.385 -2.11583,51.9044,640.385 -2.12167,51.91190000000001,640.385 -2.13028,51.9183,640.385 -2.14111,51.9233,640.385 -2.15389,51.9264,640.385 -2.16722,51.9275,640.385 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ HAVERFORDWEST</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ HAVERFORDWEST</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2160 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.96083,51.8667,658.3680000000001 -4.97417,51.8656,658.3680000000001 -4.98972,51.8614,658.3680000000001 -5.00028,51.8561,658.3680000000001 -5.00972,51.8475,658.3680000000001 -5.01389,51.8394,658.3680000000001 -5.01444,51.82919999999999,658.3680000000001 -5.01083,51.8211,658.3680000000001 -5.00222,51.8122,658.3680000000001 -4.9925,51.8064,658.3680000000001 -4.98056,51.8022,658.3680000000001 -4.9675,51.80029999999999,658.3680000000001 -4.95417,51.80029999999999,658.3680000000001 -4.94111,51.8022,658.3680000000001 -4.92917,51.8064,658.3680000000001 -4.91944,51.8122,658.3680000000001 -4.91194,51.8192,658.3680000000001 -4.90778,51.8269,658.3680000000001 -4.90694,51.8353,658.3680000000001 -4.90944,51.8436,658.3680000000001 -4.91528,51.8511,658.3680000000001 -4.92389,51.8575,658.3680000000001 -4.93472,51.8625,658.3680000000001 -4.9475,51.8656,658.3680000000001 -4.96083,51.8667,658.3680000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ HAWARDEN</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ HAWARDEN</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2045 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.97778,53.2197,623.316 -2.995,53.2183,623.316 -3.01139,53.2144,623.316 -3.02528,53.20829999999999,623.316 -3.03861,53.1981,623.316 -3.045,53.1883,623.316 -3.04722,53.1781,623.316 -3.045,53.1678,623.316 -3.03639,53.15580000000001,623.316 -3.02528,53.1478,623.316 -3.01111,53.1417,623.316 -2.995,53.1378,623.316 -2.97333,53.13640000000001,623.316 -2.95639,53.1383,623.316 -2.94056,53.1428,623.316 -2.92722,53.1494,623.316 -2.91694,53.1581,623.316 -2.90944,53.1703,623.316 -2.90833,53.1806,623.316 -2.91167,53.1908,623.316 -2.91917,53.20029999999999,623.316 -2.93028,53.20829999999999,623.316 -2.94417,53.2144,623.316 -2.96056,53.2183,623.316 -2.97778,53.2197,623.316 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ HUMBERSIDE</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ HUMBERSIDE</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2121 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.351389,53.615,646.481 -0.368889,53.61359999999999,646.481 -0.385278,53.6097,646.481 -0.399444,53.6036,646.481 -0.412778,53.5933,646.481 -0.419444,53.5836,646.481 -0.421389,53.5733,646.481 -0.419167,53.56310000000001,646.481 -0.410556,53.5511,646.481 -0.399444,53.5431,646.481 -0.385278,53.5369,646.481 -0.368889,53.5331,646.481 -0.346944,53.5317,646.481 -0.329722,53.5336,646.481 -0.313889,53.5381,646.481 -0.300278,53.54470000000001,646.481 -0.29,53.5533,646.481 -0.2825,53.5656,646.481 -0.281389,53.57579999999999,646.481 -0.284722,53.5861,646.481 -0.292222,53.5956,646.481 -0.303333,53.6036,646.481 -0.3175,53.6097,646.481 -0.333889,53.61359999999999,646.481 -0.351389,53.615,646.481 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ INVERNESS</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ INVERNESS</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2131 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.0475,57.58420000000001,649.529 -4.06694,57.5828,649.529 -4.085,57.57889999999999,649.529 -4.10056,57.5728,649.529 -4.11306,57.5647,649.529 -4.12139,57.5553,649.529 -4.125,57.545,649.529 -4.12361,57.5347,649.529 -4.11778,57.52470000000001,649.529 -4.10722,57.5158,649.529 -4.08917,57.50719999999999,649.529 -4.07139,57.5028,649.529 -4.0475,57.5008,649.529 -4.02361,57.5028,649.529 -4.00583,57.50719999999999,649.529 -3.98778,57.5158,649.529 -3.97722,57.52470000000001,649.529 -3.97139,57.5347,649.529 -3.97,57.545,649.529 -3.97361,57.5553,649.529 -3.98194,57.5647,649.529 -3.99444,57.5728,649.529 -4.01,57.57889999999999,649.529 -4.02806,57.5828,649.529 -4.0475,57.58420000000001,649.529 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ ISLAY</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ ISLAY</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2056 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-6.25972,55.7167,626.669 -6.27444,55.71560000000001,626.669 -6.28833,55.7125,626.669 -6.30028,55.7075,626.669 -6.30972,55.7011,626.669 -6.31583,55.6936,626.669 -6.31861,55.6853,626.669 -6.31778,55.6769,626.669 -6.311389999999999,55.6672,626.669 -6.30278,55.6606,626.669 -6.29139,55.6553,626.669 -6.27806,55.6517,626.669 -6.25972,55.65,626.669 -6.24139,55.6517,626.669 -6.228060000000001,55.6553,626.669 -6.216670000000001,55.6606,626.669 -6.20806,55.6672,626.669 -6.201669999999999,55.6769,626.669 -6.20083,55.6853,626.669 -6.20361,55.6936,626.669 -6.20972,55.7011,626.669 -6.21917,55.7075,626.669 -6.231110000000001,55.7125,626.669 -6.245,55.71560000000001,626.669 -6.25972,55.7167,626.669 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ KEMBLE</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ KEMBLE</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2436 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.05694,51.7014,742.4930000000001 -2.07028,51.7003,742.4930000000001 -2.08583,51.6961,742.4930000000001 -2.09611,51.69080000000001,742.4930000000001 -2.10556,51.6822,742.4930000000001 -2.10972,51.6742,742.4930000000001 -2.11028,51.6639,742.4930000000001 -2.10694,51.6558,742.4930000000001 -2.09833,51.6469,742.4930000000001 -2.08861,51.6411,742.4930000000001 -2.07667,51.6369,742.4930000000001 -2.06361,51.63500000000001,742.4930000000001 -2.05028,51.63500000000001,742.4930000000001 -2.03722,51.6369,742.4930000000001 -2.02528,51.6411,742.4930000000001 -2.01556,51.6469,742.4930000000001 -2.00833,51.65389999999999,742.4930000000001 -2.00417,51.66170000000001,742.4930000000001 -2.00333,51.67,742.4930000000001 -2.00583,51.67829999999999,742.4930000000001 -2.01167,51.68580000000001,742.4930000000001 -2.02028,51.6922,742.4930000000001 -2.03111,51.6972,742.4930000000001 -2.04361,51.7003,742.4930000000001 -2.05694,51.7014,742.4930000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ LANDS END</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ LANDS END</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2398 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.67056,50.13609999999999,730.91 -5.68361,50.135,730.91 -5.698329999999999,50.1308,730.91 -5.70833,50.1256,730.91 -5.7175,50.1169,730.91 -5.72167,50.1089,730.91 -5.72194,50.0986,730.91 -5.7175,50.0886,730.91 -5.70833,50.08,730.91 -5.698329999999999,50.0747,730.91 -5.68667,50.0711,730.91 -5.67389,50.06939999999999,730.91 -5.66083,50.07,730.91 -5.64833,50.0725,730.91 -5.637500000000001,50.0772,730.91 -5.62861,50.08309999999999,730.91 -5.62222,50.09060000000001,730.91 -5.61917,50.0986,730.91 -5.61889,50.1069,730.91 -5.62222,50.11500000000001,730.91 -5.62861,50.12220000000001,730.91 -5.637500000000001,50.1283,730.91 -5.64833,50.1328,730.91 -5.67056,50.13609999999999,730.91 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ HEADCORN</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ HEADCORN</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2070 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.644444,51.1897,630.936 0.631111,51.18860000000001,630.936 0.615833,51.1844,630.936 0.605833,51.1792,630.936 0.5963889999999999,51.1706,630.936 0.592222,51.1625,630.936 0.5916670000000001,51.15219999999999,630.936 0.595,51.14419999999999,630.936 0.603611,51.13530000000001,630.936 0.613333,51.1294,630.936 0.625,51.1253,630.936 0.637778,51.1233,630.936 0.651111,51.1233,630.936 0.663889,51.1253,630.936 0.675556,51.1294,630.936 0.6852780000000001,51.13530000000001,630.936 0.6925,51.1422,630.936 0.696667,51.15000000000001,630.936 0.6975,51.1583,630.936 0.695,51.1667,630.936 0.689167,51.1742,630.936 0.680833,51.18060000000001,630.936 0.67,51.18560000000001,630.936 0.657778,51.18860000000001,630.936 0.644444,51.1897,630.936 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ CHURCH FENTON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ CHURCH FENTON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2029 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.25278,53.81029999999999,618.439 -1.17556,53.8064,618.439 -1.16556,53.79670000000001,618.439 -1.14778,53.8039,618.439 -1.13389,53.8142,618.439 -1.12639,53.8264,618.439 -1.12556,53.8394,618.439 -1.12972,53.8494,618.439 -1.13806,53.8586,618.439 -1.15,53.8664,618.439 -1.16111,53.8708,618.439 -1.1775,53.8747,618.439 -1.19056,53.87610000000001,618.439 -1.22111,53.8733,618.439 -1.23306,53.8697,618.439 -1.24667,53.8631,618.439 -1.25722,53.85470000000001,618.439 -1.26389,53.845,618.439 -1.26583,53.8372,618.439 -1.265,53.8269,618.439 -1.25972,53.8169,618.439 -1.25278,53.81029999999999,618.439 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ LEE-ON-SOLENT</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ LEE-ON-SOLENT</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2033 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.15806,50.8028,619.658 -1.15611,50.8067,619.658 -1.18806,50.8469,619.658 -1.19222,50.8478,619.658 -1.21528,50.8486,619.658 -1.23667,50.8433,619.658 -1.25222,50.8325,619.658 -1.25639,50.8269,619.658 -1.25917,50.8186,619.658 -1.25806,50.8083,619.658 -1.25,50.79689999999999,619.658 -1.23861,50.7894,619.658 -1.22111,50.7839,619.658 -1.20139,50.7828,619.658 -1.18528,50.7853,619.658 -1.16917,50.7925,619.658 -1.15806,50.8028,619.658 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ LEICESTER</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ LEICESTER</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2469 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.03194,52.6411,752.551 -1.04556,52.64,752.551 -1.05833,52.6369,752.551 -1.06944,52.6319,752.551 -1.08,52.6239,752.551 -1.085,52.6161,752.551 -1.08667,52.6056,752.551 -1.08417,52.59749999999999,752.551 -1.07639,52.5881,752.551 -1.06694,52.5822,752.551 -1.05528,52.5775,752.551 -1.04222,52.575,752.551 -1.025,52.5747,752.551 -1.01167,52.57670000000001,752.551 -0.999722,52.5808,752.551 -0.989722,52.5867,752.551 -0.982222,52.59360000000001,752.551 -0.978056,52.6014,752.551 -0.9772220000000001,52.60969999999999,752.551 -0.979722,52.6181,752.551 -0.985556,52.6256,752.551 -0.9944439999999999,52.6319,752.551 -1.00556,52.6369,752.551 -1.01833,52.64,752.551 -1.03194,52.6411,752.551 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ LYDD</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ LYDD</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2013 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.938889,50.9894,613.562 0.9258330000000001,50.9883,613.562 0.9105560000000001,50.98420000000001,613.562 0.9002780000000001,50.9789,613.562 0.891111,50.9703,613.562 0.886944,50.9622,613.562 0.886389,50.9519,613.562 0.889722,50.9439,613.562 0.898056,50.935,613.562 0.9077780000000001,50.9292,613.562 0.919444,50.925,613.562 0.9322220000000001,50.92309999999999,613.562 0.9455559999999998,50.92309999999999,613.562 0.958333,50.925,613.562 0.9699999999999999,50.9292,613.562 0.979722,50.935,613.562 0.986667,50.9419,613.562 0.990833,50.9497,613.562 0.9916670000000001,50.9581,613.562 0.989167,50.9664,613.562 0.9836109999999999,50.9739,613.562 0.9750000000000001,50.9803,613.562 0.964444,50.9853,613.562 0.951944,50.9883,613.562 0.938889,50.9894,613.562 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ BARTON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ BARTON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2073 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.39083,53.4383,631.85 -2.38278,53.4439,631.85 -2.33556,53.4636,631.85 -2.33389,53.4711,631.85 -2.33444,53.4772,631.85 -2.34194,53.48889999999999,631.85 -2.35056,53.4956,631.85 -2.36167,53.50059999999999,631.85 -2.37472,53.50390000000001,631.85 -2.38861,53.505,631.85 -2.4025,53.5042,631.85 -2.41583,53.50109999999999,631.85 -2.42722,53.49640000000001,631.85 -2.43833,53.4883,631.85 -2.44361,53.4806,631.85 -2.44556,53.4722,631.85 -2.44417,53.4639,631.85 -2.43917,53.4561,631.85 -2.43111,53.4494,631.85 -2.42056,53.4439,631.85 -2.40806,53.4403,631.85 -2.39083,53.4383,631.85 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ NETHERTHORPE</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ NETHERTHORPE</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2248 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.19639,53.3503,685.1900000000001 -1.21028,53.3492,685.1900000000001 -1.22333,53.3461,685.1900000000001 -1.23444,53.3411,685.1900000000001 -1.24361,53.3347,685.1900000000001 -1.24944,53.3272,685.1900000000001 -1.25194,53.3189,685.1900000000001 -1.25111,53.3106,685.1900000000001 -1.24528,53.3008,685.1900000000001 -1.23694,53.2942,685.1900000000001 -1.22611,53.2889,685.1900000000001 -1.21361,53.2853,685.1900000000001 -1.2,53.2836,685.1900000000001 -1.1825,53.2847,685.1900000000001 -1.16944,53.2878,685.1900000000001 -1.15833,53.2928,685.1900000000001 -1.14944,53.29920000000001,685.1900000000001 -1.1425,53.3086,685.1900000000001 -1.14056,53.3169,685.1900000000001 -1.1425,53.32529999999999,685.1900000000001 -1.1475,53.33310000000001,685.1900000000001 -1.15833,53.3411,685.1900000000001 -1.16944,53.3461,685.1900000000001 -1.1825,53.3492,685.1900000000001 -1.19639,53.3503,685.1900000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ NEWQUAY</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ NEWQUAY</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2173 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.99528,50.48250000000001,662.33 -5.01167,50.4811,662.33 -5.03028,50.4761,662.33 -5.04306,50.4694,662.33 -5.05444,50.4586,662.33 -5.05944,50.44860000000001,662.33 -5.06,50.4356,662.33 -5.05444,50.4231,662.33 -5.04278,50.41219999999999,662.33 -5.03028,50.4056,662.33 -5.01556,50.4011,662.33 -4.99944,50.3992,662.33 -4.98306,50.39999999999999,662.33 -4.9675,50.4031,662.33 -4.95361,50.4086,662.33 -4.9425,50.4164,662.33 -4.93444,50.4256,662.33 -4.93056,50.4356,662.33 -4.93028,50.44609999999999,662.33 -4.93444,50.4561,662.33 -4.94222,50.46530000000001,662.33 -4.95361,50.4728,662.33 -4.9675,50.4786,662.33 -4.99528,50.48250000000001,662.33 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ SYWELL</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ SYWELL</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2424 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.792222,52.3381,738.835 -0.805833,52.33690000000001,738.835 -0.818611,52.33390000000001,738.835 -0.829444,52.3289,738.835 -0.8399999999999999,52.3208,738.835 -0.8450000000000001,52.3131,738.835 -0.8466669999999999,52.30249999999999,738.835 -0.8438889999999999,52.2944,738.835 -0.8363890000000002,52.285,738.835 -0.826944,52.2792,738.835 -0.8152779999999999,52.27440000000001,738.835 -0.8025,52.2719,738.835 -0.785278,52.27170000000001,738.835 -0.772222,52.2736,738.835 -0.760278,52.2778,738.835 -0.750278,52.28360000000001,738.835 -0.743056,52.2906,738.835 -0.738611,52.2983,738.835 -0.7377779999999999,52.3067,738.835 -0.740278,52.315,738.835 -0.746111,52.3225,738.835 -0.755,52.3289,738.835 -0.765833,52.33390000000001,738.835 -0.7786110000000001,52.33690000000001,738.835 -0.792222,52.3381,738.835 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ NOTTINGHAM</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ NOTTINGHAM</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2138 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.08,52.9542,651.662 -1.09389,52.95310000000001,651.662 -1.10667,52.95,651.662 -1.11778,52.945,651.662 -1.12833,52.93689999999999,651.662 -1.13361,52.92919999999999,651.662 -1.135,52.9186,651.662 -1.1325,52.9106,651.662 -1.12472,52.9011,651.662 -1.11528,52.89529999999999,651.662 -1.10361,52.89059999999999,651.662 -1.09028,52.88809999999999,651.662 -1.07306,52.8878,651.662 -1.05972,52.8897,651.662 -1.0475,52.89390000000001,651.662 -1.0375,52.8997,651.662 -1.03,52.9067,651.662 -1.02583,52.9144,651.662 -1.02472,52.9228,651.662 -1.0275,52.9311,651.662 -1.03333,52.9386,651.662 -1.04222,52.945,651.662 -1.05333,52.95,651.662 -1.06611,52.95310000000001,651.662 -1.08,52.9542,651.662 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ OBAN</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ OBAN</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2024 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.4,56.4969,616.915 -5.415,56.4958,616.915 -5.42917,56.4928,616.915 -5.44139,56.4878,616.915 -5.45083,56.48139999999999,616.915 -5.45722,56.4739,616.915 -5.46028,56.4656,616.915 -5.45917,56.4572,616.915 -5.45444,56.4494,616.915 -5.44639,56.4425,616.915 -5.43222,56.43559999999999,616.915 -5.41861,56.43190000000001,616.915 -5.4,56.4303,616.915 -5.38139,56.43190000000001,616.915 -5.36778,56.43559999999999,616.915 -5.35361,56.4425,616.915 -5.34556,56.4494,616.915 -5.34083,56.4572,616.915 -5.33972,56.4656,616.915 -5.34278,56.4739,616.915 -5.34917,56.48139999999999,616.915 -5.35861,56.4878,616.915 -5.37083,56.4928,616.915 -5.385,56.4958,616.915 -5.4,56.4969,616.915 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ OLD BUCKENHAM</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ OLD BUCKENHAM</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2194 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							1.05194,52.53079999999999,668.731 1.03833,52.5297,668.731 1.02556,52.5267,668.731 1.01444,52.5217,668.731 1.00389,52.51359999999999,668.731 0.998889,52.5058,668.731 0.9972219999999999,52.4953,668.731 1,52.4872,668.731 1.00778,52.47779999999999,668.731 1.01722,52.4719,668.731 1.02861,52.4672,668.731 1.04167,52.4647,668.731 1.05889,52.4644,668.731 1.07194,52.4664,668.731 1.08417,52.4706,668.731 1.09417,52.4764,668.731 1.10139,52.48330000000001,668.731 1.10556,52.4911,668.731 1.10667,52.4994,668.731 1.10389,52.5078,668.731 1.09806,52.5153,668.731 1.08944,52.5217,668.731 1.07833,52.5267,668.731 1.06556,52.5297,668.731 1.05194,52.53079999999999,668.731 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ OLD WARDEN</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ OLD WARDEN</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2127 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.318611,52.12,648.3099999999999 -0.332222,52.1189,648.3099999999999 -0.344722,52.11580000000001,648.3099999999999 -0.355833,52.1108,648.3099999999999 -0.366111,52.1028,648.3099999999999 -0.3711110000000001,52.095,648.3099999999999 -0.372778,52.0844,648.3099999999999 -0.370278,52.07639999999999,648.3099999999999 -0.3625,52.0669,648.3099999999999 -0.3530559999999999,52.0611,648.3099999999999 -0.341667,52.0564,648.3099999999999 -0.328889,52.0539,648.3099999999999 -0.311944,52.0536,648.3099999999999 -0.298611,52.0556,648.3099999999999 -0.286667,52.0597,648.3099999999999 -0.276944,52.0656,648.3099999999999 -0.269444,52.0725,648.3099999999999 -0.265278,52.0803,648.3099999999999 -0.264444,52.0886,648.3099999999999 -0.266944,52.0969,648.3099999999999 -0.272778,52.1044,648.3099999999999 -0.281389,52.1108,648.3099999999999 -0.2925,52.11580000000001,648.3099999999999 -0.305,52.1189,648.3099999999999 -0.318611,52.12,648.3099999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ OXFORD</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ OXFORD</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2263 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.32,51.87030000000001,689.7619999999999 -1.33333,51.8692,689.7619999999999 -1.34889,51.865,689.7619999999999 -1.35944,51.8597,689.7619999999999 -1.36889,51.8511,689.7619999999999 -1.37306,51.8431,689.7619999999999 -1.37361,51.8328,689.7619999999999 -1.37,51.82469999999999,689.7619999999999 -1.36139,51.81580000000001,689.7619999999999 -1.35167,51.81,689.7619999999999 -1.33972,51.8058,689.7619999999999 -1.32667,51.8039,689.7619999999999 -1.31333,51.8039,689.7619999999999 -1.30028,51.8058,689.7619999999999 -1.28833,51.81,689.7619999999999 -1.27861,51.81580000000001,689.7619999999999 -1.27111,51.8228,689.7619999999999 -1.26694,51.8306,689.7619999999999 -1.26611,51.8389,689.7619999999999 -1.26861,51.8472,689.7619999999999 -1.27444,51.8547,689.7619999999999 -1.28306,51.86110000000001,689.7619999999999 -1.29389,51.86610000000001,689.7619999999999 -1.30667,51.8692,689.7619999999999 -1.32,51.87030000000001,689.7619999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ PERTH</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ PERTH</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2397 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.373889999999999,56.4744,730.606 -3.38889,56.4733,730.606 -3.40306,56.4703,730.606 -3.41528,56.4653,730.606 -3.42472,56.4589,730.606 -3.43111,56.4514,730.606 -3.43417,56.44310000000001,730.606 -3.43306,56.4347,730.606 -3.42833,56.4269,730.606 -3.42028,56.42,730.606 -3.40611,56.4131,730.606 -3.3925,56.4094,730.606 -3.373889999999999,56.4078,730.606 -3.35528,56.4094,730.606 -3.34167,56.4131,730.606 -3.3275,56.42,730.606 -3.31944,56.4269,730.606 -3.31472,56.4347,730.606 -3.31361,56.44310000000001,730.606 -3.31667,56.4514,730.606 -3.32306,56.4589,730.606 -3.3325,56.4653,730.606 -3.34472,56.4703,730.606 -3.35889,56.4733,730.606 -3.373889999999999,56.4744,730.606 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ CONINGTON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ CONINGTON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2026 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.250833,52.50139999999999,617.525 -0.264444,52.5003,617.525 -0.277222,52.49719999999999,617.525 -0.288333,52.49219999999999,617.525 -0.298889,52.4842,617.525 -0.303889,52.4764,617.525 -0.305278,52.4658,617.525 -0.302778,52.4578,617.525 -0.295,52.4483,617.525 -0.285556,52.44250000000001,617.525 -0.274167,52.4378,617.525 -0.261111,52.4353,617.525 -0.243889,52.43500000000001,617.525 -0.230833,52.4369,617.525 -0.218611,52.4411,617.525 -0.208611,52.44689999999999,617.525 -0.201389,52.4539,617.525 -0.197222,52.4617,617.525 -0.196389,52.47,617.525 -0.198889,52.4783,617.525 -0.204722,52.4858,617.525 -0.213333,52.49219999999999,617.525 -0.224444,52.49719999999999,617.525 -0.237222,52.5003,617.525 -0.250833,52.50139999999999,617.525 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ REDHILL</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ REDHILL</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2222 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.18,51.19280000000001,677.266 -0.0861111,51.2083,677.266 -0.0861111,51.2194,677.266 -0.09027780000000001,51.22720000000001,677.266 -0.09722219999999998,51.23440000000001,677.266 -0.115278,51.24359999999999,677.266 -0.137778,51.2469,677.266 -0.160556,51.2439,677.266 -0.179167,51.2353,677.266 -0.186389,51.2283,677.266 -0.190833,51.2203,677.266 -0.191667,51.21420000000001,677.266 -0.190278,51.20580000000001,677.266 -0.185556,51.1981,677.266 -0.18,51.19280000000001,677.266 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ GAMSTON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ GAMSTON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2087 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.951389,53.3139,636.1180000000001 -0.965278,53.3128,636.1180000000001 -0.9783330000000001,53.3097,636.1180000000001 -0.989444,53.3047,636.1180000000001 -1.00028,53.29669999999999,636.1180000000001 -1.00528,53.2889,636.1180000000001 -1.00722,53.2806,636.1180000000001 -1.00528,53.2722,636.1180000000001 -0.9983330000000001,53.26279999999999,636.1180000000001 -0.989444,53.2564,636.1180000000001 -0.9783330000000001,53.2514,636.1180000000001 -0.965278,53.2483,636.1180000000001 -0.947778,53.2472,636.1180000000001 -0.934167,53.24890000000001,636.1180000000001 -0.921667,53.2525,636.1180000000001 -0.910833,53.2578,636.1180000000001 -0.9025,53.2644,636.1180000000001 -0.896667,53.2742,636.1180000000001 -0.895833,53.28250000000001,636.1180000000001 -0.898333,53.2908,636.1180000000001 -0.904444,53.2983,636.1180000000001 -0.913333,53.3047,636.1180000000001 -0.924444,53.3097,636.1180000000001 -0.9375,53.3128,636.1180000000001 -0.951389,53.3139,636.1180000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ ROCHESTER</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ ROCHESTER</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2426 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.5027779999999999,51.38530000000001,739.4450000000001 0.489444,51.3842,739.4450000000001 0.4741670000000001,51.38,739.4450000000001 0.4638889999999999,51.3747,739.4450000000001 0.454444,51.3661,739.4450000000001 0.450278,51.35809999999999,739.4450000000001 0.45,51.3478,739.4450000000001 0.453333,51.33969999999999,739.4450000000001 0.4616669999999999,51.33080000000001,739.4450000000001 0.471389,51.325,739.4450000000001 0.483056,51.32080000000001,739.4450000000001 0.496111,51.3189,739.4450000000001 0.509444,51.3189,739.4450000000001 0.5225,51.32080000000001,739.4450000000001 0.5341669999999999,51.325,739.4450000000001 0.543889,51.33080000000001,739.4450000000001 0.551111,51.3378,739.4450000000001 0.555278,51.3456,739.4450000000001 0.556111,51.3539,739.4450000000001 0.553611,51.3622,739.4450000000001 0.547778,51.3697,739.4450000000001 0.539444,51.37610000000001,739.4450000000001 0.5286110000000001,51.38110000000001,739.4450000000001 0.516111,51.3842,739.4450000000001 0.5027779999999999,51.38530000000001,739.4450000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ SANDTOFT</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ SANDTOFT</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2013 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.858333,53.5931,613.562 -0.8722220000000002,53.5919,613.562 -0.885278,53.5889,613.562 -0.896667,53.5839,613.562 -0.9075,53.57579999999999,613.562 -0.912778,53.56809999999999,613.562 -0.9144440000000001,53.5597,613.562 -0.912778,53.55139999999999,613.562 -0.9055559999999999,53.54189999999999,613.562 -0.896667,53.5356,613.562 -0.885278,53.5306,613.562 -0.8722220000000002,53.5275,613.562 -0.8547219999999999,53.5264,613.562 -0.8411110000000001,53.5281,613.562 -0.828333,53.5317,613.562 -0.8175,53.5369,613.562 -0.8091670000000001,53.5436,613.562 -0.8033330000000001,53.5533,613.562 -0.8022219999999999,53.5617,613.562 -0.8050000000000002,53.57,613.562 -0.810833,53.5775,613.562 -0.8199999999999998,53.5839,613.562 -0.831389,53.5889,613.562 -0.8444439999999999,53.5919,613.562 -0.858333,53.5931,613.562 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ SHERBURN</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ SHERBURN</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2026 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.25278,53.81029999999999,617.525 -1.2625,53.80440000000001,617.525 -1.26972,53.7972,617.525 -1.27361,53.78920000000001,617.525 -1.27389,53.7808,617.525 -1.27194,53.7747,617.525 -1.26611,53.7669,617.525 -1.2575,53.7606,617.525 -1.24611,53.75529999999999,617.525 -1.22278,53.75109999999999,617.525 -1.20861,53.7514,617.525 -1.195,53.75360000000001,617.525 -1.18306,53.7581,617.525 -1.17306,53.7639,617.525 -1.16583,53.7711,617.525 -1.16278,53.7769,617.525 -1.16139,53.7853,617.525 -1.16361,53.7936,617.525 -1.16944,53.80140000000001,617.525 -1.17556,53.8064,617.525 -1.25278,53.81029999999999,617.525 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ SHOBDON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ SHOBDON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2317 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.881110000000001,52.275,706.222 -2.89472,52.2739,706.222 -2.90722,52.2708,706.222 -2.918330000000001,52.2658,706.222 -2.92889,52.2578,706.222 -2.93389,52.25000000000001,706.222 -2.93528,52.2394,706.222 -2.93278,52.2314,706.222 -2.925,52.2219,706.222 -2.91583,52.2161,706.222 -2.90417,52.2114,706.222 -2.89139,52.20890000000001,706.222 -2.87417,52.20859999999999,706.222 -2.86111,52.2106,706.222 -2.84917,52.2147,706.222 -2.83917,52.2206,706.222 -2.83194,52.2275,706.222 -2.827780000000001,52.2353,706.222 -2.82694,52.2436,706.222 -2.82944,52.2519,706.222 -2.83528,52.2594,706.222 -2.84389,52.2658,706.222 -2.855,52.2708,706.222 -2.8675,52.2739,706.222 -2.881110000000001,52.275,706.222 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ SHOREHAM</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ SHOREHAM</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2007 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.297222,50.8689,611.734 -0.310278,50.8678,611.734 -0.325556,50.86359999999999,611.734 -0.335556,50.8583,611.734 -0.345,50.84970000000001,611.734 -0.349167,50.8417,611.734 -0.349444,50.8314,611.734 -0.345,50.8214,611.734 -0.335556,50.8128,611.734 -0.325556,50.8075,611.734 -0.313611,50.80390000000001,611.734 -0.300556,50.8022,611.734 -0.287222,50.8028,611.734 -0.274722,50.8053,611.734 -0.263611,50.81,611.734 -0.254444,50.8158,611.734 -0.248056,50.8233,611.734 -0.245,50.8314,611.734 -0.245,50.8397,611.734 -0.248056,50.8478,611.734 -0.254444,50.855,611.734 -0.263611,50.8611,611.734 -0.274722,50.8656,611.734 -0.297222,50.8689,611.734 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ SLEAP</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ SLEAP</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2275 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.77167,52.8672,693.42 -2.78528,52.8661,693.42 -2.79833,52.8631,693.42 -2.80944,52.8581,693.42 -2.81833,52.8517,693.42 -2.82417,52.8442,693.42 -2.82667,52.83579999999999,693.42 -2.82583,52.8275,693.42 -2.82167,52.8197,693.42 -2.81417,52.8128,693.42 -2.80417,52.8069,693.42 -2.79194,52.8028,693.42 -2.77861,52.8008,693.42 -2.76139,52.8011,693.42 -2.74833,52.8036,693.42 -2.73667,52.8083,693.42 -2.72694,52.81420000000001,693.42 -2.71917,52.82359999999999,693.42 -2.71667,52.8317,693.42 -2.71833,52.8422,693.42 -2.72333,52.85,693.42 -2.73389,52.8581,693.42 -2.745,52.8631,693.42 -2.75806,52.8661,693.42 -2.77167,52.8672,693.42 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ STAPLEFORD</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ STAPLEFORD</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2185 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.156111,51.68580000000001,665.9880000000001 0.142778,51.6847,665.9880000000001 0.127222,51.6806,665.9880000000001 0.116944,51.67529999999999,665.9880000000001 0.1075,51.6667,665.9880000000001 0.103333,51.6586,665.9880000000001 0.102778,51.6483,665.9880000000001 0.106111,51.6403,665.9880000000001 0.114722,51.6314,665.9880000000001 0.124444,51.6256,665.9880000000001 0.136389,51.6214,665.9880000000001 0.149444,51.6194,665.9880000000001 0.162778,51.6194,665.9880000000001 0.175833,51.6214,665.9880000000001 0.187778,51.6256,665.9880000000001 0.1975,51.6314,665.9880000000001 0.204722,51.6383,665.9880000000001 0.208889,51.6461,665.9880000000001 0.209722,51.6544,665.9880000000001 0.207222,51.6628,665.9880000000001 0.201389,51.67029999999999,665.9880000000001 0.192778,51.6767,665.9880000000001 0.181944,51.6817,665.9880000000001 0.169444,51.6847,665.9880000000001 0.156111,51.68580000000001,665.9880000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ SWANSEA</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ SWANSEA</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2299 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.06806,51.6383,700.735 -4.08139,51.63719999999999,700.735 -4.09694,51.6331,700.735 -4.10722,51.62780000000001,700.735 -4.11667,51.6192,700.735 -4.12083,51.61110000000001,700.735 -4.12139,51.6008,700.735 -4.11778,51.5928,700.735 -4.10944,51.5839,700.735 -4.09944,51.5781,700.735 -4.08778,51.5739,700.735 -4.07472,51.5719,700.735 -4.06139,51.5719,700.735 -4.04833,51.5739,700.735 -4.03667,51.5781,700.735 -4.02667,51.5839,700.735 -4.01944,51.5908,700.735 -4.01528,51.59859999999999,700.735 -4.01444,51.60690000000001,700.735 -4.01694,51.61529999999999,700.735 -4.02278,51.62280000000001,700.735 -4.03139,51.6292,700.735 -4.04222,51.6342,700.735 -4.05472,51.63719999999999,700.735 -4.06806,51.6383,700.735 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ TATENHILL</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ TATENHILL</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2439 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.76472,52.84749999999999,743.407 -1.77833,52.8464,743.407 -1.79139,52.84330000000001,743.407 -1.8025,52.8383,743.407 -1.81139,52.8319,743.407 -1.81722,52.8244,743.407 -1.81972,52.8161,743.407 -1.81889,52.8078,743.407 -1.81444,52.8,743.407 -1.80722,52.7931,743.407 -1.79722,52.7872,743.407 -1.785,52.7831,743.407 -1.77167,52.78110000000001,743.407 -1.75444,52.7814,743.407 -1.74139,52.7839,743.407 -1.72972,52.7886,743.407 -1.72028,52.7944,743.407 -1.71222,52.8039,743.407 -1.70972,52.8119,743.407 -1.71139,52.8225,743.407 -1.71639,52.8303,743.407 -1.72694,52.8383,743.407 -1.73806,52.84330000000001,743.407 -1.75111,52.8464,743.407 -1.76472,52.84749999999999,743.407 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ THRUXTON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ THRUXTON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2319 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.59694,51.2444,706.831 -1.61028,51.24329999999999,706.831 -1.62556,51.2392,706.831 -1.63583,51.23390000000001,706.831 -1.645,51.2253,706.831 -1.64917,51.21720000000001,706.831 -1.64972,51.2069,706.831 -1.64639,51.1989,706.831 -1.63778,51.19,706.831 -1.62806,51.1842,706.831 -1.61639,51.18,706.831 -1.60361,51.17809999999999,706.831 -1.59028,51.17809999999999,706.831 -1.5775,51.18,706.831 -1.56583,51.1842,706.831 -1.55611,51.19,706.831 -1.54889,51.1969,706.831 -1.54472,51.2047,706.831 -1.54389,51.2131,706.831 -1.54639,51.2214,706.831 -1.55194,51.2289,706.831 -1.56056,51.2353,706.831 -1.57139,51.24029999999999,706.831 -1.58361,51.24329999999999,706.831 -1.59694,51.2444,706.831 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ WARTON</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ WARTON</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2054 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.88333,53.7867,626.059 -2.90083,53.7853,626.059 -2.91722,53.7814,626.059 -2.93167,53.7753,626.059 -2.94278,53.7672,626.059 -2.95028,53.7578,626.059 -2.95361,53.7475,626.059 -2.952500000000001,53.7372,626.059 -2.945,53.72500000000001,626.059 -2.93472,53.7164,626.059 -2.92111,53.7097,626.059 -2.905,53.70530000000001,626.059 -2.88778,53.70330000000001,626.059 -2.86583,53.7047,626.059 -2.84944,53.7086,626.059 -2.83528,53.7147,626.059 -2.82389,53.7228,626.059 -2.81528,53.7347,626.059 -2.813060000000001,53.745,626.059 -2.815,53.75529999999999,626.059 -2.82167,53.765,626.059 -2.835,53.7753,626.059 -2.84944,53.7814,626.059 -2.86583,53.7853,626.059 -2.88333,53.7867,626.059 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ WELLESBOURNE MOUNTFORD</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ WELLESBOURNE MOUNTFORD</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2159 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.61444,52.22560000000001,658.063 -1.62806,52.2244,658.063 -1.64056,52.22140000000001,658.063 -1.65167,52.21640000000001,658.063 -1.66194,52.2083,658.063 -1.66722,52.2006,658.063 -1.66861,52.19,658.063 -1.66611,52.1819,658.063 -1.65833,52.1725,658.063 -1.64917,52.1667,658.063 -1.6375,52.16190000000001,658.063 -1.62472,52.1594,658.063 -1.60778,52.1592,658.063 -1.59444,52.1611,658.063 -1.5825,52.1653,658.063 -1.5725,52.17110000000001,658.063 -1.56528,52.1781,658.063 -1.56111,52.1858,658.063 -1.56028,52.1942,658.063 -1.56278,52.2025,658.063 -1.56861,52.21,658.063 -1.57722,52.21640000000001,658.063 -1.58833,52.22140000000001,658.063 -1.60083,52.2244,658.063 -1.61444,52.22560000000001,658.063 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ WELSHPOOL</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ WELSHPOOL</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2235 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.15333,52.6619,681.228 -3.166939999999999,52.66079999999999,681.228 -3.17972,52.65779999999999,681.228 -3.19083,52.65279999999999,681.228 -3.20139,52.6447,681.228 -3.20639,52.6369,681.228 -3.20806,52.62639999999999,681.228 -3.20556,52.6183,681.228 -3.19778,52.6089,681.228 -3.18833,52.6031,681.228 -3.17667,52.59829999999999,681.228 -3.16361,52.5958,681.228 -3.14639,52.5956,681.228 -3.13306,52.59749999999999,681.228 -3.12111,52.6017,681.228 -3.11111,52.6075,681.228 -3.10361,52.6144,681.228 -3.09944,52.62219999999999,681.228 -3.09861,52.6306,681.228 -3.10111,52.63890000000001,681.228 -3.10694,52.6464,681.228 -3.115829999999999,52.65279999999999,681.228 -3.12694,52.65779999999999,681.228 -3.13972,52.66079999999999,681.228 -3.15333,52.6619,681.228 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ WEST WALES</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ WEST WALES</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2428 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.55944,52.1481,740.054 -4.57306,52.1469,740.054 -4.58556,52.1439,740.054 -4.59667,52.13889999999999,740.054 -4.60694,52.1308,740.054 -4.61194,52.1231,740.054 -4.61361,52.11249999999999,740.054 -4.61111,52.1044,740.054 -4.60333,52.095,740.054 -4.59389,52.0892,740.054 -4.5825,52.0844,740.054 -4.56972,52.0819,740.054 -4.55278,52.0817,740.054 -4.53944,52.08359999999999,740.054 -4.5275,52.0878,740.054 -4.51778,52.0936,740.054 -4.51028,52.10060000000001,740.054 -4.50611,52.10829999999999,740.054 -4.50528,52.1167,740.054 -4.50778,52.12500000000001,740.054 -4.51361,52.13250000000001,740.054 -4.52222,52.13889999999999,740.054 -4.53333,52.1439,740.054 -4.54583,52.1469,740.054 -4.55944,52.1481,740.054 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ WHITE WALTHAM</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ WHITE WALTHAM</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2127 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.7747220000000001,51.5339,648.3099999999999 -0.7880560000000001,51.5328,648.3099999999999 -0.8033330000000001,51.5286,648.3099999999999 -0.8136110000000001,51.5233,648.3099999999999 -0.823056,51.51469999999999,648.3099999999999 -0.8272220000000001,51.5067,648.3099999999999 -0.827778,51.4964,648.3099999999999 -0.8244440000000001,51.4883,648.3099999999999 -0.8158329999999999,51.4794,648.3099999999999 -0.8061110000000001,51.47359999999999,648.3099999999999 -0.794444,51.46939999999999,648.3099999999999 -0.781389,51.4675,648.3099999999999 -0.7680560000000001,51.4675,648.3099999999999 -0.755,51.46939999999999,648.3099999999999 -0.7433330000000001,51.47359999999999,648.3099999999999 -0.733611,51.4794,648.3099999999999 -0.7263890000000001,51.48640000000001,648.3099999999999 -0.7222220000000001,51.4942,648.3099999999999 -0.7213889999999998,51.50249999999999,648.3099999999999 -0.723889,51.51080000000001,648.3099999999999 -0.729444,51.5183,648.3099999999999 -0.738056,51.5247,648.3099999999999 -0.748889,51.5297,648.3099999999999 -0.761389,51.5328,648.3099999999999 -0.7747220000000001,51.5339,648.3099999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ WICK</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ WICK</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2126 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.09306,58.4922,648.005 -3.12028,58.4889,648.005 -3.13361,58.4844,648.005 -3.14472,58.4783,648.005 -3.15222,58.4711,648.005 -3.15611,58.4631,648.005 -3.15611,58.4547,648.005 -3.15222,58.4467,648.005 -3.144439999999999,58.43920000000001,648.005 -3.13056,58.4319,648.005 -3.112779999999999,58.42719999999999,648.005 -3.09306,58.4256,648.005 -3.07333,58.42719999999999,648.005 -3.05556,58.4319,648.005 -3.04167,58.43920000000001,648.005 -3.03389,58.4467,648.005 -3.03,58.4547,648.005 -3.03,58.4631,648.005 -3.03389,58.4711,648.005 -3.041389999999999,58.4783,648.005 -3.0525,58.4844,648.005 -3.06583,58.4889,648.005 -3.09306,58.4922,648.005 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ WICKENBY</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ WICKENBY</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2084 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.348889,53.3503,635.203 -0.362778,53.3492,635.203 -0.375833,53.3461,635.203 -0.386944,53.3411,635.203 -0.396111,53.3347,635.203 -0.401944,53.3272,635.203 -0.404444,53.3189,635.203 -0.403611,53.3106,635.203 -0.397778,53.3008,635.203 -0.389444,53.2942,635.203 -0.3786109999999999,53.2889,635.203 -0.366111,53.2853,635.203 -0.3525,53.2836,635.203 -0.335,53.2847,635.203 -0.321944,53.2878,635.203 -0.310833,53.2928,635.203 -0.301944,53.29920000000001,635.203 -0.295,53.3086,635.203 -0.293056,53.3169,635.203 -0.295,53.32529999999999,635.203 -0.3,53.33310000000001,635.203 -0.310833,53.3411,635.203 -0.321944,53.3461,635.203 -0.335,53.3492,635.203 -0.348889,53.3503,635.203 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ HALFPENNY GREEN</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ HALFPENNY GREEN</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2283 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.25944,52.55080000000001,695.8579999999999 -2.27306,52.5497,695.8579999999999 -2.28583,52.5467,695.8579999999999 -2.29694,52.5417,695.8579999999999 -2.3075,52.53360000000001,695.8579999999999 -2.3125,52.52579999999999,695.8579999999999 -2.31417,52.5153,695.8579999999999 -2.31139,52.5072,695.8579999999999 -2.30361,52.4978,695.8579999999999 -2.29444,52.4919,695.8579999999999 -2.28278,52.4872,695.8579999999999 -2.26972,52.48469999999999,695.8579999999999 -2.2525,52.4844,695.8579999999999 -2.23944,52.4864,695.8579999999999 -2.22722,52.4906,695.8579999999999 -2.21722,52.4964,695.8579999999999 -2.21,52.5033,695.8579999999999 -2.20556,52.5111,695.8579999999999 -2.20472,52.5194,695.8579999999999 -2.2075,52.5278,695.8579999999999 -2.21333,52.53529999999999,695.8579999999999 -2.22194,52.5417,695.8579999999999 -2.23306,52.5467,695.8579999999999 -2.24583,52.5497,695.8579999999999 -2.25944,52.55080000000001,695.8579999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ WYCOMBE</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ WYCOMBE</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2520 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.808333,51.64500000000001,768.096 -0.8216669999999999,51.6439,768.096 -0.837222,51.63969999999999,768.096 -0.8475,51.6344,768.096 -0.856944,51.6258,768.096 -0.861111,51.6178,768.096 -0.8616669999999998,51.6075,768.096 -0.858333,51.5994,768.096 -0.849722,51.5906,768.096 -0.839722,51.58470000000001,768.096 -0.828056,51.5806,768.096 -0.8149999999999999,51.5786,768.096 -0.8016670000000001,51.5786,768.096 -0.7886109999999998,51.5806,768.096 -0.776944,51.58470000000001,768.096 -0.766944,51.5906,768.096 -0.759722,51.5975,768.096 -0.7555559999999999,51.6053,768.096 -0.754722,51.61360000000001,768.096 -0.7572219999999998,51.6219,768.096 -0.7630559999999998,51.6294,768.096 -0.771667,51.63580000000001,768.096 -0.7825,51.6408,768.096 -0.795,51.6439,768.096 -0.808333,51.64500000000001,768.096 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ATZ YEOVIL</name>
+			<styleUrl>#StyleATZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">ATZ YEOVIL</SimpleData>
+					<SimpleData name="Category">Aerodrome Traffic Zone</SimpleData>
+					<SimpleData name="Top">2200 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.62972,50.9678,670.5599999999999 -2.67639,50.9714,670.5599999999999 -2.68917,50.96719999999999,670.5599999999999 -2.70111,50.95999999999999,670.5599999999999 -2.70889,50.95079999999999,670.5599999999999 -2.71167,50.9406,670.5599999999999 -2.70944,50.9303,670.5599999999999 -2.70556,50.92440000000001,670.5599999999999 -2.69806,50.9178,670.5599999999999 -2.68806,50.91220000000001,670.5599999999999 -2.67611,50.9086,670.5599999999999 -2.66306,50.90669999999999,670.5599999999999 -2.65,50.9072,670.5599999999999 -2.63722,50.90969999999999,670.5599999999999 -2.62611,50.91389999999999,670.5599999999999 -2.61667,50.92,670.5599999999999 -2.61,50.9272,670.5599999999999 -2.60667,50.9353,670.5599999999999 -2.60611,50.9414,670.5599999999999 -2.60833,50.9497,670.5599999999999 -2.61361,50.9572,670.5599999999999 -2.62972,50.9678,670.5599999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

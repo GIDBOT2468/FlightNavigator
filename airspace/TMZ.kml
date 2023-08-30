@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>TMZ.kml</name>
+	<Schema id="AirspaceId">
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Category"><displayName>&lt;b&gt;Category:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Top"><displayName>&lt;b&gt;Ceiling:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Base"><displayName>&lt;b&gt;Floor:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Radio"><displayName>&lt;b&gt;Radio frequency (MHz):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Xpndr"><displayName>&lt;b&gt;Transponder code:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area"><displayName>&lt;b&gt;Area (Km&lt;sup&gt;2&lt;/sup&gt;):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Perimeter"><displayName>&lt;b&gt;Perimeter (Km):&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="StyleTMZ">
+		<LineStyle>
+			<color>60000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>65f8d1ab</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>TMZ</name>
+		<open>1</open>
+		<Region>
+			<LatLonAltBox>
+				<north>90</north>
+				<south>-90</south>
+				<east>180</east>
+				<west>-180</west>
+				<minAltitude>0</minAltitude>
+				<maxAltitude>200000</maxAltitude>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>10000</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<Placemark>
+			<name>LONDON STANSTED TMZ</name>
+			<styleUrl>#StyleTMZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON STANSTED TMZ</SimpleData>
+					<SimpleData name="Category">Transponder Mandatory Zone</SimpleData>
+					<SimpleData name="Top">1500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.250833,52.0178,457.1999999999999 0.277778,52.0156,457.1999999999999 0.316667,52.0083,457.1999999999999 0.352778,51.99669999999999,457.1999999999999 0.384722,51.9811,457.1999999999999 0.403056,51.9686,457.1999999999999 0.425556,51.9478,457.1999999999999 0.441111,51.9247,457.1999999999999 0.448611,51.9047,457.1999999999999 0.554722,51.9747,457.1999999999999 0.538889,51.9936,457.1999999999999 0.514444,52.0161,457.1999999999999 0.485556,52.0367,457.1999999999999 0.469722,52.04610000000001,457.1999999999999 0.416389,52.0706,457.1999999999999 0.356667,52.08809999999999,457.1999999999999 0.250833,52.0178,457.1999999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>LONDON STANSTED TMZ</name>
+			<styleUrl>#StyleTMZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON STANSTED TMZ</SimpleData>
+					<SimpleData name="Category">Transponder Mandatory Zone</SimpleData>
+					<SimpleData name="Top">1500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.055,51.7636,457.1999999999999 -0.0288889,51.7428,457.1999999999999 -0.0138889,51.73279999999999,457.1999999999999 0.0188889,51.71470000000001,457.1999999999999 0.055,51.69919999999999,457.1999999999999 0.114444,51.6817,457.1999999999999 0.218889,51.7522,457.1999999999999 0.179167,51.7564,457.1999999999999 0.141111,51.76500000000001,457.1999999999999 0.106667,51.7781,457.1999999999999 0.0858333,51.7889,457.1999999999999 0.0591667,51.80780000000001,457.1999999999999 0.045,51.8219,457.1999999999999 0.0291667,51.845,457.1999999999999 0.0216667,51.8653,457.1999999999999 -0.00166667,51.86279999999999,457.1999999999999 -0.055,51.7636,457.1999999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

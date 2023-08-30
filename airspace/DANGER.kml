@@ -1,0 +1,4193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>DANGER.kml</name>
+	<Schema id="AirspaceId">
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Category"><displayName>&lt;b&gt;Category:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Top"><displayName>&lt;b&gt;Ceiling:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Base"><displayName>&lt;b&gt;Floor:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Radio"><displayName>&lt;b&gt;Radio frequency (MHz):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Xpndr"><displayName>&lt;b&gt;Transponder code:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area"><displayName>&lt;b&gt;Area (Km&lt;sup&gt;2&lt;/sup&gt;):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Perimeter"><displayName>&lt;b&gt;Perimeter (Km):&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="StyleDANGER">
+		<LineStyle>
+			<color>60000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>650000ff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>DANGER</name>
+		<Region>
+			<LatLonAltBox>
+				<north>90</north>
+				<south>-90</south>
+				<east>180</east>
+				<west>-180</west>
+				<minAltitude>0</minAltitude>
+				<maxAltitude>200000</maxAltitude>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>10000</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<Placemark>
+			<name>D005A PREDANNACK</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D005A PREDANNACK</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">8000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.23167,50.0519,2438.4 -5.25111,50.0503,2438.4 -5.27333,50.04419999999999,2438.4 -5.28833,50.0361,2438.4 -5.30194,50.02329999999999,2438.4 -5.30806,50.01139999999999,2438.4 -5.30889,49.9956,2438.4 -5.30194,49.9806,2438.4 -5.28833,49.9678,2438.4 -5.27333,49.9597,2438.4 -5.25556,49.95440000000001,2438.4 -5.23667,49.95190000000001,2438.4 -5.21722,49.9528,2438.4 -5.19861,49.9567,2438.4 -5.18222,49.9633,2438.4 -5.16889,49.97249999999999,2438.4 -5.15944,49.9836,2438.4 -5.15444,49.9956,2438.4 -5.15444,50.0081,2438.4 -5.15944,50.02029999999999,2438.4 -5.16861,50.0314,2438.4 -5.18194,50.0406,2438.4 -5.19861,50.04719999999999,2438.4 -5.21722,50.0511,2438.4 -5.23167,50.0519,2438.4 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D005B PREDANNACK CORRIDOR</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D005B PREDANNACK CORRIDOR</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">8000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.37833,49.9717,2438.4 -5.2,49.85669999999999,2438.4 -5.12444,49.9414,2438.4 -5.17306,49.9692,2438.4 -5.18778,49.96079999999999,2438.4 -5.20056,49.95609999999999,2438.4 -5.22889,49.95190000000001,2438.4 -5.2575,49.9547,2438.4 -5.28278,49.9642,2438.4 -5.29583,49.9736,2438.4 -5.30278,49.9819,2438.4 -5.3075,49.9908,2438.4 -5.30944,50,2438.4 -5.30861,50.00940000000001,2438.4 -5.305,50.01860000000001,2438.4 -5.29889,50.0272,2438.4 -5.28944,50.0356,2438.4 -5.37833,49.9717,2438.4 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D006A FALMOUTH BAY</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D006A FALMOUTH BAY</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">22000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.78306,50.2122,6705.6 -4.90833,50.1567,6705.6 -4.90833,50,6705.6 -4.70778,50.12389999999999,6705.6 -4.78306,50.2122,6705.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D006B FALMOUTH BAY</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D006B FALMOUTH BAY</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">8000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.085,49.98530000000001,2438.4 -4.94278,49.9461,2438.4 -4.90833,50,2438.4 -4.90833,50.1567,2438.4 -4.99667,50.0833,2438.4 -5.085,49.98530000000001,2438.4 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D007A FOWEY</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D007A FOWEY</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">22000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.61194,50.3003,6705.6 -4.77306,50.20059999999999,6705.6 -4.73528,50.15610000000001,6705.6 -4.41611,50.2639,6705.6 -4.46056,50.3158,6705.6 -4.53111,50.3056,6705.6 -4.61194,50.3003,6705.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D007C FOWEY INNER</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D007C FOWEY INNER</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.72611,50.2925,609.6 -4.74639,50.2797,609.6 -4.74472,50.23719999999999,609.6 -4.78306,50.2122,609.6 -4.77306,50.20059999999999,609.6 -4.61194,50.3003,609.6 -4.72611,50.2925,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D009A WEMBURY</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D009A WEMBURY</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">55000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.10917,50.3178,16764 -4.49306,50.1942,16764 -4.47083,50.1694,16764 -4.45556,50.1553,16764 -4.42083,50.1286,16764 -4.38139,50.1053,16764 -4.33778,50.0853,16764 -4.29056,50.0686,16764 -4.24056,50.0561,16764 -4.18833,50.0478,16764 -4.135,50.04330000000001,16764 -4.10806,50.0431,16764 -4.05444,50.0453,16764 -4.00167,50.0517,16764 -3.950559999999999,50.0625,16764 -3.901940000000001,50.0772,16764 -3.85639,50.0956,16764 -3.83528,50.1061,16764 -3.79444,50.1669,16764 -4.10917,50.3178,16764 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D009B WEMBURY</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D009B WEMBURY</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">22000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.38583,50.2283,6705.6 -4.10917,50.3178,6705.6 -4.05667,50.2931,6705.6 -4.05028,50.29969999999999,6705.6 -4.04611,50.30720000000001,6705.6 -4.04389,50.3175,6705.6 -4.045,50.3253,6705.6 -4.05,50.3353,6705.6 -4.05861,50.3442,6705.6 -4.07056,50.3514,6705.6 -4.08111,50.3553,6705.6 -4.10861,50.3594,6705.6 -4.13667,50.3556,6705.6 -4.14722,50.3517,6705.6 -4.15917,50.3444,6705.6 -4.16611,50.3381,6705.6 -4.17083,50.3308,6705.6 -4.38583,50.2283,6705.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D011A OKEHAMPTON</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D011A OKEHAMPTON</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">10000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.02944,50.7072,3048 -4.06139,50.6719,3048 -4.01694,50.6247,3048 -3.966940000000001,50.62890000000001,3048 -3.95333,50.6236,3048 -3.93694,50.6603,3048 -3.98167,50.7197,3048 -4.02944,50.7072,3048 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D011B WILLSWORTHY</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D011B WILLSWORTHY</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">4500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.06139,50.6719,1371.6 -4.09944,50.6297,1371.6 -4.07889,50.5972,1371.6 -4.02667,50.62390000000001,1371.6 -4.01694,50.6247,1371.6 -4.06139,50.6719,1371.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D011C MERRIVALE</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D011C MERRIVALE</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">10000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.02667,50.62390000000001,3048 -4.07889,50.5972,3048 -4.06,50.5672,3048 -3.97556,50.5739,3048 -3.95333,50.6236,3048 -3.966940000000001,50.62890000000001,3048 -4.02667,50.62390000000001,3048 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D012 LYME BAY NORTH</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D012 LYME BAY NORTH</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">18000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.75,50.7056,5486.4 -2.79528,50.7183,5486.4 -2.81111,50.7178,5486.4 -2.82861,50.7228,5486.4 -2.83972,50.7228,5486.4 -2.9025,50.73389999999999,5486.4 -2.92694,50.72969999999999,5486.4 -2.93806,50.72169999999999,5486.4 -2.93694,50.7192,5486.4 -2.94667,50.7183,5486.4 -2.95528,50.7131,5486.4 -2.966390000000001,50.71280000000001,5486.4 -2.97917,50.70529999999999,5486.4 -2.99611,50.7047,5486.4 -3.01556,50.6981,5486.4 -3.07167,50.7042,5486.4 -3.08944,50.6981,5486.4 -3.09556,50.685,5486.4 -3.25,50.61389999999999,5486.4 -3.29167,50.5,5486.4 -3.08333,50.5667,5486.4 -2.75,50.5667,5486.4 -2.75,50.7056,5486.4 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D014 PORTLAND</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D014 PORTLAND</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">5000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.57333,50.63829999999999,1524 -2.69167,50.61670000000001,1524 -2.7,50.5667,1524 -2.75,50.5667,1524 -2.5,50.49189999999999,1524 -2.5,50.5667,1524 -2.52333,50.5667,1524 -2.49667,50.5917,1524 -2.54167,50.6267,1524 -2.57333,50.63829999999999,1524 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D015 BOVINGTON</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D015 BOVINGTON</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">3600 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.24,50.7278,1097.28 -2.24639,50.7253,1097.28 -2.24694,50.7228,1097.28 -2.24528,50.7203,1097.28 -2.23861,50.7189,1097.28 -2.23333,50.72169999999999,1097.28 -2.23417,50.7261,1097.28 -2.24,50.7278,1097.28 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D017 PORTLAND</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D017 PORTLAND</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">22000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.75,50.5667,6705.6 -2.75,50.0333,6705.6 -2.5,50.0333,6705.6 -2.5,50.49189999999999,6705.6 -2.75,50.5667,6705.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D021 PORTLAND</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D021 PORTLAND</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">15000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.33333,50.58329999999999,4572 -2.33333,50.5,4572 -2.5,50.5,4572 -2.5,50.49189999999999,4572 -2.25,50.41669999999999,4572 -2.28833,50.4883,4572 -2.27333,50.5317,4572 -2.27056,50.58329999999999,4572 -2.33333,50.58329999999999,4572 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D026 LULWORTH</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D026 LULWORTH</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">15000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.13194,50.6722,4572 -2.19361,50.67439999999999,4572 -2.19361,50.6403,4572 -2.24167,50.63329999999999,4572 -2.24639,50.61670000000001,4572 -2.27,50.5933,4572 -2.27333,50.5317,4572 -2.28833,50.4883,4572 -2.25,50.41669999999999,4572 -2.145,50.41669999999999,4572 -2.04167,50.4483,4572 -2.01194,50.50829999999999,4572 -2.07778,50.5842,4572 -2.13694,50.61220000000001,4572 -2.13139,50.6308,4572 -2.12556,50.6639,4572 -2.13194,50.6722,4572 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D031 PORTLAND</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D031 PORTLAND</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">15000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.94306,50.60720000000001,4572 -1.95611,50.6006,4572 -1.97083,50.5961,4572 -2.02,50.59669999999999,4572 -2.03278,50.5933,4572 -2.06556,50.57,4572 -2.01194,50.50829999999999,4572 -2.01611,50.5,4572 -1.94306,50.5,4572 -1.94306,50.60720000000001,4572 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D044 LYDD RANGES</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D044 LYDD RANGES</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">4000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.926111,50.9236,1219.2 0.896667,50.9472,1219.2 0.835833,50.9317,1219.2 0.796667,50.9056,1219.2 0.8375000000000001,50.8769,1219.2 0.8997219999999999,50.8772,1219.2 0.936944,50.8911,1219.2 0.926111,50.9236,1219.2 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D061 WOODBURY COMMON</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D061 WOODBURY COMMON</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">1500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.3475,50.68859999999999,457.1999999999999 -3.354439999999999,50.6872,457.1999999999999 -3.359440000000001,50.68390000000001,457.1999999999999 -3.36056,50.67920000000001,457.1999999999999 -3.35694,50.67439999999999,457.1999999999999 -3.35167,50.6722,457.1999999999999 -3.345,50.6722,457.1999999999999 -3.33917,50.6739,457.1999999999999 -3.33528,50.6772,457.1999999999999 -3.33444,50.6814,457.1999999999999 -3.33694,50.6853,457.1999999999999 -3.3475,50.68859999999999,457.1999999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D064C SOUTH WEST MDA</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D064C SOUTH WEST MDA</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">FL50</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5.42556,51.2019,20116.8 -5.41944,51.1067,20116.8 -5.72639,50.5033,20116.8 -4.65583,50.7244,20116.8 -4.65389,50.7397,20116.8 -4.5575,50.7867,20116.8 -4.56444,50.9119,20116.8 -5.10583,51.17440000000001,20116.8 -5.42556,51.2019,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5.42556,51.2019,1524 -5.41944,51.1067,1524 -5.72639,50.5033,1524 -4.65583,50.7244,1524 -4.65389,50.7397,1524 -4.5575,50.7867,1524 -4.56444,50.9119,1524 -5.10583,51.17440000000001,1524 -5.42556,51.2019,1524 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5.42556,51.2019,20116.8 -5.41944,51.1067,20116.8 -5.41944,51.1067,1524 -5.42556,51.2019,1524 -5.42556,51.2019,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5.41944,51.1067,20116.8 -5.72639,50.5033,20116.8 -5.72639,50.5033,1524 -5.41944,51.1067,1524 -5.41944,51.1067,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5.72639,50.5033,20116.8 -4.65583,50.7244,20116.8 -4.65583,50.7244,1524 -5.72639,50.5033,1524 -5.72639,50.5033,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.65583,50.7244,20116.8 -4.65389,50.7397,20116.8 -4.65389,50.7397,1524 -4.65583,50.7244,1524 -4.65583,50.7244,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.65389,50.7397,20116.8 -4.5575,50.7867,20116.8 -4.5575,50.7867,1524 -4.65389,50.7397,1524 -4.65389,50.7397,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5575,50.7867,20116.8 -4.56444,50.9119,20116.8 -4.56444,50.9119,1524 -4.5575,50.7867,1524 -4.5575,50.7867,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.56444,50.9119,20116.8 -5.10583,51.17440000000001,20116.8 -5.10583,51.17440000000001,1524 -4.56444,50.9119,1524 -4.56444,50.9119,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5.10583,51.17440000000001,20116.8 -5.42556,51.2019,20116.8 -5.42556,51.2019,1524 -5.10583,51.17440000000001,1524 -5.10583,51.17440000000001,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D110 BRAUNTON BURROWS</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D110 BRAUNTON BURROWS</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.25806,51.1006,609.6 -4.2575,51.0872,609.6 -4.22889,51.0878,609.6 -4.22083,51.0828,609.6 -4.2,51.08330000000001,609.6 -4.20083,51.10170000000001,609.6 -4.25806,51.1006,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D113A CASTLEMARTIN</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D113A CASTLEMARTIN</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">40000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.30833,51.6603,12192 -5.40417,51.6025,12192 -5.38611,51.5756,12192 -5.37222,51.5589,12192 -5.33972,51.52689999999999,12192 -5.30083,51.49780000000001,12192 -5.27944,51.48440000000001,12192 -5.2325,51.4603,12192 -5.2075,51.4494,12192 -5.15417,51.43110000000001,12192 -5.09778,51.4172,12192 -5.03917,51.4078,12192 -4.90889,51.4833,12192 -5.05833,51.4833,12192 -5.09167,51.525,12192 -5.05556,51.6517,12192 -5.07861,51.6603,12192 -5.30833,51.6603,12192 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D113B CASTLEMARTIN</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D113B CASTLEMARTIN</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">45000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.05556,51.6517,13716 -5.09167,51.525,13716 -5.05833,51.4833,13716 -4.90889,51.4833,13716 -4.80833,51.5417,13716 -4.89222,51.605,13716 -4.92222,51.605,13716 -4.94556,51.6217,13716 -4.98139,51.6381,13716 -5.01194,51.6461,13716 -5.05556,51.6517,13716 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D115A MANORBIER</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D115A MANORBIER</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">27000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.83667,51.6375,8229.6 -4.72972,51.6375,8229.6 -4.73139,51.6458,8229.6 -4.73472,51.6517,8229.6 -4.74667,51.66170000000001,8229.6 -4.76361,51.6683,8229.6 -4.78333,51.6708,8229.6 -4.80306,51.6686,8229.6 -4.8225,51.6603,8229.6 -4.83333,51.6497,8229.6 -4.83611,51.6436,8229.6 -4.83667,51.6375,8229.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D115B MANORBIER</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D115B MANORBIER</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">50000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.83667,51.6375,15240 -5.03889,51.5353,15240 -5.01083,51.5122,15240 -4.98389,51.49560000000001,15240 -4.95361,51.48109999999999,15240 -4.92083,51.46920000000001,15240 -4.88583,51.45970000000001,15240 -4.84917,51.4531,15240 -4.81167,51.4494,15240 -4.75472,51.4494,15240 -4.69861,51.4561,15240 -4.66278,51.46420000000001,15240 -4.62889,51.475,15240 -4.59722,51.4881,15240 -4.56861,51.5039,15240 -4.54333,51.5217,15240 -4.52194,51.54109999999999,15240 -4.50444,51.5622,15240 -4.73,51.6375,15240 -4.83667,51.6375,15240 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D117 PENDINE</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D117 PENDINE</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">23000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.4,51.5861,7010.4 -4.4,51.7458,7010.4 -4.42139,51.7567,7010.4 -4.55,51.75419999999999,7010.4 -4.62861,51.66609999999999,7010.4 -4.63111,51.60809999999999,7010.4 -4.4,51.5861,7010.4 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D118 PEMBREY</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D118 PEMBREY</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">12000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.4,51.7736,3657.599999999999 -4.4,51.6669,3657.599999999999 -4.38222,51.6633,3657.599999999999 -4.36472,51.6619,3657.599999999999 -4.34139,51.6633,3657.599999999999 -4.32444,51.6669,3657.599999999999 -4.30417,51.6744,3657.599999999999 -4.29139,51.6819,3657.599999999999 -4.28111,51.69080000000001,3657.599999999999 -4.27361,51.7008,3657.599999999999 -4.26917,51.71139999999999,3657.599999999999 -4.26806,51.7186,3657.599999999999 -4.26944,51.7297,3657.599999999999 -4.27194,51.7367,3657.599999999999 -4.28472,51.75330000000001,3657.599999999999 -4.30028,51.7642,3657.599999999999 -4.32528,51.77389999999999,3657.599999999999 -4.34778,51.7778,3657.599999999999 -4.3775,51.7778,3657.599999999999 -4.4,51.7736,3657.599999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D119 BRIDGEWATER BAY</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D119 BRIDGEWATER BAY</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">5000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.23139,51.2733,1524 -3.25778,51.2711,1524 -3.28278,51.26499999999999,1524 -3.30417,51.25530000000001,1524 -3.32111,51.2422,1524 -3.3325,51.22720000000001,1524 -3.337499999999999,51.2108,1524 -3.33583,51.1942,1524 -3.3275,51.1783,1524 -3.31333,51.16420000000001,1524 -3.29389,51.1528,1524 -3.27056,51.1447,1524 -3.24472,51.1406,1524 -3.21806,51.1406,1524 -3.19222,51.1447,1524 -3.16889,51.1528,1524 -3.14944,51.16420000000001,1524 -3.13833,51.17440000000001,1524 -3.1325,51.1822,1524 -3.12583,51.1983,1524 -3.125280000000001,51.2108,1524 -3.12694,51.21919999999999,1524 -3.135,51.235,1524 -3.14528,51.2458,1524 -3.153890000000001,51.2522,1524 -3.17444,51.2628,1524 -3.205,51.2711,1524 -3.23139,51.2733,1524 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D120 BOSCOMBE DOWN</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D120 BOSCOMBE DOWN</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2407 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.80056,51.18109999999999,733.654 -1.8125,51.1692,733.654 -1.81722,51.15669999999999,733.654 -1.81556,51.1436,733.654 -1.81167,51.1361,733.654 -1.80528,51.1294,733.654 -1.73583,51.1128,733.654 -1.71333,51.125,733.654 -1.71333,51.1336,733.654 -1.68583,51.1456,733.654 -1.685,51.1575,733.654 -1.68889,51.1678,733.654 -1.69667,51.1769,733.654 -1.70778,51.1847,733.654 -1.71889,51.1789,733.654 -1.77806,51.1831,733.654 -1.80056,51.18109999999999,733.654 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D122A WESSEX WEST</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D122A WESSEX WEST</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL160</SimpleData>
+					<SimpleData name="Base">FL80</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.19694,51.2247,4876.8 -2.19694,51.02219999999999,4876.8 -2.12056,50.9939,4876.8 -1.95056,51.0236,4876.8 -1.95056,51.1683,4876.8 -2.12028,51.185,4876.8 -2.19694,51.2247,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.19694,51.2247,2438.4 -2.19694,51.02219999999999,2438.4 -2.12056,50.9939,2438.4 -1.95056,51.0236,2438.4 -1.95056,51.1683,2438.4 -2.12028,51.185,2438.4 -2.19694,51.2247,2438.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.19694,51.2247,4876.8 -2.19694,51.02219999999999,4876.8 -2.19694,51.02219999999999,2438.4 -2.19694,51.2247,2438.4 -2.19694,51.2247,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.19694,51.02219999999999,4876.8 -2.12056,50.9939,4876.8 -2.12056,50.9939,2438.4 -2.19694,51.02219999999999,2438.4 -2.19694,51.02219999999999,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.12056,50.9939,4876.8 -1.95056,51.0236,4876.8 -1.95056,51.0236,2438.4 -2.12056,50.9939,2438.4 -2.12056,50.9939,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.95056,51.0236,4876.8 -1.95056,51.1683,4876.8 -1.95056,51.1683,2438.4 -1.95056,51.0236,2438.4 -1.95056,51.0236,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.95056,51.1683,4876.8 -2.12028,51.185,4876.8 -2.12028,51.185,2438.4 -1.95056,51.1683,2438.4 -1.95056,51.1683,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.12028,51.185,4876.8 -2.19694,51.2247,4876.8 -2.19694,51.2247,2438.4 -2.12028,51.185,2438.4 -2.12028,51.185,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D122B WESSEX CENTRAL</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D122B WESSEX CENTRAL</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL160</SimpleData>
+					<SimpleData name="Base">FL80</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.77806,51.1831,4876.8 -1.95056,51.1683,4876.8 -1.95056,51.0236,4876.8 -1.70833,51.0658,4876.8 -1.71889,51.1789,4876.8 -1.77806,51.1831,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.77806,51.1831,2438.4 -1.95056,51.1683,2438.4 -1.95056,51.0236,2438.4 -1.70833,51.0658,2438.4 -1.71889,51.1789,2438.4 -1.77806,51.1831,2438.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.77806,51.1831,4876.8 -1.95056,51.1683,4876.8 -1.95056,51.1683,2438.4 -1.77806,51.1831,2438.4 -1.77806,51.1831,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.95056,51.1683,4876.8 -1.95056,51.0236,4876.8 -1.95056,51.0236,2438.4 -1.95056,51.1683,2438.4 -1.95056,51.1683,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.95056,51.0236,4876.8 -1.70833,51.0658,4876.8 -1.70833,51.0658,2438.4 -1.95056,51.0236,2438.4 -1.95056,51.0236,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.70833,51.0658,4876.8 -1.71889,51.1789,4876.8 -1.71889,51.1789,2438.4 -1.70833,51.0658,2438.4 -1.70833,51.0658,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.71889,51.1789,4876.8 -1.77806,51.1831,4876.8 -1.77806,51.1831,2438.4 -1.71889,51.1789,2438.4 -1.71889,51.1789,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D122C WESSEX EAST</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D122C WESSEX EAST</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL160</SimpleData>
+					<SimpleData name="Base">FL80</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.62361,51.22640000000001,4876.8 -1.63306,51.2131,4876.8 -1.66167,51.2092,4876.8 -1.71889,51.1789,4876.8 -1.70833,51.0658,4876.8 -1.56167,51.0908,4876.8 -1.51222,51.21000000000001,4876.8 -1.62361,51.22640000000001,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.62361,51.22640000000001,2438.4 -1.63306,51.2131,2438.4 -1.66167,51.2092,2438.4 -1.71889,51.1789,2438.4 -1.70833,51.0658,2438.4 -1.56167,51.0908,2438.4 -1.51222,51.21000000000001,2438.4 -1.62361,51.22640000000001,2438.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.62361,51.22640000000001,4876.8 -1.63306,51.2131,4876.8 -1.63306,51.2131,2438.4 -1.62361,51.22640000000001,2438.4 -1.62361,51.22640000000001,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.63306,51.2131,4876.8 -1.66167,51.2092,4876.8 -1.66167,51.2092,2438.4 -1.63306,51.2131,2438.4 -1.63306,51.2131,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.66167,51.2092,4876.8 -1.71889,51.1789,4876.8 -1.71889,51.1789,2438.4 -1.66167,51.2092,2438.4 -1.66167,51.2092,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.71889,51.1789,4876.8 -1.70833,51.0658,4876.8 -1.70833,51.0658,2438.4 -1.71889,51.1789,2438.4 -1.71889,51.1789,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.70833,51.0658,4876.8 -1.56167,51.0908,4876.8 -1.56167,51.0908,2438.4 -1.70833,51.0658,2438.4 -1.70833,51.0658,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.56167,51.0908,4876.8 -1.51222,51.21000000000001,4876.8 -1.51222,51.21000000000001,2438.4 -1.56167,51.0908,2438.4 -1.56167,51.0908,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.51222,51.21000000000001,4876.8 -1.62361,51.22640000000001,4876.8 -1.62361,51.22640000000001,2438.4 -1.51222,51.21000000000001,2438.4 -1.51222,51.21000000000001,4876.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D123 IMBER</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D123 IMBER</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">50000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.01861,51.29,15240 -2.05333,51.28470000000001,15240 -2.16083,51.2544,15240 -2.19694,51.2247,15240 -2.12028,51.185,15240 -1.95056,51.1683,15240 -1.89028,51.17309999999999,15240 -1.95139,51.23,15240 -1.96278,51.2275,15240 -2.01861,51.29,15240 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D124 LAVINGTON</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D124 LAVINGTON</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.97,51.2825,20116.8 -1.98917,51.2794,20116.8 -2.00361,51.2708,20116.8 -2.00806,51.26530000000001,20116.8 -2.00972,51.2592,20116.8 -2.00917,51.25279999999999,20116.8 -2.00611,51.2469,20116.8 -1.99333,51.2372,20116.8 -1.975,51.2328,20116.8 -1.95528,51.2342,20116.8 -1.93917,51.2417,20116.8 -1.93278,51.24829999999999,20116.8 -1.93028,51.2544,20116.8 -1.93083,51.2622,20116.8 -1.93389,51.2681,20116.8 -1.94083,51.2747,20116.8 -1.94861,51.2786,20116.8 -1.96,51.28170000000001,20116.8 -1.97,51.2825,20116.8 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D125 LARKHILL</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D125 LARKHILL</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">50000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.83444,51.3078,15240 -1.94306,51.30190000000001,15240 -2.01861,51.29,15240 -1.96278,51.2275,15240 -1.95139,51.23,15240 -1.89028,51.17309999999999,15240 -1.77806,51.1831,15240 -1.83444,51.3078,15240 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D126 BULFORD</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D126 BULFORD</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">1400 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.62944,51.27250000000001,426.72 -1.70694,51.2319,426.72 -1.72583,51.235,426.72 -1.75083,51.2367,426.72 -1.77556,51.2353,426.72 -1.79972,51.2308,426.72 -1.77806,51.1831,426.72 -1.71889,51.1789,426.72 -1.66167,51.2092,426.72 -1.63306,51.2131,426.72 -1.60167,51.2569,426.72 -1.62944,51.27250000000001,426.72 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D127 PORTON</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D127 PORTON</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">12000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.72083,51.0978,3657.599999999999 -1.64528,51.1175,3657.599999999999 -1.61389,51.13110000000001,3657.599999999999 -1.63056,51.17,3657.599999999999 -1.71333,51.1336,3657.599999999999 -1.71333,51.125,3657.599999999999 -1.74306,51.10890000000001,3657.599999999999 -1.72083,51.0978,3657.599999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D128 EVERLEIGH</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D128 EVERLEIGH</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">1400 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.70417,51.3144,426.72 -1.83444,51.3078,426.72 -1.79972,51.2308,426.72 -1.77556,51.2353,426.72 -1.75083,51.2367,426.72 -1.72583,51.235,426.72 -1.70694,51.2317,426.72 -1.62944,51.27250000000001,426.72 -1.70417,51.3144,426.72 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D129 WESTON ON THE GREEN</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D129 WESTON ON THE GREEN</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL120</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.22222,51.91279999999999,3657.599999999999 -1.23556,51.9117,3657.599999999999 -1.25111,51.9075,3657.599999999999 -1.26167,51.9022,3657.599999999999 -1.27111,51.8936,3657.599999999999 -1.27528,51.8856,3657.599999999999 -1.27583,51.87530000000001,3657.599999999999 -1.2725,51.8672,3657.599999999999 -1.26389,51.85829999999999,3657.599999999999 -1.25389,51.8525,3657.599999999999 -1.24194,51.8483,3657.599999999999 -1.22889,51.8464,3657.599999999999 -1.21556,51.8464,3657.599999999999 -1.2025,51.8483,3657.599999999999 -1.19056,51.8525,3657.599999999999 -1.18056,51.85829999999999,3657.599999999999 -1.17333,51.8653,3657.599999999999 -1.16917,51.8731,3657.599999999999 -1.16833,51.8814,3657.599999999999 -1.17083,51.8897,3657.599999999999 -1.17667,51.8972,3657.599999999999 -1.18528,51.90359999999999,3657.599999999999 -1.19611,51.90859999999999,3657.599999999999 -1.20889,51.9117,3657.599999999999 -1.22222,51.91279999999999,3657.599999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D130 LONGMOOR</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D130 LONGMOOR</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2300 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.870278,51.09970000000001,701.04 -0.883611,51.0739,701.04 -0.827778,51.0794,701.04 -0.8272220000000001,51.0947,701.04 -0.870278,51.09970000000001,701.04 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D132 ASH RANGES</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D132 ASH RANGES</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.665556,51.2958,762 -0.687778,51.2922,762 -0.7163890000000001,51.27719999999999,762 -0.719167,51.26830000000001,762 -0.7166669999999999,51.2567,762 -0.676111,51.26330000000001,762 -0.661667,51.2731,762 -0.665556,51.2958,762 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D133A PIRBRIGHT</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D133A PIRBRIGHT</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">1200 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.651944,51.32280000000001,365.76 -0.688333,51.3083,365.76 -0.684167,51.3042,365.76 -0.674444,51.3044,365.76 -0.664167,51.3078,365.76 -0.649444,51.32080000000001,365.76 -0.651944,51.32280000000001,365.76 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D133B PIRBRIGHT</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D133B PIRBRIGHT</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">1200 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.674722,51.34439999999999,365.76 -0.699444,51.3386,365.76 -0.696111,51.32080000000001,365.76 -0.688333,51.3083,365.76 -0.651944,51.32280000000001,365.76 -0.665833,51.3428,365.76 -0.674722,51.34439999999999,365.76 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D136 SHOEBURYNESS</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D136 SHOEBURYNESS</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">13000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.8011109999999999,51.5381,3962.400000000001 0.7833329999999999,51.5083,3962.400000000001 0.851111,51.5047,3962.400000000001 0.8011109999999999,51.5381,3962.400000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D138D SHOEBURYNESS</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D138D SHOEBURYNESS</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">13000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.9266669999999999,51.62060000000001,3962.400000000001 0.833333,51.62060000000001,3962.400000000001 0.8011109999999999,51.5381,3962.400000000001 0.8541670000000001,51.50249999999999,3962.400000000001 0.883333,51.5,3962.400000000001 1.20083,51.62060000000001,3962.400000000001 0.9266669999999999,51.62060000000001,3962.400000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D139 FINGRINGHOE</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D139 FINGRINGHOE</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">1500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.916111,51.8333,457.1999999999999 0.9144440000000001,51.81080000000001,457.1999999999999 0.98,51.8092,457.1999999999999 0.981111,51.8317,457.1999999999999 0.916111,51.8333,457.1999999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D141 HYTHE RANGES</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D141 HYTHE RANGES</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">3200 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							1.07389,51.0719,975.36 1.03722,51.0564,975.36 1.01972,51.0328,975.36 1.03,51.02219999999999,975.36 1.09194,51.0367,975.36 1.07389,51.0719,975.36 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D147 PONTRILAS</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D147 PONTRILAS</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">10000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.88333,51.99999999999999,3048 -2.89667,51.9989,3048 -2.90944,51.99580000000001,3048 -2.92028,51.99080000000001,3048 -2.93083,51.9828,3048 -2.93583,51.975,3048 -2.93722,51.9644,3048 -2.93472,51.9564,3048 -2.92694,51.9469,3048 -2.91778,51.9411,3048 -2.90639,51.9364,3048 -2.89333,51.9339,3048 -2.87667,51.9336,3048 -2.86333,51.9356,3048 -2.851669999999999,51.9397,3048 -2.841670000000001,51.9456,3048 -2.834439999999999,51.9525,3048 -2.83028,51.9603,3048 -2.82944,51.9686,3048 -2.83194,51.9769,3048 -2.83778,51.9844,3048 -2.84639,51.99080000000001,3048 -2.85722,51.99580000000001,3048 -2.87,51.9989,3048 -2.88333,51.99999999999999,3048 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D201C ABERPORTH</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D201C ABERPORTH</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.88861,52.83860000000001,20116.8 -4.88861,52.75,20116.8 -4.67167,52.75,20116.8 -4.88861,52.83860000000001,20116.8 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D201H ABERPORTH</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D201H ABERPORTH</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.30167,52.5,20116.8 -5.01583,52.1508,20116.8 -4.64639,52.1444,20116.8 -4.63611,52.1172,20116.8 -4.48444,52.14670000000001,20116.8 -4.495,52.1667,20116.8 -4.2,52.2667,20116.8 -4.2,52.5,20116.8 -5.30167,52.5,20116.8 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D201J ABERPORTH</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D201J ABERPORTH</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.5,53.05,20116.8 -5.5,52.7381,20116.8 -5.30167,52.5,20116.8 -4.2,52.5,20116.8 -4.2,52.5544,20116.8 -4.67167,52.75,20116.8 -4.88861,52.75,20116.8 -4.88861,53.05,20116.8 -5.5,53.05,20116.8 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D202D WEST WALES</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D202D WEST WALES</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL125</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.64639,52.1444,3810 -4.69139,52.1336,3810 -4.695,52.1142,3810 -4.6925,52.0986,3810 -4.65056,51.9778,3810 -4.42194,52.0053,3810 -4.35583,52.2139,3810 -4.495,52.1667,3810 -4.48444,52.14670000000001,3810 -4.63611,52.1172,3810 -4.64639,52.1444,3810 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D202A WEST WALES</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D202A WEST WALES</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL100</SimpleData>
+					<SimpleData name="Base">FL60</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.35583,52.2139,3048 -4.42194,52.0053,3048 -4.24167,52.0264,3048 -4.16611,52.2625,3048 -4.2,52.2667,3048 -4.35583,52.2139,3048 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.35583,52.2139,1828.8 -4.42194,52.0053,1828.8 -4.24167,52.0264,1828.8 -4.16611,52.2625,1828.8 -4.2,52.2667,1828.8 -4.35583,52.2139,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.35583,52.2139,3048 -4.42194,52.0053,3048 -4.42194,52.0053,1828.8 -4.35583,52.2139,1828.8 -4.35583,52.2139,3048 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.42194,52.0053,3048 -4.24167,52.0264,3048 -4.24167,52.0264,1828.8 -4.42194,52.0053,1828.8 -4.42194,52.0053,3048 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.24167,52.0264,3048 -4.16611,52.2625,3048 -4.16611,52.2625,1828.8 -4.24167,52.0264,1828.8 -4.24167,52.0264,3048 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.16611,52.2625,3048 -4.2,52.2667,3048 -4.2,52.2667,1828.8 -4.16611,52.2625,1828.8 -4.16611,52.2625,3048 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.2,52.2667,3048 -4.35583,52.2139,3048 -4.35583,52.2139,1828.8 -4.2,52.2667,1828.8 -4.2,52.2667,3048 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D202B WEST WALES</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D202B WEST WALES</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL225</SimpleData>
+					<SimpleData name="Base">FL100</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.35583,52.2139,6858 -4.39333,52.09579999999999,6858 -4.06194,52.0556,6858 -4.00111,52.24249999999999,6858 -4.2,52.2667,6858 -4.35583,52.2139,6858 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.35583,52.2139,3048 -4.39333,52.09579999999999,3048 -4.06194,52.0556,3048 -4.00111,52.24249999999999,3048 -4.2,52.2667,3048 -4.35583,52.2139,3048 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.35583,52.2139,6858 -4.39333,52.09579999999999,6858 -4.39333,52.09579999999999,3048 -4.35583,52.2139,3048 -4.35583,52.2139,6858 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.39333,52.09579999999999,6858 -4.06194,52.0556,6858 -4.06194,52.0556,3048 -4.39333,52.09579999999999,3048 -4.39333,52.09579999999999,6858 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.06194,52.0556,6858 -4.00111,52.24249999999999,6858 -4.00111,52.24249999999999,3048 -4.06194,52.0556,3048 -4.06194,52.0556,6858 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.00111,52.24249999999999,6858 -4.2,52.2667,6858 -4.2,52.2667,3048 -4.00111,52.24249999999999,3048 -4.00111,52.24249999999999,6858 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.2,52.2667,6858 -4.35583,52.2139,6858 -4.35583,52.2139,3048 -4.2,52.2667,3048 -4.2,52.2667,6858 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D202C WEST WALES</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D202C WEST WALES</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL225</SimpleData>
+					<SimpleData name="Base">FL100</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.00111,52.24249999999999,6858 -4.06194,52.0556,6858 -3.68139,52.0083,6858 -3.67194,52.0364,6858 -3.59222,52.08359999999999,6858 -3.50417,52.1225,6858 -3.50056,52.1797,6858 -4.00111,52.24249999999999,6858 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.00111,52.24249999999999,3048 -4.06194,52.0556,3048 -3.68139,52.0083,3048 -3.67194,52.0364,3048 -3.59222,52.08359999999999,3048 -3.50417,52.1225,3048 -3.50056,52.1797,3048 -4.00111,52.24249999999999,3048 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.00111,52.24249999999999,6858 -4.06194,52.0556,6858 -4.06194,52.0556,3048 -4.00111,52.24249999999999,3048 -4.00111,52.24249999999999,6858 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.06194,52.0556,6858 -3.68139,52.0083,6858 -3.68139,52.0083,3048 -4.06194,52.0556,3048 -4.06194,52.0556,6858 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.68139,52.0083,6858 -3.67194,52.0364,6858 -3.67194,52.0364,3048 -3.68139,52.0083,3048 -3.68139,52.0083,6858 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.67194,52.0364,6858 -3.59222,52.08359999999999,6858 -3.59222,52.08359999999999,3048 -3.67194,52.0364,3048 -3.67194,52.0364,6858 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.59222,52.08359999999999,6858 -3.50417,52.1225,6858 -3.50417,52.1225,3048 -3.59222,52.08359999999999,3048 -3.59222,52.08359999999999,6858 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.50417,52.1225,6858 -3.50056,52.1797,6858 -3.50056,52.1797,3048 -3.50417,52.1225,3048 -3.50417,52.1225,6858 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.50056,52.1797,6858 -4.00111,52.24249999999999,6858 -4.00111,52.24249999999999,3048 -3.50056,52.1797,3048 -3.50056,52.1797,6858 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D203 SENNYBRIDGE</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D203 SENNYBRIDGE</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">23000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.49,52.1286,7010.4 -3.59222,52.08359999999999,7010.4 -3.67194,52.0364,7010.4 -3.68472,51.9964,7010.4 -3.65972,51.9708,7010.4 -3.62472,51.9828,7010.4 -3.5275,52.03059999999999,7010.4 -3.49528,52.0322,7010.4 -3.46778,52.0478,7010.4 -3.42556,52.0808,7010.4 -3.44583,52.10360000000001,7010.4 -3.49,52.1286,7010.4 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D206 CARDINGTON</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D206 CARDINGTON</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">6000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.4225,52.1225,1828.8 -0.435556,52.1206,1828.8 -0.446389,52.1139,1828.8 -0.448889,52.11,1828.8 -0.449444,52.1047,1828.8 -0.444444,52.09609999999999,1828.8 -0.434167,52.0908,1828.8 -0.419167,52.0894,1828.8 -0.406667,52.0922,1828.8 -0.398056,52.0986,1828.8 -0.395556,52.1069,1828.8 -0.399722,52.1147,1828.8 -0.409444,52.1206,1828.8 -0.4225,52.1225,1828.8 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D207 HOLBEACH</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D207 HOLBEACH</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">23000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.2,52.8083,7010.4 0.333333,52.8083,7010.4 0.408889,52.8836,7010.4 0.385278,52.9044,7010.4 0.369444,52.9142,7010.4 0.351944,52.92250000000001,7010.4 0.311944,52.935,7010.4 0.268056,52.9411,7010.4 0.223056,52.9403,7010.4 0.179722,52.9331,7010.4 0.140833,52.91919999999999,7010.4 0.123889,52.91030000000001,7010.4 0.108889,52.9,7010.4 0.2,52.8083,7010.4 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D208 STANFORD</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D208 STANFORD</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.680556,52.5542,762 0.666667,52.5167,762 0.65,52.48330000000001,762 0.75,52.4667,762 0.808333,52.43889999999999,762 0.8472219999999999,52.44720000000001,762 0.833333,52.5125,762 0.8,52.5486,762 0.75,52.5556,762 0.680556,52.5542,762 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D211 SWYNNERTON</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D211 SWYNNERTON</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2400 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.22,52.90610000000001,731.52 -2.22667,52.905,731.52 -2.23222,52.9017,731.52 -2.23389,52.8972,731.52 -2.23111,52.8928,731.52 -2.22583,52.8903,731.52 -2.21833,52.88940000000001,731.52 -2.21194,52.89109999999999,731.52 -2.2075,52.8942,731.52 -2.20611,52.89829999999999,731.52 -2.20833,52.9022,731.52 -2.21333,52.905,731.52 -2.22,52.90610000000001,731.52 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D213 KINETON</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D213 KINETON</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2400 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.44889,52.1572,731.52 -1.45417,52.1564,731.52 -1.45833,52.15390000000001,731.52 -1.45972,52.15,731.52 -1.45778,52.14670000000001,731.52 -1.4475,52.1439,731.52 -1.43917,52.1478,731.52 -1.43806,52.15109999999999,731.52 -1.43972,52.1542,731.52 -1.44889,52.1572,731.52 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D215 NORTH LUFFENHAM</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D215 NORTH LUFFENHAM</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2400 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.599167,52.6372,731.52 -0.607222,52.63439999999999,731.52 -0.608611,52.63139999999999,731.52 -0.606667,52.6283,731.52 -0.598056,52.6261,731.52 -0.5908330000000001,52.6292,731.52 -0.589722,52.6319,731.52 -0.5913890000000001,52.63470000000001,731.52 -0.599167,52.6372,731.52 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D216 CREDENHILL</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D216 CREDENHILL</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2300 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.80167,52.1147,701.04 -2.81528,52.1136,701.04 -2.827780000000001,52.1106,701.04 -2.83889,52.10560000000001,701.04 -2.84917,52.0975,701.04 -2.85417,52.0897,701.04 -2.85583,52.07920000000001,701.04 -2.853330000000001,52.0711,701.04 -2.84556,52.0617,701.04 -2.83611,52.0558,701.04 -2.82472,52.0511,701.04 -2.81194,52.0486,701.04 -2.795,52.0483,701.04 -2.78167,52.05030000000001,701.04 -2.76972,52.0544,701.04 -2.76,52.0603,701.04 -2.7525,52.06719999999999,701.04 -2.74833,52.07500000000001,701.04 -2.7475,52.0833,701.04 -2.75,52.0917,701.04 -2.75583,52.0992,701.04 -2.76444,52.10560000000001,701.04 -2.77556,52.1106,701.04 -2.78806,52.1136,701.04 -2.80167,52.1147,701.04 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D217A LLANBEDR</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D217A LLANBEDR</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.08611,52.7714,609.6 -4.08944,52.8394,609.6 -4.10278,52.84360000000001,609.6 -4.11944,52.8461,609.6 -4.13667,52.8458,609.6 -4.15333,52.84330000000001,609.6 -4.165,52.8397,609.6 -4.17806,52.83279999999999,609.6 -4.18806,52.8242,609.6 -4.19417,52.81439999999999,609.6 -4.19583,52.8017,609.6 -4.19083,52.7889,609.6 -4.17972,52.77779999999999,609.6 -4.16333,52.7692,609.6 -4.14361,52.7642,609.6 -4.12194,52.7633,609.6 -4.10111,52.76609999999999,609.6 -4.08611,52.7714,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D217B LLANBEDR</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D217B LLANBEDR</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.16083,52.8411,609.6 -4.16306,52.885,609.6 -4.18667,52.88,609.6 -4.20167,52.8747,609.6 -4.21583,52.8686,609.6 -4.23389,52.85749999999999,609.6 -4.25222,52.8397,609.6 -4.25861,52.83,609.6 -4.26278,52.8197,609.6 -4.26472,52.80939999999999,609.6 -4.26472,52.7989,609.6 -4.26222,52.7886,609.6 -4.255,52.77359999999999,609.6 -4.24306,52.75970000000001,609.6 -4.22694,52.74750000000001,609.6 -4.2075,52.7369,609.6 -4.185,52.7292,609.6 -4.16083,52.7239,609.6 -4.13528,52.7217,609.6 -4.10917,52.7222,609.6 -4.08417,52.7256,609.6 -4.08611,52.7714,609.6 -4.09722,52.7672,609.6 -4.11333,52.76390000000001,609.6 -4.13056,52.7631,609.6 -4.14778,52.765,609.6 -4.16333,52.7692,609.6 -4.17361,52.7739,609.6 -4.185,52.7819,609.6 -4.19083,52.7889,609.6 -4.19472,52.7964,609.6 -4.19611,52.80419999999999,609.6 -4.195,52.8119,609.6 -4.19167,52.81939999999999,609.6 -4.18583,52.8267,609.6 -4.17806,52.83279999999999,609.6 -4.16083,52.8411,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D217C LLANBEDR</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D217C LLANBEDR</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.32139,52.70609999999999,609.6 -4.20861,52.6592,609.6 -4.08611,52.7675,609.6 -4.08611,52.7714,609.6 -4.105,52.7653,609.6 -4.13056,52.7631,609.6 -4.15583,52.76690000000001,609.6 -4.17361,52.7739,609.6 -4.18917,52.7864,609.6 -4.19556,52.7989,609.6 -4.19611,52.80670000000001,609.6 -4.19417,52.81439999999999,609.6 -4.18583,52.8267,609.6 -4.32139,52.70609999999999,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D217D LLANBEDR</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D217D LLANBEDR</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">6000 FT AMSL</SimpleData>
+					<SimpleData name="Base">2000 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.32139,52.70609999999999,1828.8 -4.39972,52.6378,1828.8 -4.28667,52.59059999999999,1828.8 -4.20861,52.6592,1828.8 -4.32139,52.70609999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.32139,52.70609999999999,609.6 -4.39972,52.6378,609.6 -4.28667,52.59059999999999,609.6 -4.20861,52.6592,609.6 -4.32139,52.70609999999999,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.32139,52.70609999999999,1828.8 -4.39972,52.6378,1828.8 -4.39972,52.6378,609.6 -4.32139,52.70609999999999,609.6 -4.32139,52.70609999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.39972,52.6378,1828.8 -4.28667,52.59059999999999,1828.8 -4.28667,52.59059999999999,609.6 -4.39972,52.6378,609.6 -4.39972,52.6378,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.28667,52.59059999999999,1828.8 -4.20861,52.6592,1828.8 -4.20861,52.6592,609.6 -4.28667,52.59059999999999,609.6 -4.28667,52.59059999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.20861,52.6592,1828.8 -4.32139,52.70609999999999,1828.8 -4.32139,52.70609999999999,609.6 -4.20861,52.6592,609.6 -4.20861,52.6592,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D217E LLANBEDR</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D217E LLANBEDR</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.09167,52.8853,609.6 -4.08417,52.7256,609.6 -4.06194,52.7314,609.6 -4.04056,52.74000000000001,609.6 -4.02194,52.7511,609.6 -4.01167,52.75940000000001,609.6 -3.99972,52.77329999999999,609.6 -3.99417,52.7833,609.6 -3.98972,52.7986,609.6 -3.98972,52.8092,609.6 -3.99333,52.8247,609.6 -3.99861,52.8347,609.6 -4.01,52.8486,609.6 -4.02028,52.85719999999999,609.6 -4.03833,52.8683,609.6 -4.05222,52.8747,609.6 -4.06722,52.8797,609.6 -4.09167,52.8853,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D217F LLANBEDR</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D217F LLANBEDR</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.16306,52.885,609.6 -4.16083,52.8411,609.6 -4.14056,52.8456,609.6 -4.12333,52.8464,609.6 -4.10639,52.8444,609.6 -4.08944,52.8394,609.6 -4.09167,52.8853,609.6 -4.12889,52.88809999999999,609.6 -4.16306,52.885,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D217G LLANBEDR</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D217G LLANBEDR</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">6000 FT AMSL</SimpleData>
+					<SimpleData name="Base">2000 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.08611,52.7714,1828.8 -4.08944,52.8394,1828.8 -4.10278,52.84360000000001,1828.8 -4.11944,52.8461,1828.8 -4.13667,52.8458,1828.8 -4.15333,52.84330000000001,1828.8 -4.165,52.8397,1828.8 -4.17806,52.83279999999999,1828.8 -4.18806,52.8242,1828.8 -4.19417,52.81439999999999,1828.8 -4.19583,52.8017,1828.8 -4.19083,52.7889,1828.8 -4.17972,52.77779999999999,1828.8 -4.16333,52.7692,1828.8 -4.14361,52.7642,1828.8 -4.12194,52.7633,1828.8 -4.10111,52.76609999999999,1828.8 -4.08611,52.7714,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.08611,52.7714,609.6 -4.08944,52.8394,609.6 -4.10278,52.84360000000001,609.6 -4.11944,52.8461,609.6 -4.13667,52.8458,609.6 -4.15333,52.84330000000001,609.6 -4.165,52.8397,609.6 -4.17806,52.83279999999999,609.6 -4.18806,52.8242,609.6 -4.19417,52.81439999999999,609.6 -4.19583,52.8017,609.6 -4.19083,52.7889,609.6 -4.17972,52.77779999999999,609.6 -4.16333,52.7692,609.6 -4.14361,52.7642,609.6 -4.12194,52.7633,609.6 -4.10111,52.76609999999999,609.6 -4.08611,52.7714,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.08611,52.7714,1828.8 -4.08944,52.8394,1828.8 -4.08944,52.8394,609.6 -4.08611,52.7714,609.6 -4.08611,52.7714,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.08944,52.8394,1828.8 -4.10278,52.84360000000001,1828.8 -4.10278,52.84360000000001,609.6 -4.08944,52.8394,609.6 -4.08944,52.8394,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.10278,52.84360000000001,1828.8 -4.11944,52.8461,1828.8 -4.11944,52.8461,609.6 -4.10278,52.84360000000001,609.6 -4.10278,52.84360000000001,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.11944,52.8461,1828.8 -4.13667,52.8458,1828.8 -4.13667,52.8458,609.6 -4.11944,52.8461,609.6 -4.11944,52.8461,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.13667,52.8458,1828.8 -4.15333,52.84330000000001,1828.8 -4.15333,52.84330000000001,609.6 -4.13667,52.8458,609.6 -4.13667,52.8458,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.15333,52.84330000000001,1828.8 -4.165,52.8397,1828.8 -4.165,52.8397,609.6 -4.15333,52.84330000000001,609.6 -4.15333,52.84330000000001,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.165,52.8397,1828.8 -4.17806,52.83279999999999,1828.8 -4.17806,52.83279999999999,609.6 -4.165,52.8397,609.6 -4.165,52.8397,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.17806,52.83279999999999,1828.8 -4.18806,52.8242,1828.8 -4.18806,52.8242,609.6 -4.17806,52.83279999999999,609.6 -4.17806,52.83279999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.18806,52.8242,1828.8 -4.19417,52.81439999999999,1828.8 -4.19417,52.81439999999999,609.6 -4.18806,52.8242,609.6 -4.18806,52.8242,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.19417,52.81439999999999,1828.8 -4.19583,52.8017,1828.8 -4.19583,52.8017,609.6 -4.19417,52.81439999999999,609.6 -4.19417,52.81439999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.19583,52.8017,1828.8 -4.19083,52.7889,1828.8 -4.19083,52.7889,609.6 -4.19583,52.8017,609.6 -4.19583,52.8017,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.19083,52.7889,1828.8 -4.17972,52.77779999999999,1828.8 -4.17972,52.77779999999999,609.6 -4.19083,52.7889,609.6 -4.19083,52.7889,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.17972,52.77779999999999,1828.8 -4.16333,52.7692,1828.8 -4.16333,52.7692,609.6 -4.17972,52.77779999999999,609.6 -4.17972,52.77779999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.16333,52.7692,1828.8 -4.14361,52.7642,1828.8 -4.14361,52.7642,609.6 -4.16333,52.7692,609.6 -4.16333,52.7692,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.14361,52.7642,1828.8 -4.12194,52.7633,1828.8 -4.12194,52.7633,609.6 -4.14361,52.7642,609.6 -4.14361,52.7642,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.12194,52.7633,1828.8 -4.10111,52.76609999999999,1828.8 -4.10111,52.76609999999999,609.6 -4.12194,52.7633,609.6 -4.12194,52.7633,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.10111,52.76609999999999,1828.8 -4.08611,52.7714,1828.8 -4.08611,52.7714,609.6 -4.10111,52.76609999999999,609.6 -4.10111,52.76609999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D217H LLANBEDR</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D217H LLANBEDR</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">6000 FT AMSL</SimpleData>
+					<SimpleData name="Base">2000 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.16306,52.885,1828.8 -4.18667,52.88,1828.8 -4.21583,52.8686,1828.8 -4.23389,52.85749999999999,1828.8 -4.24833,52.8444,1828.8 -4.25861,52.83,1828.8 -4.26389,52.81470000000001,1828.8 -4.26472,52.7989,1828.8 -4.26222,52.7886,1828.8 -4.25806,52.7786,1828.8 -4.2475,52.7642,1828.8 -4.23278,52.7514,1828.8 -4.21444,52.7403,1828.8 -4.19278,52.7314,1828.8 -4.16917,52.7253,1828.8 -4.14389,52.7219,1828.8 -4.10917,52.7222,1828.8 -4.08417,52.7256,1828.8 -4.08611,52.7714,1828.8 -4.10111,52.76609999999999,1828.8 -4.11778,52.7636,1828.8 -4.135,52.7633,1828.8 -4.15167,52.7658,1828.8 -4.16694,52.7708,1828.8 -4.17972,52.77779999999999,1828.8 -4.18917,52.7864,1828.8 -4.19361,52.7939,1828.8 -4.19583,52.8017,1828.8 -4.19556,52.80939999999999,1828.8 -4.19,52.82190000000001,1828.8 -4.17806,52.83279999999999,1828.8 -4.16083,52.8411,1828.8 -4.16306,52.885,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.16306,52.885,609.6 -4.18667,52.88,609.6 -4.21583,52.8686,609.6 -4.23389,52.85749999999999,609.6 -4.24833,52.8444,609.6 -4.25861,52.83,609.6 -4.26389,52.81470000000001,609.6 -4.26472,52.7989,609.6 -4.26222,52.7886,609.6 -4.25806,52.7786,609.6 -4.2475,52.7642,609.6 -4.23278,52.7514,609.6 -4.21444,52.7403,609.6 -4.19278,52.7314,609.6 -4.16917,52.7253,609.6 -4.14389,52.7219,609.6 -4.10917,52.7222,609.6 -4.08417,52.7256,609.6 -4.08611,52.7714,609.6 -4.10111,52.76609999999999,609.6 -4.11778,52.7636,609.6 -4.135,52.7633,609.6 -4.15167,52.7658,609.6 -4.16694,52.7708,609.6 -4.17972,52.77779999999999,609.6 -4.18917,52.7864,609.6 -4.19361,52.7939,609.6 -4.19583,52.8017,609.6 -4.19556,52.80939999999999,609.6 -4.19,52.82190000000001,609.6 -4.17806,52.83279999999999,609.6 -4.16083,52.8411,609.6 -4.16306,52.885,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.16306,52.885,1828.8 -4.18667,52.88,1828.8 -4.18667,52.88,609.6 -4.16306,52.885,609.6 -4.16306,52.885,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.18667,52.88,1828.8 -4.21583,52.8686,1828.8 -4.21583,52.8686,609.6 -4.18667,52.88,609.6 -4.18667,52.88,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.21583,52.8686,1828.8 -4.23389,52.85749999999999,1828.8 -4.23389,52.85749999999999,609.6 -4.21583,52.8686,609.6 -4.21583,52.8686,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.23389,52.85749999999999,1828.8 -4.24833,52.8444,1828.8 -4.24833,52.8444,609.6 -4.23389,52.85749999999999,609.6 -4.23389,52.85749999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.24833,52.8444,1828.8 -4.25861,52.83,1828.8 -4.25861,52.83,609.6 -4.24833,52.8444,609.6 -4.24833,52.8444,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.25861,52.83,1828.8 -4.26389,52.81470000000001,1828.8 -4.26389,52.81470000000001,609.6 -4.25861,52.83,609.6 -4.25861,52.83,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.26389,52.81470000000001,1828.8 -4.26472,52.7989,1828.8 -4.26472,52.7989,609.6 -4.26389,52.81470000000001,609.6 -4.26389,52.81470000000001,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.26472,52.7989,1828.8 -4.26222,52.7886,1828.8 -4.26222,52.7886,609.6 -4.26472,52.7989,609.6 -4.26472,52.7989,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.26222,52.7886,1828.8 -4.25806,52.7786,1828.8 -4.25806,52.7786,609.6 -4.26222,52.7886,609.6 -4.26222,52.7886,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.25806,52.7786,1828.8 -4.2475,52.7642,1828.8 -4.2475,52.7642,609.6 -4.25806,52.7786,609.6 -4.25806,52.7786,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.2475,52.7642,1828.8 -4.23278,52.7514,1828.8 -4.23278,52.7514,609.6 -4.2475,52.7642,609.6 -4.2475,52.7642,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.23278,52.7514,1828.8 -4.21444,52.7403,1828.8 -4.21444,52.7403,609.6 -4.23278,52.7514,609.6 -4.23278,52.7514,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.21444,52.7403,1828.8 -4.19278,52.7314,1828.8 -4.19278,52.7314,609.6 -4.21444,52.7403,609.6 -4.21444,52.7403,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.19278,52.7314,1828.8 -4.16917,52.7253,1828.8 -4.16917,52.7253,609.6 -4.19278,52.7314,609.6 -4.19278,52.7314,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.16917,52.7253,1828.8 -4.14389,52.7219,1828.8 -4.14389,52.7219,609.6 -4.16917,52.7253,609.6 -4.16917,52.7253,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.14389,52.7219,1828.8 -4.10917,52.7222,1828.8 -4.10917,52.7222,609.6 -4.14389,52.7219,609.6 -4.14389,52.7219,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.10917,52.7222,1828.8 -4.08417,52.7256,1828.8 -4.08417,52.7256,609.6 -4.10917,52.7222,609.6 -4.10917,52.7222,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.08417,52.7256,1828.8 -4.08611,52.7714,1828.8 -4.08611,52.7714,609.6 -4.08417,52.7256,609.6 -4.08417,52.7256,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.08611,52.7714,1828.8 -4.10111,52.76609999999999,1828.8 -4.10111,52.76609999999999,609.6 -4.08611,52.7714,609.6 -4.08611,52.7714,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.10111,52.76609999999999,1828.8 -4.11778,52.7636,1828.8 -4.11778,52.7636,609.6 -4.10111,52.76609999999999,609.6 -4.10111,52.76609999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.11778,52.7636,1828.8 -4.135,52.7633,1828.8 -4.135,52.7633,609.6 -4.11778,52.7636,609.6 -4.11778,52.7636,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.135,52.7633,1828.8 -4.15167,52.7658,1828.8 -4.15167,52.7658,609.6 -4.135,52.7633,609.6 -4.135,52.7633,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.15167,52.7658,1828.8 -4.16694,52.7708,1828.8 -4.16694,52.7708,609.6 -4.15167,52.7658,609.6 -4.15167,52.7658,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.16694,52.7708,1828.8 -4.17972,52.77779999999999,1828.8 -4.17972,52.77779999999999,609.6 -4.16694,52.7708,609.6 -4.16694,52.7708,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.17972,52.77779999999999,1828.8 -4.18917,52.7864,1828.8 -4.18917,52.7864,609.6 -4.17972,52.77779999999999,609.6 -4.17972,52.77779999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.18917,52.7864,1828.8 -4.19361,52.7939,1828.8 -4.19361,52.7939,609.6 -4.18917,52.7864,609.6 -4.18917,52.7864,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.19361,52.7939,1828.8 -4.19583,52.8017,1828.8 -4.19583,52.8017,609.6 -4.19361,52.7939,609.6 -4.19361,52.7939,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.19583,52.8017,1828.8 -4.19556,52.80939999999999,1828.8 -4.19556,52.80939999999999,609.6 -4.19583,52.8017,609.6 -4.19583,52.8017,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.19556,52.80939999999999,1828.8 -4.19,52.82190000000001,1828.8 -4.19,52.82190000000001,609.6 -4.19556,52.80939999999999,609.6 -4.19556,52.80939999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.19,52.82190000000001,1828.8 -4.17806,52.83279999999999,1828.8 -4.17806,52.83279999999999,609.6 -4.19,52.82190000000001,609.6 -4.19,52.82190000000001,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.17806,52.83279999999999,1828.8 -4.16083,52.8411,1828.8 -4.16083,52.8411,609.6 -4.17806,52.83279999999999,609.6 -4.17806,52.83279999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.16083,52.8411,1828.8 -4.16306,52.885,1828.8 -4.16306,52.885,609.6 -4.16083,52.8411,609.6 -4.16083,52.8411,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D217I LLANBEDR</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D217I LLANBEDR</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">6000 FT AMSL</SimpleData>
+					<SimpleData name="Base">2000 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.32139,52.70609999999999,1828.8 -4.20861,52.6592,1828.8 -4.08611,52.7675,1828.8 -4.08611,52.7714,1828.8 -4.105,52.7653,1828.8 -4.13056,52.7631,1828.8 -4.15583,52.76690000000001,1828.8 -4.17361,52.7739,1828.8 -4.18917,52.7864,1828.8 -4.19556,52.7989,1828.8 -4.19611,52.80670000000001,1828.8 -4.19417,52.81439999999999,1828.8 -4.18583,52.8267,1828.8 -4.32139,52.70609999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.32139,52.70609999999999,609.6 -4.20861,52.6592,609.6 -4.08611,52.7675,609.6 -4.08611,52.7714,609.6 -4.105,52.7653,609.6 -4.13056,52.7631,609.6 -4.15583,52.76690000000001,609.6 -4.17361,52.7739,609.6 -4.18917,52.7864,609.6 -4.19556,52.7989,609.6 -4.19611,52.80670000000001,609.6 -4.19417,52.81439999999999,609.6 -4.18583,52.8267,609.6 -4.32139,52.70609999999999,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.32139,52.70609999999999,1828.8 -4.20861,52.6592,1828.8 -4.20861,52.6592,609.6 -4.32139,52.70609999999999,609.6 -4.32139,52.70609999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.20861,52.6592,1828.8 -4.08611,52.7675,1828.8 -4.08611,52.7675,609.6 -4.20861,52.6592,609.6 -4.20861,52.6592,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.08611,52.7675,1828.8 -4.08611,52.7714,1828.8 -4.08611,52.7714,609.6 -4.08611,52.7675,609.6 -4.08611,52.7675,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.08611,52.7714,1828.8 -4.105,52.7653,1828.8 -4.105,52.7653,609.6 -4.08611,52.7714,609.6 -4.08611,52.7714,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.105,52.7653,1828.8 -4.13056,52.7631,1828.8 -4.13056,52.7631,609.6 -4.105,52.7653,609.6 -4.105,52.7653,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.13056,52.7631,1828.8 -4.15583,52.76690000000001,1828.8 -4.15583,52.76690000000001,609.6 -4.13056,52.7631,609.6 -4.13056,52.7631,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.15583,52.76690000000001,1828.8 -4.17361,52.7739,1828.8 -4.17361,52.7739,609.6 -4.15583,52.76690000000001,609.6 -4.15583,52.76690000000001,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.17361,52.7739,1828.8 -4.18917,52.7864,1828.8 -4.18917,52.7864,609.6 -4.17361,52.7739,609.6 -4.17361,52.7739,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.18917,52.7864,1828.8 -4.19556,52.7989,1828.8 -4.19556,52.7989,609.6 -4.18917,52.7864,609.6 -4.18917,52.7864,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.19556,52.7989,1828.8 -4.19611,52.80670000000001,1828.8 -4.19611,52.80670000000001,609.6 -4.19556,52.7989,609.6 -4.19556,52.7989,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.19611,52.80670000000001,1828.8 -4.19417,52.81439999999999,1828.8 -4.19417,52.81439999999999,609.6 -4.19611,52.80670000000001,609.6 -4.19611,52.80670000000001,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.19417,52.81439999999999,1828.8 -4.18583,52.8267,1828.8 -4.18583,52.8267,609.6 -4.19417,52.81439999999999,609.6 -4.19417,52.81439999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.18583,52.8267,1828.8 -4.32139,52.70609999999999,1828.8 -4.32139,52.70609999999999,609.6 -4.18583,52.8267,609.6 -4.18583,52.8267,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D217J LLANBEDR</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D217J LLANBEDR</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">6000 FT AMSL</SimpleData>
+					<SimpleData name="Base">2000 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.09167,52.8853,1828.8 -4.08417,52.7256,1828.8 -4.06194,52.7314,1828.8 -4.04056,52.74000000000001,1828.8 -4.02194,52.7511,1828.8 -4.01167,52.75940000000001,1828.8 -3.99972,52.77329999999999,1828.8 -3.99417,52.7833,1828.8 -3.98972,52.7986,1828.8 -3.98972,52.8092,1828.8 -3.99333,52.8247,1828.8 -3.99861,52.8347,1828.8 -4.01,52.8486,1828.8 -4.02028,52.85719999999999,1828.8 -4.03833,52.8683,1828.8 -4.05222,52.8747,1828.8 -4.06722,52.8797,1828.8 -4.09167,52.8853,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.09167,52.8853,609.6 -4.08417,52.7256,609.6 -4.06194,52.7314,609.6 -4.04056,52.74000000000001,609.6 -4.02194,52.7511,609.6 -4.01167,52.75940000000001,609.6 -3.99972,52.77329999999999,609.6 -3.99417,52.7833,609.6 -3.98972,52.7986,609.6 -3.98972,52.8092,609.6 -3.99333,52.8247,609.6 -3.99861,52.8347,609.6 -4.01,52.8486,609.6 -4.02028,52.85719999999999,609.6 -4.03833,52.8683,609.6 -4.05222,52.8747,609.6 -4.06722,52.8797,609.6 -4.09167,52.8853,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.09167,52.8853,1828.8 -4.08417,52.7256,1828.8 -4.08417,52.7256,609.6 -4.09167,52.8853,609.6 -4.09167,52.8853,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.08417,52.7256,1828.8 -4.06194,52.7314,1828.8 -4.06194,52.7314,609.6 -4.08417,52.7256,609.6 -4.08417,52.7256,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.06194,52.7314,1828.8 -4.04056,52.74000000000001,1828.8 -4.04056,52.74000000000001,609.6 -4.06194,52.7314,609.6 -4.06194,52.7314,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.04056,52.74000000000001,1828.8 -4.02194,52.7511,1828.8 -4.02194,52.7511,609.6 -4.04056,52.74000000000001,609.6 -4.04056,52.74000000000001,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.02194,52.7511,1828.8 -4.01167,52.75940000000001,1828.8 -4.01167,52.75940000000001,609.6 -4.02194,52.7511,609.6 -4.02194,52.7511,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.01167,52.75940000000001,1828.8 -3.99972,52.77329999999999,1828.8 -3.99972,52.77329999999999,609.6 -4.01167,52.75940000000001,609.6 -4.01167,52.75940000000001,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.99972,52.77329999999999,1828.8 -3.99417,52.7833,1828.8 -3.99417,52.7833,609.6 -3.99972,52.77329999999999,609.6 -3.99972,52.77329999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.99417,52.7833,1828.8 -3.98972,52.7986,1828.8 -3.98972,52.7986,609.6 -3.99417,52.7833,609.6 -3.99417,52.7833,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.98972,52.7986,1828.8 -3.98972,52.8092,1828.8 -3.98972,52.8092,609.6 -3.98972,52.7986,609.6 -3.98972,52.7986,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.98972,52.8092,1828.8 -3.99333,52.8247,1828.8 -3.99333,52.8247,609.6 -3.98972,52.8092,609.6 -3.98972,52.8092,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.99333,52.8247,1828.8 -3.99861,52.8347,1828.8 -3.99861,52.8347,609.6 -3.99333,52.8247,609.6 -3.99333,52.8247,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.99861,52.8347,1828.8 -4.01,52.8486,1828.8 -4.01,52.8486,609.6 -3.99861,52.8347,609.6 -3.99861,52.8347,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.01,52.8486,1828.8 -4.02028,52.85719999999999,1828.8 -4.02028,52.85719999999999,609.6 -4.01,52.8486,609.6 -4.01,52.8486,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.02028,52.85719999999999,1828.8 -4.03833,52.8683,1828.8 -4.03833,52.8683,609.6 -4.02028,52.85719999999999,609.6 -4.02028,52.85719999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.03833,52.8683,1828.8 -4.05222,52.8747,1828.8 -4.05222,52.8747,609.6 -4.03833,52.8683,609.6 -4.03833,52.8683,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.05222,52.8747,1828.8 -4.06722,52.8797,1828.8 -4.06722,52.8797,609.6 -4.05222,52.8747,609.6 -4.05222,52.8747,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.06722,52.8797,1828.8 -4.09167,52.8853,1828.8 -4.09167,52.8853,609.6 -4.06722,52.8797,609.6 -4.06722,52.8797,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D217K LLANBEDR</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D217K LLANBEDR</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">6000 FT AMSL</SimpleData>
+					<SimpleData name="Base">2000 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.16306,52.885,1828.8 -4.16083,52.8411,1828.8 -4.14056,52.8456,1828.8 -4.12333,52.8464,1828.8 -4.10639,52.8444,1828.8 -4.08944,52.8394,1828.8 -4.09167,52.8853,1828.8 -4.12889,52.88809999999999,1828.8 -4.16306,52.885,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.16306,52.885,609.6 -4.16083,52.8411,609.6 -4.14056,52.8456,609.6 -4.12333,52.8464,609.6 -4.10639,52.8444,609.6 -4.08944,52.8394,609.6 -4.09167,52.8853,609.6 -4.12889,52.88809999999999,609.6 -4.16306,52.885,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.16306,52.885,1828.8 -4.16083,52.8411,1828.8 -4.16083,52.8411,609.6 -4.16306,52.885,609.6 -4.16306,52.885,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.16083,52.8411,1828.8 -4.14056,52.8456,1828.8 -4.14056,52.8456,609.6 -4.16083,52.8411,609.6 -4.16083,52.8411,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.14056,52.8456,1828.8 -4.12333,52.8464,1828.8 -4.12333,52.8464,609.6 -4.14056,52.8456,609.6 -4.14056,52.8456,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.12333,52.8464,1828.8 -4.10639,52.8444,1828.8 -4.10639,52.8444,609.6 -4.12333,52.8464,609.6 -4.12333,52.8464,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.10639,52.8444,1828.8 -4.08944,52.8394,1828.8 -4.08944,52.8394,609.6 -4.10639,52.8444,609.6 -4.10639,52.8444,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.08944,52.8394,1828.8 -4.09167,52.8853,1828.8 -4.09167,52.8853,609.6 -4.08944,52.8394,609.6 -4.08944,52.8394,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.09167,52.8853,1828.8 -4.12889,52.88809999999999,1828.8 -4.12889,52.88809999999999,609.6 -4.09167,52.8853,609.6 -4.09167,52.8853,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.12889,52.88809999999999,1828.8 -4.16306,52.885,1828.8 -4.16306,52.885,609.6 -4.12889,52.88809999999999,609.6 -4.12889,52.88809999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D304 UPPER HULME</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D304 UPPER HULME</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">3500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.95833,53.1892,1066.8 -1.97833,53.1861,1066.8 -1.98694,53.1825,1066.8 -1.99472,53.1761,1066.8 -1.99861,53.1703,1066.8 -2,53.1642,1066.8 -1.99861,53.1581,1066.8 -1.99361,53.1508,1066.8 -1.97833,53.1422,1066.8 -1.95583,53.1392,1066.8 -1.93611,53.1431,1066.8 -1.92194,53.1522,1066.8 -1.9175,53.1594,1066.8 -1.91667,53.1658,1066.8 -1.91861,53.1719,1066.8 -1.92306,53.1775,1066.8 -1.93833,53.1861,1066.8 -1.95833,53.1892,1066.8 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D305 BECKINGHAM</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D305 BECKINGHAM</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">1500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.692778,53.09830000000001,457.1999999999999 -0.7047219999999998,53.0928,457.1999999999999 -0.701389,53.0744,457.1999999999999 -0.678889,53.0742,457.1999999999999 -0.676111,53.09499999999999,457.1999999999999 -0.692778,53.09830000000001,457.1999999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D307 DONNA NOOK</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D307 DONNA NOOK</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">20000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.231667,53.3919,6096 0.269444,53.3969,6096 0.300556,53.4067,6096 0.326667,53.4206,6096 0.346111,53.4378,6096 0.352778,53.4475,6096 0.3575,53.4575,6096 0.360278,53.4681,6096 0.360556,53.4783,6096 0.3588890000000001,53.48889999999999,6096 0.355,53.49890000000001,6096 0.340556,53.5181,6096 0.318889,53.5344,6096 0.290833,53.5472,6096 0.258611,53.5553,6096 0.223889,53.5583,6096 0.188889,53.5561,6096 0.155833,53.5489,6096 0.127222,53.5369,6096 0.114722,53.5294,6096 0.0994444,53.5167,6096 0.0916667,53.5072,6096 0.0838889,53.4922,6096 0.231667,53.3919,6096 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D314 HARPUR HILL</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D314 HARPUR HILL</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2900 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.92444,53.23689999999999,883.92 -1.93111,53.2358,883.92 -1.93611,53.2331,883.92 -1.93833,53.22919999999999,883.92 -1.93667,53.22469999999999,883.92 -1.93194,53.2217,883.92 -1.92528,53.22030000000001,883.92 -1.91778,53.2214,883.92 -1.91278,53.2242,883.92 -1.91056,53.2286,883.92 -1.91222,53.23250000000001,883.92 -1.91778,53.2358,883.92 -1.92444,53.23689999999999,883.92 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D323F SOUTHERN MDA</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D323F SOUTHERN MDA</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">FL150</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.915833,54.96220000000001,20116.8 -1.06194,54.9203,20116.8 -1.1375,54.8694,20116.8 -1.21417,54.7081,20116.8 -0.921667,54.4006,20116.8 -0.915556,54.8114,20116.8 -0.915833,54.96220000000001,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.915833,54.96220000000001,4572 -1.06194,54.9203,4572 -1.1375,54.8694,4572 -1.21417,54.7081,4572 -0.921667,54.4006,4572 -0.915556,54.8114,4572 -0.915833,54.96220000000001,4572 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.915833,54.96220000000001,20116.8 -1.06194,54.9203,20116.8 -1.06194,54.9203,4572 -0.915833,54.96220000000001,4572 -0.915833,54.96220000000001,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.06194,54.9203,20116.8 -1.1375,54.8694,20116.8 -1.1375,54.8694,4572 -1.06194,54.9203,4572 -1.06194,54.9203,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.1375,54.8694,20116.8 -1.21417,54.7081,20116.8 -1.21417,54.7081,4572 -1.1375,54.8694,4572 -1.1375,54.8694,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.21417,54.7081,20116.8 -0.921667,54.4006,20116.8 -0.921667,54.4006,4572 -1.21417,54.7081,4572 -1.21417,54.7081,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.921667,54.4006,20116.8 -0.915556,54.8114,20116.8 -0.915556,54.8114,4572 -0.921667,54.4006,4572 -0.921667,54.4006,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.915556,54.8114,20116.8 -0.915833,54.96220000000001,20116.8 -0.915833,54.96220000000001,4572 -0.915556,54.8114,4572 -0.915556,54.8114,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D323G SOUTHERN MDA</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D323G SOUTHERN MDA</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">FL150</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.915556,54.8114,20116.8 -0.921667,54.4006,20116.8 -0.525556,54.5172,20116.8 -0.915556,54.8114,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.915556,54.8114,4572 -0.921667,54.4006,4572 -0.525556,54.5172,4572 -0.915556,54.8114,4572 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.915556,54.8114,20116.8 -0.921667,54.4006,20116.8 -0.921667,54.4006,4572 -0.915556,54.8114,4572 -0.915556,54.8114,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.921667,54.4006,20116.8 -0.525556,54.5172,20116.8 -0.525556,54.5172,4572 -0.921667,54.4006,4572 -0.921667,54.4006,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.525556,54.5172,20116.8 -0.915556,54.8114,20116.8 -0.915556,54.8114,4572 -0.525556,54.5172,4572 -0.525556,54.5172,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D323H SOUTHERN MDA</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D323H SOUTHERN MDA</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">FL150</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.525556,54.5172,20116.8 -0.921667,54.4006,20116.8 -0.5963889999999999,54.1239,20116.8 -0.174444,54.2475,20116.8 -0.525556,54.5172,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.525556,54.5172,4572 -0.921667,54.4006,4572 -0.5963889999999999,54.1239,4572 -0.174444,54.2475,4572 -0.525556,54.5172,4572 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.525556,54.5172,20116.8 -0.921667,54.4006,20116.8 -0.921667,54.4006,4572 -0.525556,54.5172,4572 -0.525556,54.5172,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.921667,54.4006,20116.8 -0.5963889999999999,54.1239,20116.8 -0.5963889999999999,54.1239,4572 -0.921667,54.4006,4572 -0.921667,54.4006,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.5963889999999999,54.1239,20116.8 -0.174444,54.2475,20116.8 -0.174444,54.2475,4572 -0.5963889999999999,54.1239,4572 -0.5963889999999999,54.1239,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.174444,54.2475,20116.8 -0.525556,54.5172,20116.8 -0.525556,54.5172,4572 -0.174444,54.2475,4572 -0.174444,54.2475,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D323J SOUTHERN MDA</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D323J SOUTHERN MDA</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">FL150</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.174444,54.2475,20116.8 -0.5963889999999999,54.1239,20116.8 -0.435,53.98559999999999,20116.8 -0.000555556,54.1122,20116.8 -0.174444,54.2475,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.174444,54.2475,4572 -0.5963889999999999,54.1239,4572 -0.435,53.98559999999999,4572 -0.000555556,54.1122,4572 -0.174444,54.2475,4572 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.174444,54.2475,20116.8 -0.5963889999999999,54.1239,20116.8 -0.5963889999999999,54.1239,4572 -0.174444,54.2475,4572 -0.174444,54.2475,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.5963889999999999,54.1239,20116.8 -0.435,53.98559999999999,20116.8 -0.435,53.98559999999999,4572 -0.5963889999999999,54.1239,4572 -0.5963889999999999,54.1239,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.435,53.98559999999999,20116.8 -0.000555556,54.1122,20116.8 -0.000555556,54.1122,4572 -0.435,53.98559999999999,4572 -0.435,53.98559999999999,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.000555556,54.1122,20116.8 -0.174444,54.2475,20116.8 -0.174444,54.2475,4572 -0.000555556,54.1122,4572 -0.000555556,54.1122,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D323K SOUTHERN MDA</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D323K SOUTHERN MDA</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">FL150</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.000555556,54.1122,20116.8 -0.435,53.98559999999999,20116.8 -0.134722,53.7253,20116.8 0.599167,53.6369,20116.8 -0.000555556,54.1122,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.000555556,54.1122,4572 -0.435,53.98559999999999,4572 -0.134722,53.7253,4572 0.599167,53.6369,4572 -0.000555556,54.1122,4572 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.000555556,54.1122,20116.8 -0.435,53.98559999999999,20116.8 -0.435,53.98559999999999,4572 -0.000555556,54.1122,4572 -0.000555556,54.1122,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.435,53.98559999999999,20116.8 -0.134722,53.7253,20116.8 -0.134722,53.7253,4572 -0.435,53.98559999999999,4572 -0.435,53.98559999999999,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.134722,53.7253,20116.8 0.599167,53.6369,20116.8 0.599167,53.6369,4572 -0.134722,53.7253,4572 -0.134722,53.7253,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.599167,53.6369,20116.8 -0.000555556,54.1122,20116.8 -0.000555556,54.1122,4572 0.599167,53.6369,4572 0.599167,53.6369,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>D397 SYERSTON</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D397 SYERSTON</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">5000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.911667,53.1067,1524 -0.946111,53.1039,1524 -0.978611,53.0964,1524 -1.00667,53.0839,1524 -1.01861,53.0764,1524 -1.03306,53.0633,1524 -1.04583,53.0439,1524 -1.04917,53.0336,1524 -1.04972,53.0181,1524 -1.0475,53.0078,1524 -1.04333,52.9975,1524 -1.03694,52.9878,1524 -1.02361,52.9744,1524 -0.999722,52.9592,1524 -0.9705560000000001,52.9481,1524 -0.9375,52.9417,1524 -0.894444,52.9408,1524 -0.860833,52.9458,1524 -0.8302779999999998,52.9558,1524 -0.8050000000000002,52.97029999999999,1524 -0.786389,52.9878,1524 -0.7799999999999999,52.9975,1524 -0.775833,53.0078,1524 -0.7736110000000002,53.0181,1524 -0.773333,53.0286,1524 -0.775556,53.0389,1524 -0.7799999999999999,53.0489,1524 -0.7947219999999999,53.0678,1524 -0.816667,53.0839,1524 -0.844722,53.0964,1524 -0.8772219999999999,53.1039,1524 -0.911667,53.1067,1524 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D402A LUCE BAY (N)</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D402A LUCE BAY (N)</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">3000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.08583,55.0589,914.3999999999999 -5.1525,55.03829999999999,914.3999999999999 -5.20278,54.97,914.3999999999999 -4.89778,54.63750000000001,914.3999999999999 -4.78139,54.65420000000001,914.3999999999999 -4.84222,54.6686,914.3999999999999 -4.89417,54.70420000000001,914.3999999999999 -4.94083,54.7614,914.3999999999999 -4.94806,54.8314,914.3999999999999 -4.90111,54.8689,914.3999999999999 -4.85944,54.8714,914.3999999999999 -4.82944,54.85,914.3999999999999 -4.8275,54.8356,914.3999999999999 -4.64361,54.78059999999999,914.3999999999999 -4.79556,54.93330000000001,914.3999999999999 -4.96667,54.93330000000001,914.3999999999999 -5.08583,55.0589,914.3999999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D402B LUCE BAY (N)</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D402B LUCE BAY (N)</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">3000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.08583,55.0589,914.3999999999999 -4.96667,54.93330000000001,914.3999999999999 -4.79556,54.93330000000001,914.3999999999999 -4.90278,55.0483,914.3999999999999 -5.08583,55.0589,914.3999999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D402C LUCE BAY (N)</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D402C LUCE BAY (N)</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">4000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.96444,54.9581,1219.2 -4.97139,54.9569,1219.2 -4.97667,54.95420000000001,1219.2 -4.97889,54.9503,1219.2 -4.97722,54.9458,1219.2 -4.97222,54.9428,1219.2 -4.96444,54.9414,1219.2 -4.95667,54.9428,1219.2 -4.95167,54.9458,1219.2 -4.95,54.9503,1219.2 -4.95222,54.95420000000001,1219.2 -4.9575,54.9569,1219.2 -4.96444,54.9581,1219.2 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D405 KIRKCUDBRIGHT</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D405 KIRKCUDBRIGHT</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">15000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.06361,54.7797,4572 -4.25389,54.5936,4572 -4.22806,54.5542,4572 -3.95556,54.5506,4572 -3.80167,54.6333,4572 -3.94167,54.7861,4572 -3.95139,54.80499999999999,4572 -4.01111,54.80780000000001,4572 -4.03722,54.79560000000001,4572 -4.06361,54.7797,4572 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D407 WARCOP</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D407 WARCOP</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">10000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.34639,54.6367,3048 -2.40528,54.5906,3048 -2.42667,54.5619,3048 -2.36917,54.5339,3048 -2.34528,54.53220000000001,3048 -2.2625,54.5756,3048 -2.23389,54.6314,3048 -2.24583,54.6489,3048 -2.34639,54.6367,3048 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D408 FELDOM</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D408 FELDOM</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">3000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.86639,54.47390000000001,914.3999999999999 -1.89722,54.4556,914.3999999999999 -1.86639,54.4181,914.3999999999999 -1.83444,54.4131,914.3999999999999 -1.80528,54.42029999999999,914.3999999999999 -1.78167,54.4489,914.3999999999999 -1.8225,54.4639,914.3999999999999 -1.86639,54.47390000000001,914.3999999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D410 STRENSALL</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D410 STRENSALL</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">1000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.01694,54.035,304.8 -1.02389,54.0339,304.8 -1.02889,54.0311,304.8 -1.03111,54.02719999999999,304.8 -1.02944,54.0228,304.8 -1.02444,54.0197,304.8 -1.01778,54.01830000000001,304.8 -1.01,54.0194,304.8 -1.005,54.02219999999999,304.8 -1.00278,54.02670000000001,304.8 -1.00444,54.0306,304.8 -1.01,54.0339,304.8 -1.01694,54.035,304.8 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D442 BELLERBY</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D442 BELLERBY</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">3000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.85694,54.365,914.3999999999999 -1.87417,54.3625,914.3999999999999 -1.88833,54.3542,914.3999999999999 -1.89167,54.3494,914.3999999999999 -1.89278,54.34420000000001,914.3999999999999 -1.89167,54.3389,914.3999999999999 -1.88722,54.3331,914.3999999999999 -1.87417,54.3258,914.3999999999999 -1.85472,54.32330000000001,914.3999999999999 -1.83778,54.3267,914.3999999999999 -1.82556,54.3342,914.3999999999999 -1.82194,54.3403,914.3999999999999 -1.82139,54.34559999999999,914.3999999999999 -1.82306,54.3506,914.3999999999999 -1.82667,54.3553,914.3999999999999 -1.83972,54.3625,914.3999999999999 -1.85694,54.365,914.3999999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D508 RIDSDALE</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D508 RIDSDALE</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">4100 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.16861,55.1567,1249.68 -2.17778,55.15529999999999,1249.68 -2.18472,55.1517,1249.68 -2.1875,55.14640000000001,1249.68 -2.18528,55.1406,1249.68 -2.17889,55.1367,1249.68 -2.16861,55.135,1249.68 -2.15833,55.1367,1249.68 -2.15194,55.1406,1249.68 -2.14972,55.14640000000001,1249.68 -2.1525,55.1517,1249.68 -2.15944,55.15529999999999,1249.68 -2.16861,55.1567,1249.68 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D509 CAMPBELTOWN</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D509 CAMPBELTOWN</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">55000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.65,55.2083,16764 -5.71667,55.10830000000001,16764 -5.46667,54.92999999999999,16764 -5.26167,54.9917,16764 -5.11667,55.1183,16764 -5.11,55.2083,16764 -5.65,55.2083,16764 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D510A SPADEADAM</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D510A SPADEADAM</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">5500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.88222,55.25,1676.4 -2.9,55.25,1676.4 -3,55.15,1676.4 -2.74806,55.02,1676.4 -2.88222,55.25,1676.4 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D510B SPADEADAM</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D510B SPADEADAM</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">5500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.88222,55.25,1676.4 -2.74806,55.02,1676.4 -2.70972,55.00000000000001,1676.4 -2.46444,55.00000000000001,1676.4 -2.27778,55.035,1676.4 -2.28806,55.07139999999999,1676.4 -2.29528,55.0814,1676.4 -2.66417,55.25,1676.4 -2.88222,55.25,1676.4 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D510C SPADEADAM</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D510C SPADEADAM</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">5500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.59056,55.0703,1676.4 -2.61167,55.06719999999999,1676.4 -2.6275,55.0586,1676.4 -2.63194,55.0531,1676.4 -2.63417,55.0469,1676.4 -2.63333,55.0406,1676.4 -2.62889,55.03329999999999,1676.4 -2.61389,55.0242,1676.4 -2.60389,55.02140000000001,1676.4 -2.59056,55.0203,1676.4 -2.57722,55.02140000000001,1676.4 -2.56722,55.0242,1676.4 -2.55222,55.03329999999999,1676.4 -2.54778,55.0406,1676.4 -2.54694,55.0469,1676.4 -2.54917,55.0531,1676.4 -2.55361,55.0586,1676.4 -2.56944,55.06719999999999,1676.4 -2.59056,55.0703,1676.4 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D512A OTTERBURN</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D512A OTTERBURN</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">22000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.04417,55.23830000000001,6705.6 -2.23111,55.2569,6705.6 -2.3875,55.3158,6705.6 -2.43111,55.2708,6705.6 -2.21972,55.18169999999999,6705.6 -2.04417,55.23830000000001,6705.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D512B OTTERBURN</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D512B OTTERBURN</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">18000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.23194,55.4072,5486.4 -2.33583,55.37,5486.4 -2.3875,55.3158,5486.4 -2.23111,55.2569,5486.4 -2.04417,55.23830000000001,5486.4 -2.06,55.28860000000001,5486.4 -2.23194,55.4072,5486.4 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D601 GARELOCHHEAD</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D601 GARELOCHHEAD</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">4000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.77667,56.1347,1219.2 -4.82,56.1183,1219.2 -4.82,56.0964,1219.2 -4.79444,56.0778,1219.2 -4.78222,56.0847,1219.2 -4.77667,56.1347,1219.2 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D604 BARRY BUDDON</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D604 BARRY BUDDON</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">1500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.81361,56.4803,457.1999999999999 -2.80806,56.4606,457.1999999999999 -2.66194,56.4597,457.1999999999999 -2.66944,56.4992,457.1999999999999 -2.81361,56.4803,457.1999999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D702 FORT GEORGE</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D702 FORT GEORGE</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">2100 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.01306,57.6047,640.08 -4.06056,57.5928,640.08 -4.07722,57.58220000000001,640.08 -4.04917,57.5778,640.08 -4.02444,57.5803,640.08 -4.01306,57.6047,640.08 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D703 TAIN</name>
+			<styleUrl>#StyleDANGER</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">D703 TAIN</SimpleData>
+					<SimpleData name="Category">Danger area</SimpleData>
+					<SimpleData name="Top">15000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.50833,57.8733,4572 -3.5,57.8733,4572 -3.5,58.05,4572 -3.61667,58.1167,4572 -3.74333,58.05669999999999,4572 -4.13667,57.86,4572 -4.04833,57.75000000000001,4572 -3.91667,57.75000000000001,4572 -3.775,57.8483,4572 -3.50833,57.8733,4572 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

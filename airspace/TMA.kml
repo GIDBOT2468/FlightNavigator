@@ -1,0 +1,3578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>TMA.kml</name>
+	<Schema id="AirspaceId">
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Category"><displayName>&lt;b&gt;Category:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Top"><displayName>&lt;b&gt;Ceiling:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Base"><displayName>&lt;b&gt;Floor:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Radio"><displayName>&lt;b&gt;Radio frequency (MHz):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Xpndr"><displayName>&lt;b&gt;Transponder code:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area"><displayName>&lt;b&gt;Area (Km&lt;sup&gt;2&lt;/sup&gt;):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Perimeter"><displayName>&lt;b&gt;Perimeter (Km):&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="StyleTMA">
+		<LineStyle>
+			<color>60000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>65ffdd01</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>TMA</name>
+		<Region>
+			<LatLonAltBox>
+				<north>90</north>
+				<south>-90</south>
+				<east>180</east>
+				<west>-180</west>
+				<minAltitude>0</minAltitude>
+				<maxAltitude>200000</maxAltitude>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>10000</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">2500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.921111,51.5808,5943.6 -0.921111,51.3931,5943.6 -0.7166669999999999,51.35220000000001,5943.6 -0.713611,51.35309999999999,5943.6 -0.7105559999999999,51.3506,5943.6 -0.666389,51.3431,5943.6 -0.556944,51.1706,5943.6 -0.681944,51.1422,5943.6 -0.574444,50.9756,5943.6 -0.168611,50.9281,5943.6 0.225833,50.9833,5943.6 0.261389,51.00060000000001,5943.6 0.338333,51.2047,5943.6 0.515,51.27250000000001,5943.6 0.5605560000000001,51.3461,5943.6 0.36,51.575,5943.6 0.237778,51.65220000000001,5943.6 0.385833,51.7656,5943.6 0.219167,51.7522,5943.6 0.179167,51.7564,5943.6 0.153611,51.76169999999999,5943.6 0.129167,51.7689,5943.6 0.106667,51.7781,5943.6 0.0858333,51.7889,5943.6 0.0675,51.8011,5943.6 0.0516667,51.8147,5943.6 0.0388889,51.8294,5943.6 0.0291667,51.845,5943.6 0.0216667,51.8653,5943.6 -0.00166667,51.86279999999999,5943.6 -0.00833333,51.85059999999999,5943.6 -0.668056,51.73579999999999,5943.6 -0.686111,51.70719999999999,5943.6 -0.768333,51.6089,5943.6 -0.8169440000000001,51.5875,5943.6 -0.921111,51.5808,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.921111,51.5808,762 -0.921111,51.3931,762 -0.7166669999999999,51.35220000000001,762 -0.713611,51.35309999999999,762 -0.7105559999999999,51.3506,762 -0.666389,51.3431,762 -0.556944,51.1706,762 -0.681944,51.1422,762 -0.574444,50.9756,762 -0.168611,50.9281,762 0.225833,50.9833,762 0.261389,51.00060000000001,762 0.338333,51.2047,762 0.515,51.27250000000001,762 0.5605560000000001,51.3461,762 0.36,51.575,762 0.237778,51.65220000000001,762 0.385833,51.7656,762 0.219167,51.7522,762 0.179167,51.7564,762 0.153611,51.76169999999999,762 0.129167,51.7689,762 0.106667,51.7781,762 0.0858333,51.7889,762 0.0675,51.8011,762 0.0516667,51.8147,762 0.0388889,51.8294,762 0.0291667,51.845,762 0.0216667,51.8653,762 -0.00166667,51.86279999999999,762 -0.00833333,51.85059999999999,762 -0.668056,51.73579999999999,762 -0.686111,51.70719999999999,762 -0.768333,51.6089,762 -0.8169440000000001,51.5875,762 -0.921111,51.5808,762 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.921111,51.5808,5943.6 -0.921111,51.3931,5943.6 -0.921111,51.3931,762 -0.921111,51.5808,762 -0.921111,51.5808,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.921111,51.3931,5943.6 -0.7166669999999999,51.35220000000001,5943.6 -0.7166669999999999,51.35220000000001,762 -0.921111,51.3931,762 -0.921111,51.3931,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.7166669999999999,51.35220000000001,5943.6 -0.713611,51.35309999999999,5943.6 -0.713611,51.35309999999999,762 -0.7166669999999999,51.35220000000001,762 -0.7166669999999999,51.35220000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.713611,51.35309999999999,5943.6 -0.7105559999999999,51.3506,5943.6 -0.7105559999999999,51.3506,762 -0.713611,51.35309999999999,762 -0.713611,51.35309999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.7105559999999999,51.3506,5943.6 -0.666389,51.3431,5943.6 -0.666389,51.3431,762 -0.7105559999999999,51.3506,762 -0.7105559999999999,51.3506,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.666389,51.3431,5943.6 -0.556944,51.1706,5943.6 -0.556944,51.1706,762 -0.666389,51.3431,762 -0.666389,51.3431,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.556944,51.1706,5943.6 -0.681944,51.1422,5943.6 -0.681944,51.1422,762 -0.556944,51.1706,762 -0.556944,51.1706,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.681944,51.1422,5943.6 -0.574444,50.9756,5943.6 -0.574444,50.9756,762 -0.681944,51.1422,762 -0.681944,51.1422,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.574444,50.9756,5943.6 -0.168611,50.9281,5943.6 -0.168611,50.9281,762 -0.574444,50.9756,762 -0.574444,50.9756,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.168611,50.9281,5943.6 0.225833,50.9833,5943.6 0.225833,50.9833,762 -0.168611,50.9281,762 -0.168611,50.9281,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.225833,50.9833,5943.6 0.261389,51.00060000000001,5943.6 0.261389,51.00060000000001,762 0.225833,50.9833,762 0.225833,50.9833,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.261389,51.00060000000001,5943.6 0.338333,51.2047,5943.6 0.338333,51.2047,762 0.261389,51.00060000000001,762 0.261389,51.00060000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.338333,51.2047,5943.6 0.515,51.27250000000001,5943.6 0.515,51.27250000000001,762 0.338333,51.2047,762 0.338333,51.2047,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.515,51.27250000000001,5943.6 0.5605560000000001,51.3461,5943.6 0.5605560000000001,51.3461,762 0.515,51.27250000000001,762 0.515,51.27250000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.5605560000000001,51.3461,5943.6 0.36,51.575,5943.6 0.36,51.575,762 0.5605560000000001,51.3461,762 0.5605560000000001,51.3461,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.36,51.575,5943.6 0.237778,51.65220000000001,5943.6 0.237778,51.65220000000001,762 0.36,51.575,762 0.36,51.575,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.237778,51.65220000000001,5943.6 0.385833,51.7656,5943.6 0.385833,51.7656,762 0.237778,51.65220000000001,762 0.237778,51.65220000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.385833,51.7656,5943.6 0.219167,51.7522,5943.6 0.219167,51.7522,762 0.385833,51.7656,762 0.385833,51.7656,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.219167,51.7522,5943.6 0.179167,51.7564,5943.6 0.179167,51.7564,762 0.219167,51.7522,762 0.219167,51.7522,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.179167,51.7564,5943.6 0.153611,51.76169999999999,5943.6 0.153611,51.76169999999999,762 0.179167,51.7564,762 0.179167,51.7564,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.153611,51.76169999999999,5943.6 0.129167,51.7689,5943.6 0.129167,51.7689,762 0.153611,51.76169999999999,762 0.153611,51.76169999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.129167,51.7689,5943.6 0.106667,51.7781,5943.6 0.106667,51.7781,762 0.129167,51.7689,762 0.129167,51.7689,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.106667,51.7781,5943.6 0.0858333,51.7889,5943.6 0.0858333,51.7889,762 0.106667,51.7781,762 0.106667,51.7781,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.0858333,51.7889,5943.6 0.0675,51.8011,5943.6 0.0675,51.8011,762 0.0858333,51.7889,762 0.0858333,51.7889,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.0675,51.8011,5943.6 0.0516667,51.8147,5943.6 0.0516667,51.8147,762 0.0675,51.8011,762 0.0675,51.8011,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.0516667,51.8147,5943.6 0.0388889,51.8294,5943.6 0.0388889,51.8294,762 0.0516667,51.8147,762 0.0516667,51.8147,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.0388889,51.8294,5943.6 0.0291667,51.845,5943.6 0.0291667,51.845,762 0.0388889,51.8294,762 0.0388889,51.8294,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.0291667,51.845,5943.6 0.0216667,51.8653,5943.6 0.0216667,51.8653,762 0.0291667,51.845,762 0.0291667,51.845,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.0216667,51.8653,5943.6 -0.00166667,51.86279999999999,5943.6 -0.00166667,51.86279999999999,762 0.0216667,51.8653,762 0.0216667,51.8653,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.00166667,51.86279999999999,5943.6 -0.00833333,51.85059999999999,5943.6 -0.00833333,51.85059999999999,762 -0.00166667,51.86279999999999,762 -0.00166667,51.86279999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.00833333,51.85059999999999,5943.6 -0.668056,51.73579999999999,5943.6 -0.668056,51.73579999999999,762 -0.00833333,51.85059999999999,762 -0.00833333,51.85059999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.668056,51.73579999999999,5943.6 -0.686111,51.70719999999999,5943.6 -0.686111,51.70719999999999,762 -0.668056,51.73579999999999,762 -0.668056,51.73579999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.686111,51.70719999999999,5943.6 -0.768333,51.6089,5943.6 -0.768333,51.6089,762 -0.686111,51.70719999999999,762 -0.686111,51.70719999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.768333,51.6089,5943.6 -0.8169440000000001,51.5875,5943.6 -0.8169440000000001,51.5875,762 -0.768333,51.6089,762 -0.768333,51.6089,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.8169440000000001,51.5875,5943.6 -0.921111,51.5808,5943.6 -0.921111,51.5808,762 -0.8169440000000001,51.5875,762 -0.8169440000000001,51.5875,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">3500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.230556,52.1022,5943.6 0.151944,52.04999999999999,5943.6 -0.3625,51.96189999999999,5943.6 -0.491944,51.8392,5943.6 -0.9305560000000002,51.76169999999999,5943.6 -0.821111,51.6725,5943.6 -0.8169440000000001,51.5875,5943.6 -0.768333,51.6089,5943.6 -0.686111,51.70719999999999,5943.6 -0.668056,51.73579999999999,5943.6 -0.00833333,51.85059999999999,5943.6 -0.00166667,51.86279999999999,5943.6 0.0216667,51.8653,5943.6 0.0291667,51.845,5943.6 0.0388889,51.8294,5943.6 0.0516667,51.8147,5943.6 0.0675,51.8011,5943.6 0.0858333,51.7889,5943.6 0.106667,51.7781,5943.6 0.129167,51.7689,5943.6 0.153611,51.76169999999999,5943.6 0.179167,51.7564,5943.6 0.219167,51.7522,5943.6 0.385833,51.7656,5943.6 0.237778,51.65220000000001,5943.6 0.36,51.575,5943.6 0.5605560000000001,51.3461,5943.6 0.515,51.27250000000001,5943.6 0.338333,51.2047,5943.6 0.289167,51.0739,5943.6 0.361389,51.0142,5943.6 0.771667,51.15169999999999,5943.6 0.833333,51.3556,5943.6 0.833333,51.5714,5943.6 0.736667,51.7336,5943.6 0.677778,52.0406,5943.6 0.430556,52.1017,5943.6 0.230556,52.1022,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.230556,52.1022,1066.8 0.151944,52.04999999999999,1066.8 -0.3625,51.96189999999999,1066.8 -0.491944,51.8392,1066.8 -0.9305560000000002,51.76169999999999,1066.8 -0.821111,51.6725,1066.8 -0.8169440000000001,51.5875,1066.8 -0.768333,51.6089,1066.8 -0.686111,51.70719999999999,1066.8 -0.668056,51.73579999999999,1066.8 -0.00833333,51.85059999999999,1066.8 -0.00166667,51.86279999999999,1066.8 0.0216667,51.8653,1066.8 0.0291667,51.845,1066.8 0.0388889,51.8294,1066.8 0.0516667,51.8147,1066.8 0.0675,51.8011,1066.8 0.0858333,51.7889,1066.8 0.106667,51.7781,1066.8 0.129167,51.7689,1066.8 0.153611,51.76169999999999,1066.8 0.179167,51.7564,1066.8 0.219167,51.7522,1066.8 0.385833,51.7656,1066.8 0.237778,51.65220000000001,1066.8 0.36,51.575,1066.8 0.5605560000000001,51.3461,1066.8 0.515,51.27250000000001,1066.8 0.338333,51.2047,1066.8 0.289167,51.0739,1066.8 0.361389,51.0142,1066.8 0.771667,51.15169999999999,1066.8 0.833333,51.3556,1066.8 0.833333,51.5714,1066.8 0.736667,51.7336,1066.8 0.677778,52.0406,1066.8 0.430556,52.1017,1066.8 0.230556,52.1022,1066.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.230556,52.1022,5943.6 0.151944,52.04999999999999,5943.6 0.151944,52.04999999999999,1066.8 0.230556,52.1022,1066.8 0.230556,52.1022,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.151944,52.04999999999999,5943.6 -0.3625,51.96189999999999,5943.6 -0.3625,51.96189999999999,1066.8 0.151944,52.04999999999999,1066.8 0.151944,52.04999999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.3625,51.96189999999999,5943.6 -0.491944,51.8392,5943.6 -0.491944,51.8392,1066.8 -0.3625,51.96189999999999,1066.8 -0.3625,51.96189999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.491944,51.8392,5943.6 -0.9305560000000002,51.76169999999999,5943.6 -0.9305560000000002,51.76169999999999,1066.8 -0.491944,51.8392,1066.8 -0.491944,51.8392,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.9305560000000002,51.76169999999999,5943.6 -0.821111,51.6725,5943.6 -0.821111,51.6725,1066.8 -0.9305560000000002,51.76169999999999,1066.8 -0.9305560000000002,51.76169999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.821111,51.6725,5943.6 -0.8169440000000001,51.5875,5943.6 -0.8169440000000001,51.5875,1066.8 -0.821111,51.6725,1066.8 -0.821111,51.6725,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.8169440000000001,51.5875,5943.6 -0.768333,51.6089,5943.6 -0.768333,51.6089,1066.8 -0.8169440000000001,51.5875,1066.8 -0.8169440000000001,51.5875,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.768333,51.6089,5943.6 -0.686111,51.70719999999999,5943.6 -0.686111,51.70719999999999,1066.8 -0.768333,51.6089,1066.8 -0.768333,51.6089,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.686111,51.70719999999999,5943.6 -0.668056,51.73579999999999,5943.6 -0.668056,51.73579999999999,1066.8 -0.686111,51.70719999999999,1066.8 -0.686111,51.70719999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.668056,51.73579999999999,5943.6 -0.00833333,51.85059999999999,5943.6 -0.00833333,51.85059999999999,1066.8 -0.668056,51.73579999999999,1066.8 -0.668056,51.73579999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.00833333,51.85059999999999,5943.6 -0.00166667,51.86279999999999,5943.6 -0.00166667,51.86279999999999,1066.8 -0.00833333,51.85059999999999,1066.8 -0.00833333,51.85059999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.00166667,51.86279999999999,5943.6 0.0216667,51.8653,5943.6 0.0216667,51.8653,1066.8 -0.00166667,51.86279999999999,1066.8 -0.00166667,51.86279999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.0216667,51.8653,5943.6 0.0291667,51.845,5943.6 0.0291667,51.845,1066.8 0.0216667,51.8653,1066.8 0.0216667,51.8653,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.0291667,51.845,5943.6 0.0388889,51.8294,5943.6 0.0388889,51.8294,1066.8 0.0291667,51.845,1066.8 0.0291667,51.845,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.0388889,51.8294,5943.6 0.0516667,51.8147,5943.6 0.0516667,51.8147,1066.8 0.0388889,51.8294,1066.8 0.0388889,51.8294,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.0516667,51.8147,5943.6 0.0675,51.8011,5943.6 0.0675,51.8011,1066.8 0.0516667,51.8147,1066.8 0.0516667,51.8147,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.0675,51.8011,5943.6 0.0858333,51.7889,5943.6 0.0858333,51.7889,1066.8 0.0675,51.8011,1066.8 0.0675,51.8011,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.0858333,51.7889,5943.6 0.106667,51.7781,5943.6 0.106667,51.7781,1066.8 0.0858333,51.7889,1066.8 0.0858333,51.7889,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.106667,51.7781,5943.6 0.129167,51.7689,5943.6 0.129167,51.7689,1066.8 0.106667,51.7781,1066.8 0.106667,51.7781,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.129167,51.7689,5943.6 0.153611,51.76169999999999,5943.6 0.153611,51.76169999999999,1066.8 0.129167,51.7689,1066.8 0.129167,51.7689,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.153611,51.76169999999999,5943.6 0.179167,51.7564,5943.6 0.179167,51.7564,1066.8 0.153611,51.76169999999999,1066.8 0.153611,51.76169999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.179167,51.7564,5943.6 0.219167,51.7522,5943.6 0.219167,51.7522,1066.8 0.179167,51.7564,1066.8 0.179167,51.7564,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.219167,51.7522,5943.6 0.385833,51.7656,5943.6 0.385833,51.7656,1066.8 0.219167,51.7522,1066.8 0.219167,51.7522,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.385833,51.7656,5943.6 0.237778,51.65220000000001,5943.6 0.237778,51.65220000000001,1066.8 0.385833,51.7656,1066.8 0.385833,51.7656,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.237778,51.65220000000001,5943.6 0.36,51.575,5943.6 0.36,51.575,1066.8 0.237778,51.65220000000001,1066.8 0.237778,51.65220000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.36,51.575,5943.6 0.5605560000000001,51.3461,5943.6 0.5605560000000001,51.3461,1066.8 0.36,51.575,1066.8 0.36,51.575,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.5605560000000001,51.3461,5943.6 0.515,51.27250000000001,5943.6 0.515,51.27250000000001,1066.8 0.5605560000000001,51.3461,1066.8 0.5605560000000001,51.3461,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.515,51.27250000000001,5943.6 0.338333,51.2047,5943.6 0.338333,51.2047,1066.8 0.515,51.27250000000001,1066.8 0.515,51.27250000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.338333,51.2047,5943.6 0.289167,51.0739,5943.6 0.289167,51.0739,1066.8 0.338333,51.2047,1066.8 0.338333,51.2047,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.289167,51.0739,5943.6 0.361389,51.0142,5943.6 0.361389,51.0142,1066.8 0.289167,51.0739,1066.8 0.289167,51.0739,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.361389,51.0142,5943.6 0.771667,51.15169999999999,5943.6 0.771667,51.15169999999999,1066.8 0.361389,51.0142,1066.8 0.361389,51.0142,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.771667,51.15169999999999,5943.6 0.833333,51.3556,5943.6 0.833333,51.3556,1066.8 0.771667,51.15169999999999,1066.8 0.771667,51.15169999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.833333,51.3556,5943.6 0.833333,51.5714,5943.6 0.833333,51.5714,1066.8 0.833333,51.3556,1066.8 0.833333,51.3556,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.833333,51.5714,5943.6 0.736667,51.7336,5943.6 0.736667,51.7336,1066.8 0.833333,51.5714,1066.8 0.833333,51.5714,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.736667,51.7336,5943.6 0.677778,52.0406,5943.6 0.677778,52.0406,1066.8 0.736667,51.7336,1066.8 0.736667,51.7336,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.677778,52.0406,5943.6 0.430556,52.1017,5943.6 0.430556,52.1017,1066.8 0.677778,52.0406,1066.8 0.677778,52.0406,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.430556,52.1017,5943.6 0.230556,52.1022,5943.6 0.230556,52.1022,1066.8 0.430556,52.1017,1066.8 0.430556,52.1017,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">3500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,51.4083,5943.6 -0.706667,50.9578,5943.6 -0.574444,50.9756,5943.6 -0.681944,51.1422,5943.6 -0.556944,51.1706,5943.6 -0.666389,51.3431,5943.6 -0.7105559999999999,51.3506,5943.6 -0.713056,51.3533,5943.6 -0.7166669999999999,51.35220000000001,5943.6 -0.921111,51.3931,5943.6 -0.921111,51.5808,5943.6 -1,51.5758,5943.6 -1,51.4083,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,51.4083,1066.8 -0.706667,50.9578,1066.8 -0.574444,50.9756,1066.8 -0.681944,51.1422,1066.8 -0.556944,51.1706,1066.8 -0.666389,51.3431,1066.8 -0.7105559999999999,51.3506,1066.8 -0.713056,51.3533,1066.8 -0.7166669999999999,51.35220000000001,1066.8 -0.921111,51.3931,1066.8 -0.921111,51.5808,1066.8 -1,51.5758,1066.8 -1,51.4083,1066.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,51.4083,5943.6 -0.706667,50.9578,5943.6 -0.706667,50.9578,1066.8 -1,51.4083,1066.8 -1,51.4083,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.706667,50.9578,5943.6 -0.574444,50.9756,5943.6 -0.574444,50.9756,1066.8 -0.706667,50.9578,1066.8 -0.706667,50.9578,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.574444,50.9756,5943.6 -0.681944,51.1422,5943.6 -0.681944,51.1422,1066.8 -0.574444,50.9756,1066.8 -0.574444,50.9756,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.681944,51.1422,5943.6 -0.556944,51.1706,5943.6 -0.556944,51.1706,1066.8 -0.681944,51.1422,1066.8 -0.681944,51.1422,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.556944,51.1706,5943.6 -0.666389,51.3431,5943.6 -0.666389,51.3431,1066.8 -0.556944,51.1706,1066.8 -0.556944,51.1706,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.666389,51.3431,5943.6 -0.7105559999999999,51.3506,5943.6 -0.7105559999999999,51.3506,1066.8 -0.666389,51.3431,1066.8 -0.666389,51.3431,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.7105559999999999,51.3506,5943.6 -0.713056,51.3533,5943.6 -0.713056,51.3533,1066.8 -0.7105559999999999,51.3506,1066.8 -0.7105559999999999,51.3506,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.713056,51.3533,5943.6 -0.7166669999999999,51.35220000000001,5943.6 -0.7166669999999999,51.35220000000001,1066.8 -0.713056,51.3533,1066.8 -0.713056,51.3533,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.7166669999999999,51.35220000000001,5943.6 -0.921111,51.3931,5943.6 -0.921111,51.3931,1066.8 -0.7166669999999999,51.35220000000001,1066.8 -0.7166669999999999,51.35220000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.921111,51.3931,5943.6 -0.921111,51.5808,5943.6 -0.921111,51.5808,1066.8 -0.921111,51.3931,1066.8 -0.921111,51.3931,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.921111,51.5808,5943.6 -1,51.5758,5943.6 -1,51.5758,1066.8 -0.921111,51.5808,1066.8 -0.921111,51.5808,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,51.5758,5943.6 -1,51.4083,5943.6 -1,51.4083,1066.8 -1,51.5758,1066.8 -1,51.5758,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">4500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.921111,51.5808,5943.6 -0.8169440000000001,51.5875,5943.6 -0.821111,51.6725,5943.6 -0.9305560000000002,51.76169999999999,5943.6 -1,51.7492,5943.6 -0.921111,51.5808,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.921111,51.5808,1371.6 -0.8169440000000001,51.5875,1371.6 -0.821111,51.6725,1371.6 -0.9305560000000002,51.76169999999999,1371.6 -1,51.7492,1371.6 -0.921111,51.5808,1371.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.921111,51.5808,5943.6 -0.8169440000000001,51.5875,5943.6 -0.8169440000000001,51.5875,1371.6 -0.921111,51.5808,1371.6 -0.921111,51.5808,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.8169440000000001,51.5875,5943.6 -0.821111,51.6725,5943.6 -0.821111,51.6725,1371.6 -0.8169440000000001,51.5875,1371.6 -0.8169440000000001,51.5875,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.821111,51.6725,5943.6 -0.9305560000000002,51.76169999999999,5943.6 -0.9305560000000002,51.76169999999999,1371.6 -0.821111,51.6725,1371.6 -0.821111,51.6725,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.9305560000000002,51.76169999999999,5943.6 -1,51.7492,5943.6 -1,51.7492,1371.6 -0.9305560000000002,51.76169999999999,1371.6 -0.9305560000000002,51.76169999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,51.7492,5943.6 -0.921111,51.5808,5943.6 -0.921111,51.5808,1371.6 -1,51.7492,1371.6 -1,51.7492,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">4500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.286667,52.1017,5943.6 -0.475556,52.0106,5943.6 -0.3625,51.96189999999999,5943.6 0.151944,52.04999999999999,5943.6 0.230556,52.1022,5943.6 -0.286667,52.1017,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.286667,52.1017,1371.6 -0.475556,52.0106,1371.6 -0.3625,51.96189999999999,1371.6 0.151944,52.04999999999999,1371.6 0.230556,52.1022,1371.6 -0.286667,52.1017,1371.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.286667,52.1017,5943.6 -0.475556,52.0106,5943.6 -0.475556,52.0106,1371.6 -0.286667,52.1017,1371.6 -0.286667,52.1017,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.475556,52.0106,5943.6 -0.3625,51.96189999999999,5943.6 -0.3625,51.96189999999999,1371.6 -0.475556,52.0106,1371.6 -0.475556,52.0106,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.3625,51.96189999999999,5943.6 0.151944,52.04999999999999,5943.6 0.151944,52.04999999999999,1371.6 -0.3625,51.96189999999999,1371.6 -0.3625,51.96189999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.151944,52.04999999999999,5943.6 0.230556,52.1022,5943.6 0.230556,52.1022,1371.6 0.151944,52.04999999999999,1371.6 0.151944,52.04999999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.230556,52.1022,5943.6 -0.286667,52.1017,5943.6 -0.286667,52.1017,1371.6 0.230556,52.1022,1371.6 0.230556,52.1022,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">4500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.736667,51.7336,5943.6 0.833333,51.5714,5943.6 0.925556,51.605,5943.6 0.8438889999999999,51.7419,5943.6 0.79,52.01250000000001,5943.6 0.677778,52.0406,5943.6 0.736667,51.7336,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.736667,51.7336,1371.6 0.833333,51.5714,1371.6 0.925556,51.605,1371.6 0.8438889999999999,51.7419,1371.6 0.79,52.01250000000001,1371.6 0.677778,52.0406,1371.6 0.736667,51.7336,1371.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.736667,51.7336,5943.6 0.833333,51.5714,5943.6 0.833333,51.5714,1371.6 0.736667,51.7336,1371.6 0.736667,51.7336,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.833333,51.5714,5943.6 0.925556,51.605,5943.6 0.925556,51.605,1371.6 0.833333,51.5714,1371.6 0.833333,51.5714,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.925556,51.605,5943.6 0.8438889999999999,51.7419,5943.6 0.8438889999999999,51.7419,1371.6 0.925556,51.605,1371.6 0.925556,51.605,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.8438889999999999,51.7419,5943.6 0.79,52.01250000000001,5943.6 0.79,52.01250000000001,1371.6 0.8438889999999999,51.7419,1371.6 0.8438889999999999,51.7419,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.79,52.01250000000001,5943.6 0.677778,52.0406,5943.6 0.677778,52.0406,1371.6 0.79,52.01250000000001,1371.6 0.79,52.01250000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.677778,52.0406,5943.6 0.736667,51.7336,5943.6 0.736667,51.7336,1371.6 0.677778,52.0406,1371.6 0.677778,52.0406,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">5500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.79,52.01250000000001,5943.6 0.8438889999999999,51.7419,5943.6 0.925556,51.605,5943.6 0.833333,51.5714,5943.6 0.833333,51.3556,5943.6 0.771667,51.15169999999999,5943.6 -0.0716667,50.8658,5943.6 -0.354167,50.9081,5943.6 -0.3822220000000001,50.91670000000001,5943.6 -0.637222,50.91670000000001,5943.6 -0.372222,50.66670000000001,5943.6 0.5,50.66670000000001,5943.6 0.75,50.7519,5943.6 1.04083,50.9783,5943.6 1.26361,51.3797,5943.6 1.41667,51.6514,5943.6 1.44306,51.8728,5943.6 1.38389,51.9844,5943.6 1.11806,51.92999999999999,5943.6 0.79,52.01250000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.79,52.01250000000001,1676.4 0.8438889999999999,51.7419,1676.4 0.925556,51.605,1676.4 0.833333,51.5714,1676.4 0.833333,51.3556,1676.4 0.771667,51.15169999999999,1676.4 -0.0716667,50.8658,1676.4 -0.354167,50.9081,1676.4 -0.3822220000000001,50.91670000000001,1676.4 -0.637222,50.91670000000001,1676.4 -0.372222,50.66670000000001,1676.4 0.5,50.66670000000001,1676.4 0.75,50.7519,1676.4 1.04083,50.9783,1676.4 1.26361,51.3797,1676.4 1.41667,51.6514,1676.4 1.44306,51.8728,1676.4 1.38389,51.9844,1676.4 1.11806,51.92999999999999,1676.4 0.79,52.01250000000001,1676.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.79,52.01250000000001,5943.6 0.8438889999999999,51.7419,5943.6 0.8438889999999999,51.7419,1676.4 0.79,52.01250000000001,1676.4 0.79,52.01250000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.8438889999999999,51.7419,5943.6 0.925556,51.605,5943.6 0.925556,51.605,1676.4 0.8438889999999999,51.7419,1676.4 0.8438889999999999,51.7419,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.925556,51.605,5943.6 0.833333,51.5714,5943.6 0.833333,51.5714,1676.4 0.925556,51.605,1676.4 0.925556,51.605,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.833333,51.5714,5943.6 0.833333,51.3556,5943.6 0.833333,51.3556,1676.4 0.833333,51.5714,1676.4 0.833333,51.5714,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.833333,51.3556,5943.6 0.771667,51.15169999999999,5943.6 0.771667,51.15169999999999,1676.4 0.833333,51.3556,1676.4 0.833333,51.3556,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.771667,51.15169999999999,5943.6 -0.0716667,50.8658,5943.6 -0.0716667,50.8658,1676.4 0.771667,51.15169999999999,1676.4 0.771667,51.15169999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.0716667,50.8658,5943.6 -0.354167,50.9081,5943.6 -0.354167,50.9081,1676.4 -0.0716667,50.8658,1676.4 -0.0716667,50.8658,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.354167,50.9081,5943.6 -0.3822220000000001,50.91670000000001,5943.6 -0.3822220000000001,50.91670000000001,1676.4 -0.354167,50.9081,1676.4 -0.354167,50.9081,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.3822220000000001,50.91670000000001,5943.6 -0.637222,50.91670000000001,5943.6 -0.637222,50.91670000000001,1676.4 -0.3822220000000001,50.91670000000001,1676.4 -0.3822220000000001,50.91670000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.637222,50.91670000000001,5943.6 -0.372222,50.66670000000001,5943.6 -0.372222,50.66670000000001,1676.4 -0.637222,50.91670000000001,1676.4 -0.637222,50.91670000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.372222,50.66670000000001,5943.6 0.5,50.66670000000001,5943.6 0.5,50.66670000000001,1676.4 -0.372222,50.66670000000001,1676.4 -0.372222,50.66670000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.5,50.66670000000001,5943.6 0.75,50.7519,5943.6 0.75,50.7519,1676.4 0.5,50.66670000000001,1676.4 0.5,50.66670000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.75,50.7519,5943.6 1.04083,50.9783,5943.6 1.04083,50.9783,1676.4 0.75,50.7519,1676.4 0.75,50.7519,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								1.04083,50.9783,5943.6 1.26361,51.3797,5943.6 1.26361,51.3797,1676.4 1.04083,50.9783,1676.4 1.04083,50.9783,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								1.26361,51.3797,5943.6 1.41667,51.6514,5943.6 1.41667,51.6514,1676.4 1.26361,51.3797,1676.4 1.26361,51.3797,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								1.41667,51.6514,5943.6 1.44306,51.8728,5943.6 1.44306,51.8728,1676.4 1.41667,51.6514,1676.4 1.41667,51.6514,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								1.44306,51.8728,5943.6 1.38389,51.9844,5943.6 1.38389,51.9844,1676.4 1.44306,51.8728,1676.4 1.44306,51.8728,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								1.38389,51.9844,5943.6 1.11806,51.92999999999999,5943.6 1.11806,51.92999999999999,1676.4 1.38389,51.9844,1676.4 1.38389,51.9844,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								1.11806,51.92999999999999,5943.6 0.79,52.01250000000001,5943.6 0.79,52.01250000000001,1676.4 1.11806,51.92999999999999,1676.4 1.11806,51.92999999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">5500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.366389,52.1844,5943.6 -0.286667,52.1017,5943.6 0.430556,52.1017,5943.6 0.0911111,52.1844,5943.6 -0.366389,52.1844,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.366389,52.1844,1676.4 -0.286667,52.1017,1676.4 0.430556,52.1017,1676.4 0.0911111,52.1844,1676.4 -0.366389,52.1844,1676.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.366389,52.1844,5943.6 -0.286667,52.1017,5943.6 -0.286667,52.1017,1676.4 -0.366389,52.1844,1676.4 -0.366389,52.1844,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.286667,52.1017,5943.6 0.430556,52.1017,5943.6 0.430556,52.1017,1676.4 -0.286667,52.1017,1676.4 -0.286667,52.1017,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.430556,52.1017,5943.6 0.0911111,52.1844,5943.6 0.0911111,52.1844,1676.4 0.430556,52.1017,1676.4 0.430556,52.1017,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.0911111,52.1844,5943.6 -0.366389,52.1844,5943.6 -0.366389,52.1844,1676.4 0.0911111,52.1844,1676.4 0.0911111,52.1844,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">5500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,51.7492,5943.6 -1.19389,51.5731,5943.6 -1,51.5506,5943.6 -1,51.5758,5943.6 -0.921111,51.5808,5943.6 -1,51.7492,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,51.7492,1676.4 -1.19389,51.5731,1676.4 -1,51.5506,1676.4 -1,51.5758,1676.4 -0.921111,51.5808,1676.4 -1,51.7492,1676.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,51.7492,5943.6 -1.19389,51.5731,5943.6 -1.19389,51.5731,1676.4 -1,51.7492,1676.4 -1,51.7492,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.19389,51.5731,5943.6 -1,51.5506,5943.6 -1,51.5506,1676.4 -1.19389,51.5731,1676.4 -1.19389,51.5731,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,51.5506,5943.6 -1,51.5758,5943.6 -1,51.5758,1676.4 -1,51.5506,1676.4 -1,51.5506,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,51.5758,5943.6 -0.921111,51.5808,5943.6 -0.921111,51.5808,1676.4 -1,51.5758,1676.4 -1,51.5758,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.921111,51.5808,5943.6 -1,51.7492,5943.6 -1,51.7492,1676.4 -0.921111,51.5808,1676.4 -0.921111,51.5808,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">4500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.19389,51.5731,5943.6 -1.24556,51.40970000000001,5943.6 -1.13944,51.3967,5943.6 -1.155,51.3322,5943.6 -0.9636110000000001,51.2597,5943.6 -0.942778,51.2747,5943.6 -0.918889,51.28470000000001,5943.6 -1,51.4083,5943.6 -1,51.5506,5943.6 -1.19389,51.5731,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.19389,51.5731,1371.6 -1.24556,51.40970000000001,1371.6 -1.13944,51.3967,1371.6 -1.155,51.3322,1371.6 -0.9636110000000001,51.2597,1371.6 -0.942778,51.2747,1371.6 -0.918889,51.28470000000001,1371.6 -1,51.4083,1371.6 -1,51.5506,1371.6 -1.19389,51.5731,1371.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.19389,51.5731,5943.6 -1.24556,51.40970000000001,5943.6 -1.24556,51.40970000000001,1371.6 -1.19389,51.5731,1371.6 -1.19389,51.5731,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.24556,51.40970000000001,5943.6 -1.13944,51.3967,5943.6 -1.13944,51.3967,1371.6 -1.24556,51.40970000000001,1371.6 -1.24556,51.40970000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.13944,51.3967,5943.6 -1.155,51.3322,5943.6 -1.155,51.3322,1371.6 -1.13944,51.3967,1371.6 -1.13944,51.3967,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.155,51.3322,5943.6 -0.9636110000000001,51.2597,5943.6 -0.9636110000000001,51.2597,1371.6 -1.155,51.3322,1371.6 -1.155,51.3322,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.9636110000000001,51.2597,5943.6 -0.942778,51.2747,5943.6 -0.942778,51.2747,1371.6 -0.9636110000000001,51.2597,1371.6 -0.9636110000000001,51.2597,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.942778,51.2747,5943.6 -0.918889,51.28470000000001,5943.6 -0.918889,51.28470000000001,1371.6 -0.942778,51.2747,1371.6 -0.942778,51.2747,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.918889,51.28470000000001,5943.6 -1,51.4083,5943.6 -1,51.4083,1371.6 -0.918889,51.28470000000001,1371.6 -0.918889,51.28470000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,51.4083,5943.6 -1,51.5506,5943.6 -1,51.5506,1371.6 -1,51.4083,1371.6 -1,51.4083,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,51.5506,5943.6 -1.19389,51.5731,5943.6 -1.19389,51.5731,1371.6 -1,51.5506,1371.6 -1,51.5506,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">5500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.155,51.3322,5943.6 -1.22,51.0581,5943.6 -1.11583,51.0722,5943.6 -1.05972,50.90969999999999,5943.6 -1.28722,50.8244,5943.6 -0.870556,50.8133,5943.6 -0.985556,50.92,5943.6 -0.8552780000000001,50.9378,5943.6 -0.910833,51.1006,5943.6 -0.8080559999999999,51.1144,5943.6 -0.919167,51.285,5943.6 -0.942778,51.2747,5943.6 -0.963333,51.2597,5943.6 -1.155,51.3322,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.155,51.3322,1676.4 -1.22,51.0581,1676.4 -1.11583,51.0722,1676.4 -1.05972,50.90969999999999,1676.4 -1.28722,50.8244,1676.4 -0.870556,50.8133,1676.4 -0.985556,50.92,1676.4 -0.8552780000000001,50.9378,1676.4 -0.910833,51.1006,1676.4 -0.8080559999999999,51.1144,1676.4 -0.919167,51.285,1676.4 -0.942778,51.2747,1676.4 -0.963333,51.2597,1676.4 -1.155,51.3322,1676.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.155,51.3322,5943.6 -1.22,51.0581,5943.6 -1.22,51.0581,1676.4 -1.155,51.3322,1676.4 -1.155,51.3322,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.22,51.0581,5943.6 -1.11583,51.0722,5943.6 -1.11583,51.0722,1676.4 -1.22,51.0581,1676.4 -1.22,51.0581,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.11583,51.0722,5943.6 -1.05972,50.90969999999999,5943.6 -1.05972,50.90969999999999,1676.4 -1.11583,51.0722,1676.4 -1.11583,51.0722,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.05972,50.90969999999999,5943.6 -1.28722,50.8244,5943.6 -1.28722,50.8244,1676.4 -1.05972,50.90969999999999,1676.4 -1.05972,50.90969999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.28722,50.8244,5943.6 -0.870556,50.8133,5943.6 -0.870556,50.8133,1676.4 -1.28722,50.8244,1676.4 -1.28722,50.8244,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.870556,50.8133,5943.6 -0.985556,50.92,5943.6 -0.985556,50.92,1676.4 -0.870556,50.8133,1676.4 -0.870556,50.8133,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.985556,50.92,5943.6 -0.8552780000000001,50.9378,5943.6 -0.8552780000000001,50.9378,1676.4 -0.985556,50.92,1676.4 -0.985556,50.92,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.8552780000000001,50.9378,5943.6 -0.910833,51.1006,5943.6 -0.910833,51.1006,1676.4 -0.8552780000000001,50.9378,1676.4 -0.8552780000000001,50.9378,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.910833,51.1006,5943.6 -0.8080559999999999,51.1144,5943.6 -0.8080559999999999,51.1144,1676.4 -0.910833,51.1006,1676.4 -0.910833,51.1006,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.8080559999999999,51.1144,5943.6 -0.919167,51.285,5943.6 -0.919167,51.285,1676.4 -0.8080559999999999,51.1144,1676.4 -0.8080559999999999,51.1144,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.919167,51.285,5943.6 -0.942778,51.2747,5943.6 -0.942778,51.2747,1676.4 -0.919167,51.285,1676.4 -0.919167,51.285,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.942778,51.2747,5943.6 -0.963333,51.2597,5943.6 -0.963333,51.2597,1676.4 -0.942778,51.2747,1676.4 -0.942778,51.2747,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.963333,51.2597,5943.6 -1.155,51.3322,5943.6 -1.155,51.3322,1676.4 -0.963333,51.2597,1676.4 -0.963333,51.2597,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">5000 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.6844440000000001,50.9608,5943.6 -0.637222,50.91670000000001,5943.6 -0.3822220000000001,50.91670000000001,5943.6 -0.574444,50.9756,5943.6 -0.6844440000000001,50.9608,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.6844440000000001,50.9608,1524 -0.637222,50.91670000000001,1524 -0.3822220000000001,50.91670000000001,1524 -0.574444,50.9756,1524 -0.6844440000000001,50.9608,1524 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.6844440000000001,50.9608,5943.6 -0.637222,50.91670000000001,5943.6 -0.637222,50.91670000000001,1524 -0.6844440000000001,50.9608,1524 -0.6844440000000001,50.9608,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.637222,50.91670000000001,5943.6 -0.3822220000000001,50.91670000000001,5943.6 -0.3822220000000001,50.91670000000001,1524 -0.637222,50.91670000000001,1524 -0.637222,50.91670000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.3822220000000001,50.91670000000001,5943.6 -0.574444,50.9756,5943.6 -0.574444,50.9756,1524 -0.3822220000000001,50.91670000000001,1524 -0.3822220000000001,50.91670000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.574444,50.9756,5943.6 -0.6844440000000001,50.9608,5943.6 -0.6844440000000001,50.9608,1524 -0.574444,50.9756,1524 -0.574444,50.9756,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">5500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.450278,52.0967,5943.6 0.813333,52.0067,5943.6 0.863611,52.1203,5943.6 0.450278,52.0967,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.450278,52.0967,1676.4 0.813333,52.0067,1676.4 0.863611,52.1203,1676.4 0.450278,52.0967,1676.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.450278,52.0967,5943.6 0.813333,52.0067,5943.6 0.813333,52.0067,1676.4 0.450278,52.0967,1676.4 0.450278,52.0967,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.813333,52.0067,5943.6 0.863611,52.1203,5943.6 0.863611,52.1203,1676.4 0.813333,52.0067,1676.4 0.813333,52.0067,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.863611,52.1203,5943.6 0.450278,52.0967,5943.6 0.450278,52.0967,1676.4 0.863611,52.1203,1676.4 0.863611,52.1203,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">FL75</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.813333,52.0067,5943.6 0.9666670000000001,51.9683,5943.6 0.863611,52.1203,5943.6 0.813333,52.0067,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.813333,52.0067,2286 0.9666670000000001,51.9683,2286 0.863611,52.1203,2286 0.813333,52.0067,2286 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.813333,52.0067,5943.6 0.9666670000000001,51.9683,5943.6 0.9666670000000001,51.9683,2286 0.813333,52.0067,2286 0.813333,52.0067,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.9666670000000001,51.9683,5943.6 0.863611,52.1203,5943.6 0.863611,52.1203,2286 0.9666670000000001,51.9683,2286 0.9666670000000001,51.9683,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.863611,52.1203,5943.6 0.813333,52.0067,5943.6 0.813333,52.0067,2286 0.863611,52.1203,2286 0.863611,52.1203,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">FL75</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.450278,52.0967,5943.6 0.863611,52.1203,5943.6 0.805278,52.2058,5943.6 0.545,52.1844,5943.6 0.0911111,52.1844,5943.6 0.450278,52.0967,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.450278,52.0967,2286 0.863611,52.1203,2286 0.805278,52.2058,2286 0.545,52.1844,2286 0.0911111,52.1844,2286 0.450278,52.0967,2286 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.450278,52.0967,5943.6 0.863611,52.1203,5943.6 0.863611,52.1203,2286 0.450278,52.0967,2286 0.450278,52.0967,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.863611,52.1203,5943.6 0.805278,52.2058,5943.6 0.805278,52.2058,2286 0.863611,52.1203,2286 0.863611,52.1203,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.805278,52.2058,5943.6 0.545,52.1844,5943.6 0.545,52.1844,2286 0.805278,52.2058,2286 0.805278,52.2058,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.545,52.1844,5943.6 0.0911111,52.1844,5943.6 0.0911111,52.1844,2286 0.545,52.1844,2286 0.545,52.1844,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.0911111,52.1844,5943.6 0.450278,52.0967,5943.6 0.450278,52.0967,2286 0.0911111,52.1844,2286 0.0911111,52.1844,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">5500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.19056,51.9625,5943.6 -1.01139,51.7389,5943.6 -1,51.7492,5943.6 -0.491944,51.8392,5943.6 -0.3625,51.96189999999999,5943.6 -0.475556,52.0106,5943.6 -0.286667,52.1017,5943.6 -0.372222,52.1906,5943.6 -0.578056,52.0544,5943.6 -0.62,52.0725,5943.6 -1.19056,51.9625,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.19056,51.9625,1676.4 -1.01139,51.7389,1676.4 -1,51.7492,1676.4 -0.491944,51.8392,1676.4 -0.3625,51.96189999999999,1676.4 -0.475556,52.0106,1676.4 -0.286667,52.1017,1676.4 -0.372222,52.1906,1676.4 -0.578056,52.0544,1676.4 -0.62,52.0725,1676.4 -1.19056,51.9625,1676.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.19056,51.9625,5943.6 -1.01139,51.7389,5943.6 -1.01139,51.7389,1676.4 -1.19056,51.9625,1676.4 -1.19056,51.9625,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.01139,51.7389,5943.6 -1,51.7492,5943.6 -1,51.7492,1676.4 -1.01139,51.7389,1676.4 -1.01139,51.7389,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,51.7492,5943.6 -0.491944,51.8392,5943.6 -0.491944,51.8392,1676.4 -1,51.7492,1676.4 -1,51.7492,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.491944,51.8392,5943.6 -0.3625,51.96189999999999,5943.6 -0.3625,51.96189999999999,1676.4 -0.491944,51.8392,1676.4 -0.491944,51.8392,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.3625,51.96189999999999,5943.6 -0.475556,52.0106,5943.6 -0.475556,52.0106,1676.4 -0.3625,51.96189999999999,1676.4 -0.3625,51.96189999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.475556,52.0106,5943.6 -0.286667,52.1017,5943.6 -0.286667,52.1017,1676.4 -0.475556,52.0106,1676.4 -0.475556,52.0106,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.286667,52.1017,5943.6 -0.372222,52.1906,5943.6 -0.372222,52.1906,1676.4 -0.286667,52.1017,1676.4 -0.286667,52.1017,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.372222,52.1906,5943.6 -0.578056,52.0544,5943.6 -0.578056,52.0544,1676.4 -0.372222,52.1906,1676.4 -0.372222,52.1906,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.578056,52.0544,5943.6 -0.62,52.0725,5943.6 -0.62,52.0725,1676.4 -0.578056,52.0544,1676.4 -0.578056,52.0544,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.62,52.0725,5943.6 -1.19056,51.9625,5943.6 -1.19056,51.9625,1676.4 -0.62,52.0725,1676.4 -0.62,52.0725,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">4500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.289167,51.0739,5943.6 0.261389,51.00060000000001,5943.6 0.225833,50.9833,5943.6 -0.168611,50.9281,5943.6 -0.574444,50.9756,5943.6 -0.354167,50.9081,5943.6 -0.0716667,50.8658,5943.6 0.361389,51.0142,5943.6 0.289167,51.0739,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.289167,51.0739,1371.6 0.261389,51.00060000000001,1371.6 0.225833,50.9833,1371.6 -0.168611,50.9281,1371.6 -0.574444,50.9756,1371.6 -0.354167,50.9081,1371.6 -0.0716667,50.8658,1371.6 0.361389,51.0142,1371.6 0.289167,51.0739,1371.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.289167,51.0739,5943.6 0.261389,51.00060000000001,5943.6 0.261389,51.00060000000001,1371.6 0.289167,51.0739,1371.6 0.289167,51.0739,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.261389,51.00060000000001,5943.6 0.225833,50.9833,5943.6 0.225833,50.9833,1371.6 0.261389,51.00060000000001,1371.6 0.261389,51.00060000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.225833,50.9833,5943.6 -0.168611,50.9281,5943.6 -0.168611,50.9281,1371.6 0.225833,50.9833,1371.6 0.225833,50.9833,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.168611,50.9281,5943.6 -0.574444,50.9756,5943.6 -0.574444,50.9756,1371.6 -0.168611,50.9281,1371.6 -0.168611,50.9281,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.574444,50.9756,5943.6 -0.354167,50.9081,5943.6 -0.354167,50.9081,1371.6 -0.574444,50.9756,1371.6 -0.574444,50.9756,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.354167,50.9081,5943.6 -0.0716667,50.8658,5943.6 -0.0716667,50.8658,1371.6 -0.354167,50.9081,1371.6 -0.354167,50.9081,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.0716667,50.8658,5943.6 0.361389,51.0142,5943.6 0.361389,51.0142,1371.6 -0.0716667,50.8658,1371.6 -0.0716667,50.8658,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								0.361389,51.0142,5943.6 0.289167,51.0739,5943.6 0.289167,51.0739,1371.6 0.361389,51.0142,1371.6 0.361389,51.0142,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">FL65</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.6844440000000001,50.9608,5943.6 -0.985556,50.92,5943.6 -0.828333,50.7739,5943.6 -0.485556,50.7739,5943.6 -0.6844440000000001,50.9608,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.6844440000000001,50.9608,1981.2 -0.985556,50.92,1981.2 -0.828333,50.7739,1981.2 -0.485556,50.7739,1981.2 -0.6844440000000001,50.9608,1981.2 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.6844440000000001,50.9608,5943.6 -0.985556,50.92,5943.6 -0.985556,50.92,1981.2 -0.6844440000000001,50.9608,1981.2 -0.6844440000000001,50.9608,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.985556,50.92,5943.6 -0.828333,50.7739,5943.6 -0.828333,50.7739,1981.2 -0.985556,50.92,1981.2 -0.985556,50.92,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.828333,50.7739,5943.6 -0.485556,50.7739,5943.6 -0.485556,50.7739,1981.2 -0.828333,50.7739,1981.2 -0.828333,50.7739,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.485556,50.7739,5943.6 -0.6844440000000001,50.9608,5943.6 -0.6844440000000001,50.9608,1981.2 -0.485556,50.7739,1981.2 -0.485556,50.7739,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">5500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.42972,51.60190000000001,5943.6 -1.48056,51.4386,5943.6 -1.24556,51.40970000000001,5943.6 -1.19389,51.5731,5943.6 -1.42972,51.60190000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.42972,51.60190000000001,1676.4 -1.48056,51.4386,1676.4 -1.24556,51.40970000000001,1676.4 -1.19389,51.5731,1676.4 -1.42972,51.60190000000001,1676.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.42972,51.60190000000001,5943.6 -1.48056,51.4386,5943.6 -1.48056,51.4386,1676.4 -1.42972,51.60190000000001,1676.4 -1.42972,51.60190000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.48056,51.4386,5943.6 -1.24556,51.40970000000001,5943.6 -1.24556,51.40970000000001,1676.4 -1.48056,51.4386,1676.4 -1.48056,51.4386,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.24556,51.40970000000001,5943.6 -1.19389,51.5731,5943.6 -1.19389,51.5731,1676.4 -1.24556,51.40970000000001,1676.4 -1.24556,51.40970000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.19389,51.5731,5943.6 -1.42972,51.60190000000001,5943.6 -1.42972,51.60190000000001,1676.4 -1.19389,51.5731,1676.4 -1.19389,51.5731,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>LONDON TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LONDON TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">4500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.8080559999999999,51.1144,5943.6 -0.910833,51.1006,5943.6 -0.8552780000000001,50.9378,5943.6 -0.706667,50.9578,5943.6 -0.8080559999999999,51.1144,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.8080559999999999,51.1144,1371.6 -0.910833,51.1006,1371.6 -0.8552780000000001,50.9378,1371.6 -0.706667,50.9578,1371.6 -0.8080559999999999,51.1144,1371.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.8080559999999999,51.1144,5943.6 -0.910833,51.1006,5943.6 -0.910833,51.1006,1371.6 -0.8080559999999999,51.1144,1371.6 -0.8080559999999999,51.1144,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.910833,51.1006,5943.6 -0.8552780000000001,50.9378,5943.6 -0.8552780000000001,50.9378,1371.6 -0.910833,51.1006,1371.6 -0.910833,51.1006,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.8552780000000001,50.9378,5943.6 -0.706667,50.9578,5943.6 -0.706667,50.9578,1371.6 -0.8552780000000001,50.9378,1371.6 -0.8552780000000001,50.9378,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.706667,50.9578,5943.6 -0.8080559999999999,51.1144,5943.6 -0.8080559999999999,51.1144,1371.6 -0.706667,50.9578,1371.6 -0.706667,50.9578,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>MANCHESTER TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">MANCHESTER TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL245</SimpleData>
+					<SimpleData name="Base">3500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.06333,53.8528,7467.6 -2.98528,53.5397,7467.6 -3.235,53.5369,7467.6 -3.05278,53.4594,7467.6 -3.20139,53.3858,7467.6 -3.02778,53.2408,7467.6 -2.73028,53.10719999999999,7467.6 -2.37944,53.1006,7467.6 -2.01556,53.12559999999999,7467.6 -1.83333,53.4489,7467.6 -1.77139,53.45529999999999,7467.6 -1.87111,53.61389999999999,7467.6 -1.80833,53.6203,7467.6 -1.98694,53.7906,7467.6 -2.06333,53.8528,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.06333,53.8528,1066.8 -2.98528,53.5397,1066.8 -3.235,53.5369,1066.8 -3.05278,53.4594,1066.8 -3.20139,53.3858,1066.8 -3.02778,53.2408,1066.8 -2.73028,53.10719999999999,1066.8 -2.37944,53.1006,1066.8 -2.01556,53.12559999999999,1066.8 -1.83333,53.4489,1066.8 -1.77139,53.45529999999999,1066.8 -1.87111,53.61389999999999,1066.8 -1.80833,53.6203,1066.8 -1.98694,53.7906,1066.8 -2.06333,53.8528,1066.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.06333,53.8528,7467.6 -2.98528,53.5397,7467.6 -2.98528,53.5397,1066.8 -2.06333,53.8528,1066.8 -2.06333,53.8528,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.98528,53.5397,7467.6 -3.235,53.5369,7467.6 -3.235,53.5369,1066.8 -2.98528,53.5397,1066.8 -2.98528,53.5397,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.235,53.5369,7467.6 -3.05278,53.4594,7467.6 -3.05278,53.4594,1066.8 -3.235,53.5369,1066.8 -3.235,53.5369,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.05278,53.4594,7467.6 -3.20139,53.3858,7467.6 -3.20139,53.3858,1066.8 -3.05278,53.4594,1066.8 -3.05278,53.4594,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.20139,53.3858,7467.6 -3.02778,53.2408,7467.6 -3.02778,53.2408,1066.8 -3.20139,53.3858,1066.8 -3.20139,53.3858,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.02778,53.2408,7467.6 -2.73028,53.10719999999999,7467.6 -2.73028,53.10719999999999,1066.8 -3.02778,53.2408,1066.8 -3.02778,53.2408,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.73028,53.10719999999999,7467.6 -2.37944,53.1006,7467.6 -2.37944,53.1006,1066.8 -2.73028,53.10719999999999,1066.8 -2.73028,53.10719999999999,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.37944,53.1006,7467.6 -2.01556,53.12559999999999,7467.6 -2.01556,53.12559999999999,1066.8 -2.37944,53.1006,1066.8 -2.37944,53.1006,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.01556,53.12559999999999,7467.6 -1.83333,53.4489,7467.6 -1.83333,53.4489,1066.8 -2.01556,53.12559999999999,1066.8 -2.01556,53.12559999999999,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.83333,53.4489,7467.6 -1.77139,53.45529999999999,7467.6 -1.77139,53.45529999999999,1066.8 -1.83333,53.4489,1066.8 -1.83333,53.4489,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.77139,53.45529999999999,7467.6 -1.87111,53.61389999999999,7467.6 -1.87111,53.61389999999999,1066.8 -1.77139,53.45529999999999,1066.8 -1.77139,53.45529999999999,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.87111,53.61389999999999,7467.6 -1.80833,53.6203,7467.6 -1.80833,53.6203,1066.8 -1.87111,53.61389999999999,1066.8 -1.87111,53.61389999999999,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.80833,53.6203,7467.6 -1.98694,53.7906,7467.6 -1.98694,53.7906,1066.8 -1.80833,53.6203,1066.8 -1.80833,53.6203,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.98694,53.7906,7467.6 -2.06333,53.8528,7467.6 -2.06333,53.8528,1066.8 -1.98694,53.7906,1066.8 -1.98694,53.7906,7467.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>MANCHESTER TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">MANCHESTER TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL145</SimpleData>
+					<SimpleData name="Base">FL55</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.65,53.65500000000001,4419.6 -3.02667,53.6083,4419.6 -3.01639,53.5394,4419.6 -2.98528,53.5397,4419.6 -2.65,53.65500000000001,4419.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.65,53.65500000000001,1676.4 -3.02667,53.6083,1676.4 -3.01639,53.5394,1676.4 -2.98528,53.5397,1676.4 -2.65,53.65500000000001,1676.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.65,53.65500000000001,4419.6 -3.02667,53.6083,4419.6 -3.02667,53.6083,1676.4 -2.65,53.65500000000001,1676.4 -2.65,53.65500000000001,4419.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.02667,53.6083,4419.6 -3.01639,53.5394,4419.6 -3.01639,53.5394,1676.4 -3.02667,53.6083,1676.4 -3.02667,53.6083,4419.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.01639,53.5394,4419.6 -2.98528,53.5397,4419.6 -2.98528,53.5397,1676.4 -3.01639,53.5394,1676.4 -3.01639,53.5394,4419.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.98528,53.5397,4419.6 -2.65,53.65500000000001,4419.6 -2.65,53.65500000000001,1676.4 -2.98528,53.5397,1676.4 -2.98528,53.5397,4419.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>SCOTTISH TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">SCOTTISH TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">4500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.47972,55.61669999999999,5943.6 -4.48833,55.5506,5943.6 -2.91944,55.6903,5943.6 -4.17139,55.6903,5943.6 -4.47972,55.61669999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.47972,55.61669999999999,1371.6 -4.48833,55.5506,1371.6 -2.91944,55.6903,1371.6 -4.17139,55.6903,1371.6 -4.47972,55.61669999999999,1371.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.47972,55.61669999999999,5943.6 -4.48833,55.5506,5943.6 -4.48833,55.5506,1371.6 -4.47972,55.61669999999999,1371.6 -4.47972,55.61669999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.48833,55.5506,5943.6 -2.91944,55.6903,5943.6 -2.91944,55.6903,1371.6 -4.48833,55.5506,1371.6 -4.48833,55.5506,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.91944,55.6903,5943.6 -4.17139,55.6903,5943.6 -4.17139,55.6903,1371.6 -2.91944,55.6903,1371.6 -2.91944,55.6903,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.17139,55.6903,5943.6 -4.47972,55.61669999999999,5943.6 -4.47972,55.61669999999999,1371.6 -4.17139,55.6903,1371.6 -4.17139,55.6903,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>SCOTTISH TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">SCOTTISH TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">5500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5,55.7261,5943.6 -5,55.2531,5943.6 -5.04278,55.2039,5943.6 -4.23861,55.10079999999999,5943.6 -3,55.45,5943.6 -2.91944,55.6903,5943.6 -4.48833,55.5506,5943.6 -5,55.7261,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5,55.7261,1676.4 -5,55.2531,1676.4 -5.04278,55.2039,1676.4 -4.23861,55.10079999999999,1676.4 -3,55.45,1676.4 -2.91944,55.6903,1676.4 -4.48833,55.5506,1676.4 -5,55.7261,1676.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5,55.7261,5943.6 -5,55.2531,5943.6 -5,55.2531,1676.4 -5,55.7261,1676.4 -5,55.7261,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5,55.2531,5943.6 -5.04278,55.2039,5943.6 -5.04278,55.2039,1676.4 -5,55.2531,1676.4 -5,55.2531,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5.04278,55.2039,5943.6 -4.23861,55.10079999999999,5943.6 -4.23861,55.10079999999999,1676.4 -5.04278,55.2039,1676.4 -5.04278,55.2039,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.23861,55.10079999999999,5943.6 -3,55.45,5943.6 -3,55.45,1676.4 -4.23861,55.10079999999999,1676.4 -4.23861,55.10079999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3,55.45,5943.6 -2.91944,55.6903,5943.6 -2.91944,55.6903,1676.4 -3,55.45,1676.4 -3,55.45,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.91944,55.6903,5943.6 -4.48833,55.5506,5943.6 -4.48833,55.5506,1676.4 -2.91944,55.6903,1676.4 -2.91944,55.6903,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.48833,55.5506,5943.6 -5,55.7261,5943.6 -5,55.7261,1676.4 -4.48833,55.5506,1676.4 -4.48833,55.5506,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>SCOTTISH TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">SCOTTISH TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">6000 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.15722,56.2333,5943.6 -4.73333,56,5943.6 -5,55.8333,5943.6 -5,55.7261,5943.6 -4.84306,55.7411,5943.6 -4.47972,55.61669999999999,5943.6 -4.17139,55.6903,5943.6 -2.91944,55.6903,5943.6 -2.81361,56.0022,5943.6 -2.935560000000001,56.11670000000001,5943.6 -3.49389,56.11670000000001,5943.6 -3.54972,56.2333,5943.6 -4.15722,56.2333,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.15722,56.2333,1828.8 -4.73333,56,1828.8 -5,55.8333,1828.8 -5,55.7261,1828.8 -4.84306,55.7411,1828.8 -4.47972,55.61669999999999,1828.8 -4.17139,55.6903,1828.8 -2.91944,55.6903,1828.8 -2.81361,56.0022,1828.8 -2.935560000000001,56.11670000000001,1828.8 -3.49389,56.11670000000001,1828.8 -3.54972,56.2333,1828.8 -4.15722,56.2333,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.15722,56.2333,5943.6 -4.73333,56,5943.6 -4.73333,56,1828.8 -4.15722,56.2333,1828.8 -4.15722,56.2333,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.73333,56,5943.6 -5,55.8333,5943.6 -5,55.8333,1828.8 -4.73333,56,1828.8 -4.73333,56,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5,55.8333,5943.6 -5,55.7261,5943.6 -5,55.7261,1828.8 -5,55.8333,1828.8 -5,55.8333,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5,55.7261,5943.6 -4.84306,55.7411,5943.6 -4.84306,55.7411,1828.8 -5,55.7261,1828.8 -5,55.7261,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.84306,55.7411,5943.6 -4.47972,55.61669999999999,5943.6 -4.47972,55.61669999999999,1828.8 -4.84306,55.7411,1828.8 -4.84306,55.7411,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.47972,55.61669999999999,5943.6 -4.17139,55.6903,5943.6 -4.17139,55.6903,1828.8 -4.47972,55.61669999999999,1828.8 -4.47972,55.61669999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.17139,55.6903,5943.6 -2.91944,55.6903,5943.6 -2.91944,55.6903,1828.8 -4.17139,55.6903,1828.8 -4.17139,55.6903,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.91944,55.6903,5943.6 -2.81361,56.0022,5943.6 -2.81361,56.0022,1828.8 -2.91944,55.6903,1828.8 -2.91944,55.6903,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.81361,56.0022,5943.6 -2.935560000000001,56.11670000000001,5943.6 -2.935560000000001,56.11670000000001,1828.8 -2.81361,56.0022,1828.8 -2.81361,56.0022,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.935560000000001,56.11670000000001,5943.6 -3.49389,56.11670000000001,5943.6 -3.49389,56.11670000000001,1828.8 -2.935560000000001,56.11670000000001,1828.8 -2.935560000000001,56.11670000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.49389,56.11670000000001,5943.6 -3.54972,56.2333,5943.6 -3.54972,56.2333,1828.8 -3.49389,56.11670000000001,1828.8 -3.49389,56.11670000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.54972,56.2333,5943.6 -4.15722,56.2333,5943.6 -4.15722,56.2333,1828.8 -3.54972,56.2333,1828.8 -3.54972,56.2333,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>SCOTTISH TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">SCOTTISH TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">5500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.81361,56.0022,5943.6 -3,55.45,5943.6 -2.865559999999999,55.5167,5943.6 -2.81361,56.0022,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.81361,56.0022,1676.4 -3,55.45,1676.4 -2.865559999999999,55.5167,1676.4 -2.81361,56.0022,1676.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.81361,56.0022,5943.6 -3,55.45,5943.6 -3,55.45,1676.4 -2.81361,56.0022,1676.4 -2.81361,56.0022,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3,55.45,5943.6 -2.865559999999999,55.5167,5943.6 -2.865559999999999,55.5167,1676.4 -3,55.45,1676.4 -3,55.45,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.865559999999999,55.5167,5943.6 -2.81361,56.0022,5943.6 -2.81361,56.0022,1676.4 -2.865559999999999,55.5167,1676.4 -2.865559999999999,55.5167,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>SCOTTISH TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">SCOTTISH TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">3500 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.84306,55.7411,5943.6 -5,55.7261,5943.6 -4.48833,55.5506,5943.6 -4.47972,55.61669999999999,5943.6 -4.84306,55.7411,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.84306,55.7411,1066.8 -5,55.7261,1066.8 -4.48833,55.5506,1066.8 -4.47972,55.61669999999999,1066.8 -4.84306,55.7411,1066.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.84306,55.7411,5943.6 -5,55.7261,5943.6 -5,55.7261,1066.8 -4.84306,55.7411,1066.8 -4.84306,55.7411,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5,55.7261,5943.6 -4.48833,55.5506,5943.6 -4.48833,55.5506,1066.8 -5,55.7261,1066.8 -5,55.7261,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.48833,55.5506,5943.6 -4.47972,55.61669999999999,5943.6 -4.47972,55.61669999999999,1066.8 -4.48833,55.5506,1066.8 -4.48833,55.5506,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.47972,55.61669999999999,5943.6 -4.84306,55.7411,5943.6 -4.84306,55.7411,1066.8 -4.47972,55.61669999999999,1066.8 -4.47972,55.61669999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>SCOTTISH TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">SCOTTISH TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">6000 FT AMSL</SimpleData>
+					<SimpleData name="Base">3000 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.86667,55.91669999999999,1828.8 -5,55.8333,1828.8 -5,55.7261,1828.8 -4.84306,55.7411,1828.8 -4.83083,55.7667,1828.8 -4.86667,55.91669999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.86667,55.91669999999999,914.3999999999999 -5,55.8333,914.3999999999999 -5,55.7261,914.3999999999999 -4.84306,55.7411,914.3999999999999 -4.83083,55.7667,914.3999999999999 -4.86667,55.91669999999999,914.3999999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.86667,55.91669999999999,1828.8 -5,55.8333,1828.8 -5,55.8333,914.3999999999999 -4.86667,55.91669999999999,914.3999999999999 -4.86667,55.91669999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5,55.8333,1828.8 -5,55.7261,1828.8 -5,55.7261,914.3999999999999 -5,55.8333,914.3999999999999 -5,55.8333,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5,55.7261,1828.8 -4.84306,55.7411,1828.8 -4.84306,55.7411,914.3999999999999 -5,55.7261,914.3999999999999 -5,55.7261,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.84306,55.7411,1828.8 -4.83083,55.7667,1828.8 -4.83083,55.7667,914.3999999999999 -4.84306,55.7411,914.3999999999999 -4.84306,55.7411,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.83083,55.7667,1828.8 -4.86667,55.91669999999999,1828.8 -4.86667,55.91669999999999,914.3999999999999 -4.83083,55.7667,914.3999999999999 -4.83083,55.7667,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>SCOTTISH TMA</name>
+			<styleUrl>#StyleTMA</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">SCOTTISH TMA</SimpleData>
+					<SimpleData name="Category">Terminal Manoeuvring Area</SimpleData>
+					<SimpleData name="Top">6000 FT AMSL</SimpleData>
+					<SimpleData name="Base">4000 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.15722,56.2333,1828.8 -4.73333,56,1828.8 -4.86667,55.91669999999999,1828.8 -4.15278,56.11670000000001,1828.8 -3.49389,56.11670000000001,1828.8 -3.54972,56.2333,1828.8 -4.15722,56.2333,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.15722,56.2333,1219.2 -4.73333,56,1219.2 -4.86667,55.91669999999999,1219.2 -4.15278,56.11670000000001,1219.2 -3.49389,56.11670000000001,1219.2 -3.54972,56.2333,1219.2 -4.15722,56.2333,1219.2 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.15722,56.2333,1828.8 -4.73333,56,1828.8 -4.73333,56,1219.2 -4.15722,56.2333,1219.2 -4.15722,56.2333,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.73333,56,1828.8 -4.86667,55.91669999999999,1828.8 -4.86667,55.91669999999999,1219.2 -4.73333,56,1219.2 -4.73333,56,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.86667,55.91669999999999,1828.8 -4.15278,56.11670000000001,1828.8 -4.15278,56.11670000000001,1219.2 -4.86667,55.91669999999999,1219.2 -4.86667,55.91669999999999,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.15278,56.11670000000001,1828.8 -3.49389,56.11670000000001,1828.8 -3.49389,56.11670000000001,1219.2 -4.15278,56.11670000000001,1219.2 -4.15278,56.11670000000001,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.49389,56.11670000000001,1828.8 -3.54972,56.2333,1828.8 -3.54972,56.2333,1219.2 -3.49389,56.11670000000001,1219.2 -3.49389,56.11670000000001,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.54972,56.2333,1828.8 -4.15722,56.2333,1828.8 -4.15722,56.2333,1219.2 -3.54972,56.2333,1219.2 -3.54972,56.2333,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

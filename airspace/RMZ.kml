@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RMZ.kml</name>
+	<Schema id="AirspaceId">
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Category"><displayName>&lt;b&gt;Category:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Top"><displayName>&lt;b&gt;Ceiling:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Base"><displayName>&lt;b&gt;Floor:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Radio"><displayName>&lt;b&gt;Radio frequency (MHz):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Xpndr"><displayName>&lt;b&gt;Transponder code:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area"><displayName>&lt;b&gt;Area (Km&lt;sup&gt;2&lt;/sup&gt;):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Perimeter"><displayName>&lt;b&gt;Perimeter (Km):&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="StyleRMZ">
+		<LineStyle>
+			<color>60000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>65857037</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>RMZ</name>
+		<open>1</open>
+		<Region>
+			<LatLonAltBox>
+				<north>90</north>
+				<south>-90</south>
+				<east>180</east>
+				<west>-180</west>
+				<minAltitude>0</minAltitude>
+				<maxAltitude>200000</maxAltitude>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>10000</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<Placemark>
+			<name>HAWARDEN RMZ</name>
+			<styleUrl>#StyleRMZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">HAWARDEN RMZ</SimpleData>
+					<SimpleData name="Category">Radio Mandatory Zone</SimpleData>
+					<SimpleData name="Top">2500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.84972,53.2192,762 -3.02778,53.2408,762 -2.84972,53.1611,762 -2.84972,53.2192,762 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>HAWARDEN RMZ</name>
+			<styleUrl>#StyleRMZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">HAWARDEN RMZ</SimpleData>
+					<SimpleData name="Category">Radio Mandatory Zone</SimpleData>
+					<SimpleData name="Top">3000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.84972,53.1611,914.3999999999999 -3.02778,53.2408,914.3999999999999 -3.04722,53.25690000000001,914.3999999999999 -3.2075,53.14579999999999,914.3999999999999 -2.95556,53.0667,914.3999999999999 -2.84972,53.1397,914.3999999999999 -2.84972,53.1611,914.3999999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>HAWARDEN RMZ</name>
+			<styleUrl>#StyleRMZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">HAWARDEN RMZ</SimpleData>
+					<SimpleData name="Category">Radio Mandatory Zone</SimpleData>
+					<SimpleData name="Top">4500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.95556,53.0667,1371.6 -3.2075,53.14579999999999,1371.6 -3.19722,53.0558,1371.6 -3.11972,53,1371.6 -3.05139,53,1371.6 -2.95556,53.0667,1371.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>LANDS END RMZ</name>
+			<styleUrl>#StyleRMZ</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">LANDS END RMZ</SimpleData>
+					<SimpleData name="Category">Radio Mandatory Zone</SimpleData>
+					<SimpleData name="Top">4000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-5.83722,50.2847,1219.2 -5.920559999999999,50.1519,1219.2 -6.36417,50.0025,1219.2 -6.38083,49.9958,1219.2 -6.403060000000001,49.9836,1219.2 -6.41556,49.9739,1219.2 -6.42611,49.9633,1219.2 -6.43472,49.9522,1219.2 -6.44333,49.9342,1219.2 -6.445829999999999,49.9217,1219.2 -6.445280000000001,49.90279999999999,1219.2 -6.44194,49.89059999999999,1219.2 -6.43222,49.8728,1219.2 -6.42306,49.8617,1219.2 -6.40556,49.8467,1219.2 -6.39139,49.8381,1219.2 -6.3675,49.8272,1219.2 -6.35,49.8217,1219.2 -6.32222,49.8164,1219.2 -6.30306,49.81439999999999,1219.2 -6.27389,49.81469999999999,1219.2 -6.245279999999999,49.8186,1219.2 -6.227219999999999,49.82309999999999,1219.2 -5.8475,49.9339,1219.2 -5.51917,49.9331,1219.2 -5.4975,50.1639,1219.2 -5.61833,50.2842,1219.2 -5.83722,50.2847,1219.2 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

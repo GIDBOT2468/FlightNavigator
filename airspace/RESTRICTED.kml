@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RESTRICTED.kml</name>
+	<Schema id="AirspaceId">
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Category"><displayName>&lt;b&gt;Category:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Top"><displayName>&lt;b&gt;Ceiling:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Base"><displayName>&lt;b&gt;Floor:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Radio"><displayName>&lt;b&gt;Radio frequency (MHz):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Xpndr"><displayName>&lt;b&gt;Transponder code:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area"><displayName>&lt;b&gt;Area (Km&lt;sup&gt;2&lt;/sup&gt;):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Perimeter"><displayName>&lt;b&gt;Perimeter (Km):&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="StyleRESTRICTED">
+		<LineStyle>
+			<color>60000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>65005500</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>RESTRICTED</name>
+		<Region>
+			<LatLonAltBox>
+				<north>90</north>
+				<south>-90</south>
+				<east>180</east>
+				<west>-180</west>
+				<minAltitude>0</minAltitude>
+				<maxAltitude>200000</maxAltitude>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>10000</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<Placemark>
+			<name>R002 DEVONPORT</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R002 DEVONPORT</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.18722,50.4047,609.6 -4.20111,50.4022,609.6 -4.21083,50.39529999999999,609.6 -4.21278,50.39110000000001,609.6 -4.21306,50.3858,609.6 -4.21083,50.3808,609.6 -4.20639,50.3767,609.6 -4.19528,50.3722,609.6 -4.18222,50.3717,609.6 -4.17056,50.3753,609.6 -4.16306,50.38190000000001,609.6 -4.16139,50.3903,609.6 -4.16611,50.3978,609.6 -4.17611,50.4031,609.6 -4.18722,50.4047,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R063 DUNGENESS</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R063 DUNGENESS</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.954722,50.9469,609.6 0.941667,50.94580000000001,609.6 0.926389,50.9417,609.6 0.916111,50.9364,609.6 0.906944,50.9278,609.6 0.9027779999999999,50.9197,609.6 0.902222,50.9094,609.6 0.9055559999999999,50.9014,609.6 0.9141669999999998,50.89249999999999,609.6 0.923611,50.8867,609.6 0.9352780000000001,50.8825,609.6 0.948056,50.88060000000001,609.6 0.961389,50.88060000000001,609.6 0.974167,50.8825,609.6 0.9858330000000001,50.8867,609.6 0.995278,50.89249999999999,609.6 1.0025,50.8994,609.6 1.00667,50.9072,609.6 1.0075,50.9156,609.6 1.005,50.9239,609.6 0.9994440000000001,50.9314,609.6 0.990833,50.9378,609.6 0.9802779999999999,50.94279999999999,609.6 0.967778,50.94580000000001,609.6 0.954722,50.9469,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R101 ALDERMASTON</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R101 ALDERMASTON</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2400 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.14639,51.39250000000001,731.52 -1.16556,51.3894,731.52 -1.18028,51.38080000000001,731.52 -1.18444,51.3753,731.52 -1.18639,51.3692,731.52 -1.18556,51.3628,731.52 -1.1825,51.3569,731.52 -1.17,51.34720000000001,731.52 -1.15139,51.3428,731.52 -1.13167,51.34420000000001,731.52 -1.11556,51.35170000000001,731.52 -1.10917,51.3583,731.52 -1.10667,51.36440000000001,731.52 -1.10694,51.3722,731.52 -1.11028,51.37810000000001,731.52 -1.11722,51.3847,731.52 -1.125,51.3886,731.52 -1.13639,51.3917,731.52 -1.14639,51.39250000000001,731.52 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R104 BURGHFIELD</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R104 BURGHFIELD</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2400 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.02361,51.4233,731.52 -1.03639,51.4214,731.52 -1.04611,51.41559999999999,731.52 -1.05028,51.4078,731.52 -1.04778,51.3994,731.52 -1.03917,51.3931,731.52 -1.02694,51.39030000000001,731.52 -1.01389,51.3911,731.52 -1.00306,51.3961,731.52 -0.9972219999999999,51.4044,731.52 -0.9975000000000001,51.40970000000001,731.52 -0.9994440000000001,51.41390000000001,731.52 -1.00917,51.4208,731.52 -1.02361,51.4233,731.52 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R105 HIGHGROVE HOUSE</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R105 HIGHGROVE HOUSE</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.18056,51.64720000000001,609.6 -2.2,51.6442,609.6 -2.21444,51.6356,609.6 -2.21889,51.63,609.6 -2.22083,51.6239,609.6 -2.22,51.6175,609.6 -2.21694,51.6117,609.6 -2.20417,51.60190000000001,609.6 -2.18556,51.5975,609.6 -2.16583,51.59890000000001,609.6 -2.14944,51.60640000000001,609.6 -2.14306,51.6131,609.6 -2.14056,51.6192,609.6 -2.14111,51.6269,609.6 -2.14417,51.63280000000001,609.6 -2.15111,51.6394,609.6 -2.15889,51.6433,609.6 -2.17056,51.6464,609.6 -2.18056,51.64720000000001,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R106 RAYMILL HOUSE</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R106 RAYMILL HOUSE</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">1600 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.11278,51.4397,487.68 -2.12722,51.4372,487.68 -2.13694,51.4303,487.68 -2.13889,51.42610000000001,487.68 -2.13917,51.4208,487.68 -2.13333,51.4125,487.68 -2.1225,51.4075,487.68 -2.10944,51.40670000000001,487.68 -2.09694,51.40940000000001,487.68 -2.08861,51.4158,487.68 -2.08611,51.4242,487.68 -2.09028,51.4319,487.68 -2.1,51.4378,487.68 -2.11278,51.4397,487.68 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R153 HINKLEY POINT</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R153 HINKLEY POINT</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.13028,51.2425,609.6 -3.143609999999999,51.2414,609.6 -3.15889,51.2372,609.6 -3.16917,51.2319,609.6 -3.17833,51.2233,609.6 -3.1825,51.2153,609.6 -3.18306,51.20500000000001,609.6 -3.17972,51.1969,609.6 -3.17111,51.1881,609.6 -3.16139,51.1822,609.6 -3.14972,51.17809999999999,609.6 -3.13694,51.17609999999999,609.6 -3.12361,51.17609999999999,609.6 -3.11083,51.17809999999999,609.6 -3.09917,51.1822,609.6 -3.08944,51.1881,609.6 -3.08222,51.195,609.6 -3.07806,51.20280000000001,609.6 -3.077220000000001,51.2111,609.6 -3.07972,51.2194,609.6 -3.08528,51.22689999999999,609.6 -3.09389,51.2333,609.6 -3.10472,51.2383,609.6 -3.11694,51.2414,609.6 -3.13028,51.2425,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R154 OLDBURY</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R154 OLDBURY</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.57083,51.6811,609.6 -2.58417,51.68,609.6 -2.59667,51.6769,609.6 -2.6075,51.6719,609.6 -2.61611,51.6656,609.6 -2.62194,51.65809999999999,609.6 -2.62444,51.6497,609.6 -2.62361,51.6414,609.6 -2.61944,51.6336,609.6 -2.61222,51.6267,609.6 -2.6025,51.6208,609.6 -2.59056,51.6167,609.6 -2.5775,51.6147,609.6 -2.56417,51.6147,609.6 -2.55111,51.6167,609.6 -2.53917,51.6208,609.6 -2.52944,51.6267,609.6 -2.52083,51.6356,609.6 -2.5175,51.6436,609.6 -2.51806,51.65389999999999,609.6 -2.52222,51.6619,609.6 -2.53167,51.67059999999999,609.6 -2.54194,51.6758,609.6 -2.5575,51.68,609.6 -2.57083,51.6811,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R155 BERKELEY</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R155 BERKELEY</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.49333,51.7261,609.6 -2.50667,51.725,609.6 -2.52222,51.7208,609.6 -2.5325,51.7156,609.6 -2.54194,51.70689999999999,609.6 -2.54611,51.6989,609.6 -2.54667,51.6886,609.6 -2.54333,51.6806,609.6 -2.53472,51.6717,609.6 -2.525,51.6658,609.6 -2.51306,51.66170000000001,609.6 -2.5,51.6597,609.6 -2.48667,51.6597,609.6 -2.47361,51.66170000000001,609.6 -2.46167,51.6658,609.6 -2.45194,51.6717,609.6 -2.44472,51.67860000000001,609.6 -2.44056,51.6864,609.6 -2.43972,51.69469999999999,609.6 -2.44222,51.7031,609.6 -2.44806,51.7106,609.6 -2.45639,51.7169,609.6 -2.4675,51.72190000000001,609.6 -2.48,51.725,609.6 -2.49333,51.7261,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R217 SIZEWELL</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R217 SIZEWELL</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							1.61861,52.24719999999999,609.6 1.605,52.2461,609.6 1.5925,52.2431,609.6 1.58139,52.2381,609.6 1.57083,52.22999999999999,609.6 1.56583,52.2222,609.6 1.56444,52.2117,609.6 1.56694,52.2036,609.6 1.57472,52.1942,609.6 1.58389,52.1883,609.6 1.59556,52.1836,609.6 1.60833,52.1811,609.6 1.62556,52.1808,609.6 1.63861,52.1828,609.6 1.65056,52.1869,609.6 1.66056,52.1928,609.6 1.66778,52.19970000000001,609.6 1.67194,52.2075,609.6 1.67278,52.2158,609.6 1.67028,52.2242,609.6 1.66444,52.2317,609.6 1.65583,52.2381,609.6 1.64472,52.2431,609.6 1.63222,52.2461,609.6 1.61861,52.24719999999999,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R219 SANDRINGHAM HOUSE</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R219 SANDRINGHAM HOUSE</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2150 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.472222,52.8306,655.3200000000001 0.473889,52.8228,655.3200000000001 0.479722,52.8158,655.3200000000001 0.4886110000000001,52.8103,655.3200000000001 0.5,52.80639999999999,655.3200000000001 0.515278,52.805,655.3200000000001 0.582222,52.8092,655.3200000000001 0.5655559999999999,52.8106,655.3200000000001 0.552222,52.8156,655.3200000000001 0.542778,52.8228,655.3200000000001 0.538611,52.8319,655.3200000000001 0.54,52.8411,655.3200000000001 0.547222,52.8494,655.3200000000001 0.558611,52.85580000000001,655.3200000000001 0.573333,52.8589,655.3200000000001 0.509167,52.8547,655.3200000000001 0.496944,52.85280000000001,655.3200000000001 0.488056,52.8497,655.3200000000001 0.479167,52.8439,655.3200000000001 0.4747219999999999,52.8383,655.3200000000001 0.472222,52.8306,655.3200000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R220 ANMER HALL</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R220 ANMER HALL</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2150 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							0.579722,52.8592,655.3200000000001 0.5597220000000001,52.8561,655.3200000000001 0.551389,52.85249999999999,655.3200000000001 0.543611,52.8461,655.3200000000001 0.539722,52.84029999999999,655.3200000000001 0.538333,52.8325,655.3200000000001 0.540278,52.82640000000001,655.3200000000001 0.546389,52.81939999999999,655.3200000000001 0.562222,52.81169999999999,655.3200000000001 0.585,52.80939999999999,655.3200000000001 0.603889,52.8139,655.3200000000001 0.617222,52.82359999999999,655.3200000000001 0.620278,52.8294,655.3200000000001 0.621111,52.83579999999999,655.3200000000001 0.619167,52.8419,655.3200000000001 0.614722,52.84749999999999,655.3200000000001 0.599722,52.8561,655.3200000000001 0.579722,52.8592,655.3200000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R311 CAPENHURST</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R311 CAPENHURST</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2200 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.95222,53.2972,670.5599999999999 -2.96611,53.2961,670.5599999999999 -2.97917,53.2931,670.5599999999999 -2.990279999999999,53.2881,670.5599999999999 -3.00111,53.27999999999999,670.5599999999999 -3.00611,53.2722,670.5599999999999 -3.00778,53.2639,670.5599999999999 -3.00611,53.25559999999999,670.5599999999999 -2.99917,53.2461,670.5599999999999 -2.990279999999999,53.23970000000001,670.5599999999999 -2.97917,53.2347,670.5599999999999 -2.96611,53.2317,670.5599999999999 -2.94861,53.2306,670.5599999999999 -2.935,53.23219999999999,670.5599999999999 -2.9225,53.2358,670.5599999999999 -2.91167,53.2411,670.5599999999999 -2.90333,53.2478,670.5599999999999 -2.8975,53.2575,670.5599999999999 -2.89667,53.26579999999999,670.5599999999999 -2.89917,53.2742,670.5599999999999 -2.90528,53.2817,670.5599999999999 -2.91417,53.2881,670.5599999999999 -2.92528,53.2931,670.5599999999999 -2.93833,53.2961,670.5599999999999 -2.95222,53.2972,670.5599999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R312 SPRINGFIELDS</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R312 SPRINGFIELDS</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2100 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.80417,53.8094,640.08 -2.81833,53.8083,640.08 -2.831389999999999,53.8053,640.08 -2.84278,53.8003,640.08 -2.851669999999999,53.79389999999999,640.08 -2.85778,53.7864,640.08 -2.86056,53.7781,640.08 -2.85944,53.7697,640.08 -2.85361,53.75999999999999,640.08 -2.845279999999999,53.7533,640.08 -2.834439999999999,53.74809999999999,640.08 -2.82167,53.7444,640.08 -2.80778,53.7428,640.08 -2.79028,53.7439,640.08 -2.77694,53.7469,640.08 -2.76556,53.7519,640.08 -2.75667,53.75830000000001,640.08 -2.74944,53.76780000000001,640.08 -2.74778,53.7761,640.08 -2.74944,53.78439999999999,640.08 -2.75472,53.79220000000001,640.08 -2.76556,53.8003,640.08 -2.77694,53.8053,640.08 -2.79,53.8083,640.08 -2.80417,53.8094,640.08 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R313 SCAMPTON</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R313 SCAMPTON</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">9500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-0.550833,53.39110000000001,2895.6 -0.585556,53.3883,2895.6 -0.618056,53.3808,2895.6 -0.646389,53.3683,2895.6 -0.6583329999999999,53.3608,2895.6 -0.673056,53.3478,2895.6 -0.685833,53.32829999999999,2895.6 -0.689167,53.31809999999999,2895.6 -0.6902779999999999,53.3078,2895.6 -0.689167,53.2972,2895.6 -0.685833,53.2869,2895.6 -0.680278,53.2769,2895.6 -0.668333,53.26309999999999,2895.6 -0.646111,53.2469,2895.6 -0.617778,53.2347,2895.6 -0.585556,53.2272,2895.6 -0.542222,53.22469999999999,2895.6 -0.507778,53.2286,2895.6 -0.4763890000000001,53.2375,2895.6 -0.449444,53.2508,2895.6 -0.428889,53.2675,2895.6 -0.418333,53.2819,2895.6 -0.413889,53.29219999999999,2895.6 -0.411667,53.3025,2895.6 -0.411667,53.31309999999999,2895.6 -0.413889,53.3233,2895.6 -0.418333,53.33329999999999,2895.6 -0.433056,53.3522,2895.6 -0.4552780000000001,53.3683,2895.6 -0.483611,53.3808,2895.6 -0.516111,53.3883,2895.6 -0.550833,53.39110000000001,2895.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R322 WYLFA</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R322 WYLFA</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2100 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.48111,53.4494,640.08 -4.495,53.4483,640.08 -4.50806,53.4453,640.08 -4.51944,53.4403,640.08 -4.52833,53.43389999999999,640.08 -4.53417,53.42639999999999,640.08 -4.53694,53.4181,640.08 -4.53611,53.4097,640.08 -4.53,53.39999999999999,640.08 -4.52194,53.3933,640.08 -4.51111,53.38810000000001,640.08 -4.49833,53.3844,640.08 -4.48472,53.3828,640.08 -4.46722,53.3839,640.08 -4.45417,53.3869,640.08 -4.44278,53.3919,640.08 -4.43389,53.39830000000001,640.08 -4.42694,53.40780000000001,640.08 -4.42528,53.4161,640.08 -4.42694,53.42439999999999,640.08 -4.43222,53.43220000000001,640.08 -4.44278,53.4403,640.08 -4.45417,53.4453,640.08 -4.46722,53.4483,640.08 -4.48111,53.4494,640.08 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R413 SELLAFIELD</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R413 SELLAFIELD</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.49556,54.4514,609.6 -3.509720000000001,54.4503,609.6 -3.52306,54.4472,609.6 -3.53472,54.4422,609.6 -3.543890000000001,54.43580000000001,609.6 -3.55,54.42829999999999,609.6 -3.55278,54.42,609.6 -3.55167,54.41170000000001,609.6 -3.54583,54.40189999999999,609.6 -3.53722,54.3953,609.6 -3.52611,54.39000000000001,609.6 -3.513329999999999,54.3864,609.6 -3.49917,54.3847,609.6 -3.48139,54.38580000000001,609.6 -3.46806,54.3889,609.6 -3.45639,54.3939,609.6 -3.44722,54.4003,609.6 -3.44,54.4097,609.6 -3.438330000000001,54.4181,609.6 -3.44,54.4264,609.6 -3.445279999999999,54.4342,609.6 -3.45639,54.4422,609.6 -3.46806,54.4472,609.6 -3.48139,54.4503,609.6 -3.49556,54.4514,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R444 HEYSHAM</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R444 HEYSHAM</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.91444,54.0631,609.6 -2.92861,54.0619,609.6 -2.94167,54.0589,609.6 -2.95333,54.0539,609.6 -2.96417,54.0458,609.6 -2.969440000000001,54.0381,609.6 -2.97111,54.02970000000001,609.6 -2.969440000000001,54.0214,609.6 -2.96222,54.0119,609.6 -2.95333,54.0056,609.6 -2.94167,54.0006,609.6 -2.92861,53.9975,609.6 -2.91083,53.9964,609.6 -2.89694,53.99810000000001,609.6 -2.88417,54.0017,609.6 -2.87306,54.0069,609.6 -2.86472,54.0136,609.6 -2.858610000000001,54.0233,609.6 -2.85778,54.03169999999999,609.6 -2.86056,54.04,609.6 -2.86667,54.0475,609.6 -2.87556,54.0539,609.6 -2.88722,54.0589,609.6 -2.90028,54.0619,609.6 -2.91444,54.0631,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R445 BARROW IN FURNESS</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R445 BARROW IN FURNESS</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.23611,54.11810000000001,609.6 -3.24306,54.1169,609.6 -3.248610000000001,54.11360000000001,609.6 -3.25028,54.1097,609.6 -3.24806,54.1053,609.6 -3.24306,54.1025,609.6 -3.235279999999999,54.10140000000001,609.6 -3.22861,54.1028,609.6 -3.22361,54.1058,609.6 -3.22194,54.1103,609.6 -3.22417,54.1142,609.6 -3.22917,54.1169,609.6 -3.23611,54.11810000000001,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R446 HARTLEPOOL</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R446 HARTLEPOOL</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-1.18028,54.6686,609.6 -1.19472,54.6675,609.6 -1.20806,54.6644,609.6 -1.21972,54.6594,609.6 -1.22889,54.6531,609.6 -1.235,54.6456,609.6 -1.23778,54.63719999999999,609.6 -1.23667,54.6289,609.6 -1.23056,54.6192,609.6 -1.22222,54.6125,609.6 -1.21111,54.6072,609.6 -1.19806,54.60359999999999,609.6 -1.18028,54.60190000000001,609.6 -1.1625,54.60359999999999,609.6 -1.14944,54.6072,609.6 -1.13833,54.6125,609.6 -1.13,54.6192,609.6 -1.12389,54.6289,609.6 -1.12278,54.63719999999999,609.6 -1.12556,54.6456,609.6 -1.13167,54.6531,609.6 -1.14083,54.6594,609.6 -1.1525,54.6644,609.6 -1.16583,54.6675,609.6 -1.18028,54.6686,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R515 HUNTERSTON</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R515 HUNTERSTON</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.89389,55.7547,609.6 -4.90861,55.7536,609.6 -4.9225,55.7506,609.6 -4.93444,55.7456,609.6 -4.94389,55.7392,609.6 -4.95028,55.73169999999999,609.6 -4.95306,55.72330000000001,609.6 -4.95194,55.715,609.6 -4.94583,55.7053,609.6 -4.93694,55.69859999999999,609.6 -4.92556,55.6933,609.6 -4.91222,55.68970000000001,609.6 -4.89389,55.6881,609.6 -4.87556,55.68970000000001,609.6 -4.86222,55.6933,609.6 -4.85083,55.69859999999999,609.6 -4.84194,55.7053,609.6 -4.83583,55.715,609.6 -4.83472,55.72330000000001,609.6 -4.8375,55.73169999999999,609.6 -4.84389,55.7392,609.6 -4.85333,55.7456,609.6 -4.86528,55.7506,609.6 -4.87917,55.7536,609.6 -4.89389,55.7547,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R516 TORNESS</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R516 TORNESS</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2100 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.40861,56.0017,640.08 -2.42333,56.00059999999999,640.08 -2.43722,55.9975,640.08 -2.44944,55.9925,640.08 -2.45889,55.9861,640.08 -2.46528,55.9786,640.08 -2.46806,55.97030000000001,640.08 -2.46694,55.9619,640.08 -2.46083,55.9522,640.08 -2.45194,55.94559999999999,640.08 -2.44056,55.9403,640.08 -2.42694,55.93670000000001,640.08 -2.40861,55.935,640.08 -2.39028,55.93670000000001,640.08 -2.37667,55.9403,640.08 -2.36528,55.94559999999999,640.08 -2.35639,55.9522,640.08 -2.35028,55.9619,640.08 -2.34917,55.97030000000001,640.08 -2.35194,55.9786,640.08 -2.35833,55.9861,640.08 -2.36778,55.9925,640.08 -2.38,55.9975,640.08 -2.39389,56.00059999999999,640.08 -2.40861,56.0017,640.08 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R603 ROSYTH</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R603 ROSYTH</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.45083,56.0381,609.6 -3.45806,56.0369,609.6 -3.46333,56.0342,609.6 -3.46583,56.0303,609.6 -3.46389,56.0258,609.6 -3.45889,56.0228,609.6 -3.45083,56.0214,609.6 -3.44278,56.0228,609.6 -3.43778,56.0258,609.6 -3.43583,56.0303,609.6 -3.438330000000001,56.0342,609.6 -3.44361,56.0369,609.6 -3.45083,56.0381,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R610A HIGHLANDS</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R610A HIGHLANDS</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">5000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.65056,58.5,1524 -4.33333,58.5,1524 -4.5,58.4167,1524 -4.5,58.5,1524 -4.81667,58.5,1524 -5.25,58.00000000000001,1524 -5.71667,57.8333,1524 -5.58333,57.2167,1524 -5.783330000000001,56.9333,1524 -5.08333,56.9,1524 -5.03333,57,1524 -5,57.15,1524 -4.88333,57.1833,1524 -4.86667,57.3,1524 -4.63333,57.49999999999999,1524 -4.75,57.6333,1524 -4.5,57.65,1524 -4.41667,57.78329999999999,1524 -4.61667,58.00000000000001,1524 -4.5,58.05,1524 -4.21333,58.0625,1524 -3.47972,58.3989,1524 -3.6375,58.4744,1524 -3.65056,58.5,1524 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R610B HIGHLANDS</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R610B HIGHLANDS</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">5000 FT AMSL</SimpleData>
+					<SimpleData name="Base">750 FT AMSL</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5.71667,57.8333,1524 -6.27694,57.7875,1524 -6.25111,57,1524 -5.945560000000001,57,1524 -5.96083,57.6444,1524 -5.68056,57.66779999999999,1524 -5.71667,57.8333,1524 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5.71667,57.8333,228.6 -6.27694,57.7875,228.6 -6.25111,57,228.6 -5.945560000000001,57,228.6 -5.96083,57.6444,228.6 -5.68056,57.66779999999999,228.6 -5.71667,57.8333,228.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5.71667,57.8333,1524 -6.27694,57.7875,1524 -6.27694,57.7875,228.6 -5.71667,57.8333,228.6 -5.71667,57.8333,1524 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-6.27694,57.7875,1524 -6.25111,57,1524 -6.25111,57,228.6 -6.27694,57.7875,228.6 -6.27694,57.7875,1524 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-6.25111,57,1524 -5.945560000000001,57,1524 -5.945560000000001,57,228.6 -6.25111,57,228.6 -6.25111,57,1524 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5.945560000000001,57,1524 -5.96083,57.6444,1524 -5.96083,57.6444,228.6 -5.945560000000001,57,228.6 -5.945560000000001,57,1524 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5.96083,57.6444,1524 -5.68056,57.66779999999999,1524 -5.68056,57.66779999999999,228.6 -5.96083,57.6444,228.6 -5.96083,57.6444,1524 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5.68056,57.66779999999999,1524 -5.71667,57.8333,1524 -5.71667,57.8333,228.6 -5.68056,57.66779999999999,228.6 -5.68056,57.66779999999999,1524 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>R610C HIGHLANDS</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R610C HIGHLANDS</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.54,58.3717,609.6 -3.66111,58.3167,609.6 -3.448329999999999,58.18920000000001,609.6 -3.32472,58.2428,609.6 -3.54,58.3717,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R610D HIGHLANDS</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R610D HIGHLANDS</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">2000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-4.10167,57.8167,609.6 -4.41667,57.78329999999999,609.6 -4.5,57.65,609.6 -4.18222,57.7094,609.6 -4.04833,57.75000000000001,609.6 -4.10167,57.8167,609.6 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R612 ARBROATH</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R612 ARBROATH</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">6000 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-2.6125,56.6053,1828.8 -2.63444,56.6022,1828.8 -2.65083,56.5936,1828.8 -2.65556,56.5881,1828.8 -2.65778,56.5819,1828.8 -2.65694,56.5756,1828.8 -2.65361,56.5697,1828.8 -2.6475,56.5644,1828.8 -2.63667,56.5592,1828.8 -2.62639,56.5564,1828.8 -2.6125,56.5553,1828.8 -2.59861,56.5564,1828.8 -2.58833,56.5592,1828.8 -2.5775,56.5644,1828.8 -2.57139,56.5697,1828.8 -2.56806,56.5756,1828.8 -2.56722,56.5819,1828.8 -2.56944,56.5881,1828.8 -2.57417,56.5936,1828.8 -2.59056,56.6022,1828.8 -2.6125,56.6053,1828.8 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R704 BALMORAL</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R704 BALMORAL</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">3500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.23028,57.0575,1066.8 -3.245,57.0556,1066.8 -3.25611,57.0497,1066.8 -3.26083,57.04190000000001,1066.8 -3.25806,57.0336,1066.8 -3.24667,57.02670000000001,1066.8 -3.23028,57.02419999999999,1066.8 -3.21389,57.02670000000001,1066.8 -3.2025,57.0336,1066.8 -3.199720000000001,57.04190000000001,1066.8 -3.20444,57.0497,1066.8 -3.21556,57.0556,1066.8 -3.23028,57.0575,1066.8 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>R705 BIRKHALL</name>
+			<styleUrl>#StyleRESTRICTED</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">R705 BIRKHALL</SimpleData>
+					<SimpleData name="Category">Restricted area</SimpleData>
+					<SimpleData name="Top">3500 FT AMSL</SimpleData>
+					<SimpleData name="Base">GND</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-3.074170000000001,57.04559999999999,1066.8 -3.088890000000001,57.04359999999999,1066.8 -3.1,57.0378,1066.8 -3.10472,57.03,1066.8 -3.10194,57.0217,1066.8 -3.09056,57.01469999999999,1066.8 -3.074170000000001,57.0122,1066.8 -3.05778,57.01469999999999,1066.8 -3.04639,57.0217,1066.8 -3.04361,57.03,1066.8 -3.04833,57.0378,1066.8 -3.05944,57.04359999999999,1066.8 -3.074170000000001,57.04559999999999,1066.8 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

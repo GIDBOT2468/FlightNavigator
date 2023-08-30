@@ -1,0 +1,2890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>WAVE.kml</name>
+	<Schema id="AirspaceId">
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Category"><displayName>&lt;b&gt;Category:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Top"><displayName>&lt;b&gt;Ceiling:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Base"><displayName>&lt;b&gt;Floor:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Radio"><displayName>&lt;b&gt;Radio frequency (MHz):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Xpndr"><displayName>&lt;b&gt;Transponder code:&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area"><displayName>&lt;b&gt;Area (Km&lt;sup&gt;2&lt;/sup&gt;):&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Perimeter"><displayName>&lt;b&gt;Perimeter (Km):&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="StyleWAVE">
+		<LineStyle>
+			<color>60000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>65a6789f</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>WAVE</name>
+		<open>1</open>
+		<Region>
+			<LatLonAltBox>
+				<north>90</north>
+				<south>-90</south>
+				<east>180</east>
+				<west>-180</west>
+				<minAltitude>0</minAltitude>
+				<maxAltitude>200000</maxAltitude>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>10000</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<Placemark>
+			<name>NSGA SCOTLAND</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">NSGA SCOTLAND</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">FL100</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5,55.00000000000001,5943.6 -3,55.00000000000001,5943.6 -3,56,5943.6 -2,56,5943.6 -2,59,5943.6 -7,59,5943.6 -7,56,5943.6 -5,55.00000000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5,55.00000000000001,3048 -3,55.00000000000001,3048 -3,56,3048 -2,56,3048 -2,59,3048 -7,59,3048 -7,56,3048 -5,55.00000000000001,3048 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-5,55.00000000000001,5943.6 -3,55.00000000000001,5943.6 -3,55.00000000000001,3048 -5,55.00000000000001,3048 -5,55.00000000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3,55.00000000000001,5943.6 -3,56,5943.6 -3,56,3048 -3,55.00000000000001,3048 -3,55.00000000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3,56,5943.6 -2,56,5943.6 -2,56,3048 -3,56,3048 -3,56,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2,56,5943.6 -2,59,5943.6 -2,59,3048 -2,56,3048 -2,56,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2,59,5943.6 -7,59,5943.6 -7,59,3048 -2,59,3048 -2,59,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-7,59,5943.6 -7,56,5943.6 -7,56,3048 -7,59,3048 -7,59,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-7,56,5943.6 -5,55.00000000000001,5943.6 -5,55.00000000000001,3048 -7,56,3048 -7,56,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>NSGA BORDERS</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">NSGA BORDERS</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">FL100</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3,55.00000000000001,5943.6 -1.5,55.00000000000001,5943.6 -2,56,5943.6 -3,56,5943.6 -3,55.00000000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3,55.00000000000001,3048 -1.5,55.00000000000001,3048 -2,56,3048 -3,56,3048 -3,55.00000000000001,3048 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3,55.00000000000001,5943.6 -1.5,55.00000000000001,5943.6 -1.5,55.00000000000001,3048 -3,55.00000000000001,3048 -3,55.00000000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.5,55.00000000000001,5943.6 -2,56,5943.6 -2,56,3048 -1.5,55.00000000000001,3048 -1.5,55.00000000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2,56,5943.6 -3,56,5943.6 -3,56,3048 -2,56,3048 -2,56,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3,56,5943.6 -3,55.00000000000001,5943.6 -3,55.00000000000001,3048 -3,56,3048 -3,56,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>NSGA YORKSHIRE</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">NSGA YORKSHIRE</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">FL100</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.09861,55.00000000000001,5943.6 -3.63667,54.5136,5943.6 -3.266109999999999,54.1239,5943.6 -2.62056,53.8858,5943.6 -1.26778,53.69579999999999,5943.6 -0.5341669999999999,53.7769,5943.6 -1.84083,54.9344,5943.6 -2.00278,55.00000000000001,5943.6 -3.09861,55.00000000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.09861,55.00000000000001,3048 -3.63667,54.5136,3048 -3.266109999999999,54.1239,3048 -2.62056,53.8858,3048 -1.26778,53.69579999999999,3048 -0.5341669999999999,53.7769,3048 -1.84083,54.9344,3048 -2.00278,55.00000000000001,3048 -3.09861,55.00000000000001,3048 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.09861,55.00000000000001,5943.6 -3.63667,54.5136,5943.6 -3.63667,54.5136,3048 -3.09861,55.00000000000001,3048 -3.09861,55.00000000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.63667,54.5136,5943.6 -3.266109999999999,54.1239,5943.6 -3.266109999999999,54.1239,3048 -3.63667,54.5136,3048 -3.63667,54.5136,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.266109999999999,54.1239,5943.6 -2.62056,53.8858,5943.6 -2.62056,53.8858,3048 -3.266109999999999,54.1239,3048 -3.266109999999999,54.1239,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.62056,53.8858,5943.6 -1.26778,53.69579999999999,5943.6 -1.26778,53.69579999999999,3048 -2.62056,53.8858,3048 -2.62056,53.8858,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.26778,53.69579999999999,5943.6 -0.5341669999999999,53.7769,5943.6 -0.5341669999999999,53.7769,3048 -1.26778,53.69579999999999,3048 -1.26778,53.69579999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.5341669999999999,53.7769,5943.6 -1.84083,54.9344,5943.6 -1.84083,54.9344,3048 -0.5341669999999999,53.7769,3048 -0.5341669999999999,53.7769,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.84083,54.9344,5943.6 -2.00278,55.00000000000001,5943.6 -2.00278,55.00000000000001,3048 -1.84083,54.9344,3048 -1.84083,54.9344,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.00278,55.00000000000001,5943.6 -3.09861,55.00000000000001,5943.6 -3.09861,55.00000000000001,3048 -2.00278,55.00000000000001,3048 -2.00278,55.00000000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>NSGA DERBYSHIRE</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">NSGA DERBYSHIRE</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">FL100</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.74472,53.4281,5943.6 -1.55556,53.1383,5943.6 -1.32417,53.1011,5943.6 -0.8827779999999998,52.7608,5943.6 -0.8558330000000001,53.24890000000001,5943.6 -1.28222,53.315,5943.6 -1.21222,53.5778,5943.6 -1.74472,53.4281,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.74472,53.4281,3048 -1.55556,53.1383,3048 -1.32417,53.1011,3048 -0.8827779999999998,52.7608,3048 -0.8558330000000001,53.24890000000001,3048 -1.28222,53.315,3048 -1.21222,53.5778,3048 -1.74472,53.4281,3048 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.74472,53.4281,5943.6 -1.55556,53.1383,5943.6 -1.55556,53.1383,3048 -1.74472,53.4281,3048 -1.74472,53.4281,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.55556,53.1383,5943.6 -1.32417,53.1011,5943.6 -1.32417,53.1011,3048 -1.55556,53.1383,3048 -1.55556,53.1383,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.32417,53.1011,5943.6 -0.8827779999999998,52.7608,5943.6 -0.8827779999999998,52.7608,3048 -1.32417,53.1011,3048 -1.32417,53.1011,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.8827779999999998,52.7608,5943.6 -0.8558330000000001,53.24890000000001,5943.6 -0.8558330000000001,53.24890000000001,3048 -0.8827779999999998,52.7608,3048 -0.8827779999999998,52.7608,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.8558330000000001,53.24890000000001,5943.6 -1.28222,53.315,5943.6 -1.28222,53.315,3048 -0.8558330000000001,53.24890000000001,3048 -0.8558330000000001,53.24890000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.28222,53.315,5943.6 -1.21222,53.5778,5943.6 -1.21222,53.5778,3048 -1.28222,53.315,3048 -1.28222,53.315,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.21222,53.5778,5943.6 -1.74472,53.4281,5943.6 -1.74472,53.4281,3048 -1.21222,53.5778,3048 -1.21222,53.5778,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>NSGA WALES</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">NSGA WALES</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">FL100</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53.2819,5943.6 -4.5,52.7322,5943.6 -4.31528,51.8514,5943.6 -3.07361,51.6192,5943.6 -2.45222,51.6375,5943.6 -2.19028,51.7447,5943.6 -1.87722,52.2072,5943.6 -2.32,52.6953,5943.6 -2.79556,52.9636,5943.6 -3.27889,53.315,5943.6 -4.19861,53.35469999999999,5943.6 -4.5,53.2819,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53.2819,3048 -4.5,52.7322,3048 -4.31528,51.8514,3048 -3.07361,51.6192,3048 -2.45222,51.6375,3048 -2.19028,51.7447,3048 -1.87722,52.2072,3048 -2.32,52.6953,3048 -2.79556,52.9636,3048 -3.27889,53.315,3048 -4.19861,53.35469999999999,3048 -4.5,53.2819,3048 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53.2819,5943.6 -4.5,52.7322,5943.6 -4.5,52.7322,3048 -4.5,53.2819,3048 -4.5,53.2819,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,52.7322,5943.6 -4.31528,51.8514,5943.6 -4.31528,51.8514,3048 -4.5,52.7322,3048 -4.5,52.7322,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.31528,51.8514,5943.6 -3.07361,51.6192,5943.6 -3.07361,51.6192,3048 -4.31528,51.8514,3048 -4.31528,51.8514,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.07361,51.6192,5943.6 -2.45222,51.6375,5943.6 -2.45222,51.6375,3048 -3.07361,51.6192,3048 -3.07361,51.6192,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.45222,51.6375,5943.6 -2.19028,51.7447,5943.6 -2.19028,51.7447,3048 -2.45222,51.6375,3048 -2.45222,51.6375,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.19028,51.7447,5943.6 -1.87722,52.2072,5943.6 -1.87722,52.2072,3048 -2.19028,51.7447,3048 -2.19028,51.7447,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.87722,52.2072,5943.6 -2.32,52.6953,5943.6 -2.32,52.6953,3048 -1.87722,52.2072,3048 -1.87722,52.2072,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.32,52.6953,5943.6 -2.79556,52.9636,5943.6 -2.79556,52.9636,3048 -2.32,52.6953,3048 -2.32,52.6953,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.79556,52.9636,5943.6 -3.27889,53.315,5943.6 -3.27889,53.315,3048 -2.79556,52.9636,3048 -2.79556,52.9636,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.27889,53.315,5943.6 -4.19861,53.35469999999999,5943.6 -4.19861,53.35469999999999,3048 -3.27889,53.315,3048 -3.27889,53.315,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.19861,53.35469999999999,5943.6 -4.5,53.2819,5943.6 -4.5,53.2819,3048 -4.19861,53.35469999999999,3048 -4.19861,53.35469999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>NSGA DARTMOOR</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">NSGA DARTMOOR</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL195</SimpleData>
+					<SimpleData name="Base">FL100</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.07361,50.8186,5943.6 -4.35056,50.6297,5943.6 -4.45389,50.45,5943.6 -3.89528,50.3872,5943.6 -3.89528,50.6281,5943.6 -4.07361,50.8186,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.07361,50.8186,3048 -4.35056,50.6297,3048 -4.45389,50.45,3048 -3.89528,50.3872,3048 -3.89528,50.6281,3048 -4.07361,50.8186,3048 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.07361,50.8186,5943.6 -4.35056,50.6297,5943.6 -4.35056,50.6297,3048 -4.07361,50.8186,3048 -4.07361,50.8186,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.35056,50.6297,5943.6 -4.45389,50.45,5943.6 -4.45389,50.45,3048 -4.35056,50.6297,3048 -4.35056,50.6297,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.45389,50.45,5943.6 -3.89528,50.3872,5943.6 -3.89528,50.3872,3048 -4.45389,50.45,3048 -4.45389,50.45,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.89528,50.3872,5943.6 -3.89528,50.6281,5943.6 -3.89528,50.6281,3048 -3.89528,50.3872,3048 -3.89528,50.3872,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.89528,50.6281,5943.6 -4.07361,50.8186,5943.6 -4.07361,50.8186,3048 -3.89528,50.6281,3048 -3.89528,50.6281,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG SCOTLAND UPPER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG SCOTLAND UPPER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL270</SimpleData>
+					<SimpleData name="Base">FL240</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.69667,57.6667,8229.6 -3.79222,57.30029999999999,8229.6 -2.78806,57.19750000000001,8229.6 -2.42139,57.4811,8229.6 -2.921670000000001,57.6667,8229.6 -3.69667,57.6667,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.69667,57.6667,7315.199999999999 -3.79222,57.30029999999999,7315.199999999999 -2.78806,57.19750000000001,7315.199999999999 -2.42139,57.4811,7315.199999999999 -2.921670000000001,57.6667,7315.199999999999 -3.69667,57.6667,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.69667,57.6667,8229.6 -3.79222,57.30029999999999,8229.6 -3.79222,57.30029999999999,7315.199999999999 -3.69667,57.6667,7315.199999999999 -3.69667,57.6667,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.79222,57.30029999999999,8229.6 -2.78806,57.19750000000001,8229.6 -2.78806,57.19750000000001,7315.199999999999 -3.79222,57.30029999999999,7315.199999999999 -3.79222,57.30029999999999,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.78806,57.19750000000001,8229.6 -2.42139,57.4811,8229.6 -2.42139,57.4811,7315.199999999999 -2.78806,57.19750000000001,7315.199999999999 -2.78806,57.19750000000001,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.42139,57.4811,8229.6 -2.921670000000001,57.6667,8229.6 -2.921670000000001,57.6667,7315.199999999999 -2.42139,57.4811,7315.199999999999 -2.42139,57.4811,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.921670000000001,57.6667,8229.6 -3.69667,57.6667,8229.6 -3.69667,57.6667,7315.199999999999 -2.921670000000001,57.6667,7315.199999999999 -2.921670000000001,57.6667,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG SCOTLAND UPPER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG SCOTLAND UPPER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">FL240</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.79222,57.30029999999999,20116.8 -3.84694,57.0872,20116.8 -3.22167,56.8553,20116.8 -2.78806,57.19750000000001,20116.8 -3.79222,57.30029999999999,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.79222,57.30029999999999,7315.199999999999 -3.84694,57.0872,7315.199999999999 -3.22167,56.8553,7315.199999999999 -2.78806,57.19750000000001,7315.199999999999 -3.79222,57.30029999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.79222,57.30029999999999,20116.8 -3.84694,57.0872,20116.8 -3.84694,57.0872,7315.199999999999 -3.79222,57.30029999999999,7315.199999999999 -3.79222,57.30029999999999,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.84694,57.0872,20116.8 -3.22167,56.8553,20116.8 -3.22167,56.8553,7315.199999999999 -3.84694,57.0872,7315.199999999999 -3.84694,57.0872,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.22167,56.8553,20116.8 -2.78806,57.19750000000001,20116.8 -2.78806,57.19750000000001,7315.199999999999 -3.22167,56.8553,7315.199999999999 -3.22167,56.8553,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.78806,57.19750000000001,20116.8 -3.79222,57.30029999999999,20116.8 -3.79222,57.30029999999999,7315.199999999999 -2.78806,57.19750000000001,7315.199999999999 -2.78806,57.19750000000001,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG SCOTLAND LOWER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG SCOTLAND LOWER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.69667,57.6667,7315.199999999999 -3.84694,57.0872,7315.199999999999 -3.22167,56.8553,7315.199999999999 -2.42139,57.4811,7315.199999999999 -2.921670000000001,57.6667,7315.199999999999 -3.69667,57.6667,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.69667,57.6667,5943.6 -3.84694,57.0872,5943.6 -3.22167,56.8553,5943.6 -2.42139,57.4811,5943.6 -2.921670000000001,57.6667,5943.6 -3.69667,57.6667,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.69667,57.6667,7315.199999999999 -3.84694,57.0872,7315.199999999999 -3.84694,57.0872,5943.6 -3.69667,57.6667,5943.6 -3.69667,57.6667,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.84694,57.0872,7315.199999999999 -3.22167,56.8553,7315.199999999999 -3.22167,56.8553,5943.6 -3.84694,57.0872,5943.6 -3.84694,57.0872,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.22167,56.8553,7315.199999999999 -2.42139,57.4811,7315.199999999999 -2.42139,57.4811,5943.6 -3.22167,56.8553,5943.6 -3.22167,56.8553,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.42139,57.4811,7315.199999999999 -2.921670000000001,57.6667,7315.199999999999 -2.921670000000001,57.6667,5943.6 -2.42139,57.4811,5943.6 -2.42139,57.4811,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.921670000000001,57.6667,7315.199999999999 -3.69667,57.6667,7315.199999999999 -3.69667,57.6667,5943.6 -2.921670000000001,57.6667,5943.6 -2.921670000000001,57.6667,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG SCOTLAND LOWER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG SCOTLAND LOWER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.84694,57.0872,7315.199999999999 -4.02833,56.36220000000001,7315.199999999999 -3.88278,56.4022,7315.199999999999 -3.59917,56.5506,7315.199999999999 -3.22167,56.8553,7315.199999999999 -3.84694,57.0872,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.84694,57.0872,5943.6 -4.02833,56.36220000000001,5943.6 -3.88278,56.4022,5943.6 -3.59917,56.5506,5943.6 -3.22167,56.8553,5943.6 -3.84694,57.0872,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.84694,57.0872,7315.199999999999 -4.02833,56.36220000000001,7315.199999999999 -4.02833,56.36220000000001,5943.6 -3.84694,57.0872,5943.6 -3.84694,57.0872,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.02833,56.36220000000001,7315.199999999999 -3.88278,56.4022,7315.199999999999 -3.88278,56.4022,5943.6 -4.02833,56.36220000000001,5943.6 -4.02833,56.36220000000001,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.88278,56.4022,7315.199999999999 -3.59917,56.5506,7315.199999999999 -3.59917,56.5506,5943.6 -3.88278,56.4022,5943.6 -3.88278,56.4022,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.59917,56.5506,7315.199999999999 -3.22167,56.8553,7315.199999999999 -3.22167,56.8553,5943.6 -3.59917,56.5506,5943.6 -3.59917,56.5506,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.22167,56.8553,7315.199999999999 -3.84694,57.0872,7315.199999999999 -3.84694,57.0872,5943.6 -3.22167,56.8553,5943.6 -3.22167,56.8553,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG PORTMOAK</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG PORTMOAK</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.71472,56.4906,7315.199999999999 -3.88278,56.4022,7315.199999999999 -4.02833,56.36220000000001,7315.199999999999 -4.06778,56.2,7315.199999999999 -3.48194,56.2,7315.199999999999 -3.44,56.37309999999999,7315.199999999999 -3.71472,56.4906,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.71472,56.4906,5943.6 -3.88278,56.4022,5943.6 -4.02833,56.36220000000001,5943.6 -4.06778,56.2,5943.6 -3.48194,56.2,5943.6 -3.44,56.37309999999999,5943.6 -3.71472,56.4906,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.71472,56.4906,7315.199999999999 -3.88278,56.4022,7315.199999999999 -3.88278,56.4022,5943.6 -3.71472,56.4906,5943.6 -3.71472,56.4906,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.88278,56.4022,7315.199999999999 -4.02833,56.36220000000001,7315.199999999999 -4.02833,56.36220000000001,5943.6 -3.88278,56.4022,5943.6 -3.88278,56.4022,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.02833,56.36220000000001,7315.199999999999 -4.06778,56.2,7315.199999999999 -4.06778,56.2,5943.6 -4.02833,56.36220000000001,5943.6 -4.02833,56.36220000000001,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.06778,56.2,7315.199999999999 -3.48194,56.2,7315.199999999999 -3.48194,56.2,5943.6 -4.06778,56.2,5943.6 -4.06778,56.2,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.48194,56.2,7315.199999999999 -3.44,56.37309999999999,7315.199999999999 -3.44,56.37309999999999,5943.6 -3.48194,56.2,5943.6 -3.48194,56.2,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.44,56.37309999999999,7315.199999999999 -3.71472,56.4906,7315.199999999999 -3.71472,56.4906,5943.6 -3.44,56.37309999999999,5943.6 -3.44,56.37309999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG ABOYNE</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG ABOYNE</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.88333,57.2833,7315.199999999999 -3.25,56.9583,7315.199999999999 -3.00139,56.8836,7315.199999999999 -2.59222,57.2044,7315.199999999999 -2.88333,57.2833,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.88333,57.2833,5943.6 -3.25,56.9583,5943.6 -3.00139,56.8836,5943.6 -2.59222,57.2044,5943.6 -2.88333,57.2833,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.88333,57.2833,7315.199999999999 -3.25,56.9583,7315.199999999999 -3.25,56.9583,5943.6 -2.88333,57.2833,5943.6 -2.88333,57.2833,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.25,56.9583,7315.199999999999 -3.00139,56.8836,7315.199999999999 -3.00139,56.8836,5943.6 -3.25,56.9583,5943.6 -3.25,56.9583,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.00139,56.8836,7315.199999999999 -2.59222,57.2044,7315.199999999999 -2.59222,57.2044,5943.6 -3.00139,56.8836,5943.6 -3.00139,56.8836,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.59222,57.2044,7315.199999999999 -2.88333,57.2833,7315.199999999999 -2.88333,57.2833,5943.6 -2.59222,57.2044,5943.6 -2.59222,57.2044,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG NORTHUMBRIA</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG NORTHUMBRIA</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.65389,56.09999999999999,7315.199999999999 -2.69111,55.7667,7315.199999999999 -1.98167,55.7667,7315.199999999999 -2.03778,55.91669999999999,7315.199999999999 -2.65389,56.09999999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.65389,56.09999999999999,5943.6 -2.69111,55.7667,5943.6 -1.98167,55.7667,5943.6 -2.03778,55.91669999999999,5943.6 -2.65389,56.09999999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.65389,56.09999999999999,7315.199999999999 -2.69111,55.7667,7315.199999999999 -2.69111,55.7667,5943.6 -2.65389,56.09999999999999,5943.6 -2.65389,56.09999999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.69111,55.7667,7315.199999999999 -1.98167,55.7667,7315.199999999999 -1.98167,55.7667,5943.6 -2.69111,55.7667,5943.6 -2.69111,55.7667,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.98167,55.7667,7315.199999999999 -2.03778,55.91669999999999,7315.199999999999 -2.03778,55.91669999999999,5943.6 -1.98167,55.7667,5943.6 -1.98167,55.7667,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.03778,55.91669999999999,7315.199999999999 -2.65389,56.09999999999999,7315.199999999999 -2.65389,56.09999999999999,5943.6 -2.03778,55.91669999999999,5943.6 -2.03778,55.91669999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG NORTHUMBRIA</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG NORTHUMBRIA</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.69111,55.7667,7315.199999999999 -2.70306,55.65779999999999,7315.199999999999 -2.51278,55.49750000000001,7315.199999999999 -1.90944,55.30080000000001,7315.199999999999 -1.86306,55.4456,7315.199999999999 -1.98167,55.7667,7315.199999999999 -2.69111,55.7667,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.69111,55.7667,5943.6 -2.70306,55.65779999999999,5943.6 -2.51278,55.49750000000001,5943.6 -1.90944,55.30080000000001,5943.6 -1.86306,55.4456,5943.6 -1.98167,55.7667,5943.6 -2.69111,55.7667,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.69111,55.7667,7315.199999999999 -2.70306,55.65779999999999,7315.199999999999 -2.70306,55.65779999999999,5943.6 -2.69111,55.7667,5943.6 -2.69111,55.7667,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.70306,55.65779999999999,7315.199999999999 -2.51278,55.49750000000001,7315.199999999999 -2.51278,55.49750000000001,5943.6 -2.70306,55.65779999999999,5943.6 -2.70306,55.65779999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.51278,55.49750000000001,7315.199999999999 -1.90944,55.30080000000001,7315.199999999999 -1.90944,55.30080000000001,5943.6 -2.51278,55.49750000000001,5943.6 -2.51278,55.49750000000001,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.90944,55.30080000000001,7315.199999999999 -1.86306,55.4456,7315.199999999999 -1.86306,55.4456,5943.6 -1.90944,55.30080000000001,5943.6 -1.90944,55.30080000000001,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.86306,55.4456,7315.199999999999 -1.98167,55.7667,7315.199999999999 -1.98167,55.7667,5943.6 -1.86306,55.4456,5943.6 -1.86306,55.4456,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.98167,55.7667,7315.199999999999 -2.69111,55.7667,7315.199999999999 -2.69111,55.7667,5943.6 -1.98167,55.7667,5943.6 -1.98167,55.7667,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG SPADEADAM UPPER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG SPADEADAM UPPER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">FL240</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.61083,55.1117,20116.8 -2.23306,54.73779999999999,20116.8 -2.15694,54.9839,20116.8 -2.61083,55.1117,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.61083,55.1117,7315.199999999999 -2.23306,54.73779999999999,7315.199999999999 -2.15694,54.9839,7315.199999999999 -2.61083,55.1117,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.61083,55.1117,20116.8 -2.23306,54.73779999999999,20116.8 -2.23306,54.73779999999999,7315.199999999999 -2.61083,55.1117,7315.199999999999 -2.61083,55.1117,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.23306,54.73779999999999,20116.8 -2.15694,54.9839,20116.8 -2.15694,54.9839,7315.199999999999 -2.23306,54.73779999999999,7315.199999999999 -2.23306,54.73779999999999,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.15694,54.9839,20116.8 -2.61083,55.1117,20116.8 -2.61083,55.1117,7315.199999999999 -2.15694,54.9839,7315.199999999999 -2.15694,54.9839,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG SPADEADAM LOWER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG SPADEADAM LOWER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.30611,55.0475,7315.199999999999 -2.16806,54.6644,7315.199999999999 -2.07306,54.97079999999999,7315.199999999999 -2.30611,55.0475,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.30611,55.0475,5943.6 -2.16806,54.6644,5943.6 -2.07306,54.97079999999999,5943.6 -2.30611,55.0475,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.30611,55.0475,7315.199999999999 -2.16806,54.6644,7315.199999999999 -2.16806,54.6644,5943.6 -2.30611,55.0475,5943.6 -2.30611,55.0475,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.16806,54.6644,7315.199999999999 -2.07306,54.97079999999999,7315.199999999999 -2.07306,54.97079999999999,5943.6 -2.16806,54.6644,5943.6 -2.16806,54.6644,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.07306,54.97079999999999,7315.199999999999 -2.30611,55.0475,7315.199999999999 -2.30611,55.0475,5943.6 -2.07306,54.97079999999999,5943.6 -2.07306,54.97079999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG YORKSHIRE UPPER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG YORKSHIRE UPPER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">FL240</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.43944,54.5397,20116.8 -1.59972,54.2019,20116.8 -1.39222,54,20116.8 -1,54,20116.8 -1,54.17390000000001,20116.8 -1.43944,54.5397,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.43944,54.5397,7315.199999999999 -1.59972,54.2019,7315.199999999999 -1.39222,54,7315.199999999999 -1,54,7315.199999999999 -1,54.17390000000001,7315.199999999999 -1.43944,54.5397,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.43944,54.5397,20116.8 -1.59972,54.2019,20116.8 -1.59972,54.2019,7315.199999999999 -1.43944,54.5397,7315.199999999999 -1.43944,54.5397,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.59972,54.2019,20116.8 -1.39222,54,20116.8 -1.39222,54,7315.199999999999 -1.59972,54.2019,7315.199999999999 -1.59972,54.2019,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.39222,54,20116.8 -1,54,20116.8 -1,54,7315.199999999999 -1.39222,54,7315.199999999999 -1.39222,54,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,54,20116.8 -1,54.17390000000001,20116.8 -1,54.17390000000001,7315.199999999999 -1,54,7315.199999999999 -1,54,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,54.17390000000001,20116.8 -1.43944,54.5397,20116.8 -1.43944,54.5397,7315.199999999999 -1,54.17390000000001,7315.199999999999 -1,54.17390000000001,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG YORKSHIRE LOWER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG YORKSHIRE LOWER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.43944,54.5397,7315.199999999999 -1.59972,54.2019,7315.199999999999 -1.39222,54,7315.199999999999 -1,54,7315.199999999999 -1,54.17390000000001,7315.199999999999 -1.43944,54.5397,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.43944,54.5397,5943.6 -1.59972,54.2019,5943.6 -1.39222,54,5943.6 -1,54,5943.6 -1,54.17390000000001,5943.6 -1.43944,54.5397,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.43944,54.5397,7315.199999999999 -1.59972,54.2019,7315.199999999999 -1.59972,54.2019,5943.6 -1.43944,54.5397,5943.6 -1.43944,54.5397,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.59972,54.2019,7315.199999999999 -1.39222,54,7315.199999999999 -1.39222,54,5943.6 -1.59972,54.2019,5943.6 -1.59972,54.2019,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.39222,54,7315.199999999999 -1,54,7315.199999999999 -1,54,5943.6 -1.39222,54,5943.6 -1.39222,54,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,54,7315.199999999999 -1,54.17390000000001,7315.199999999999 -1,54.17390000000001,5943.6 -1,54,5943.6 -1,54,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,54.17390000000001,7315.199999999999 -1.43944,54.5397,7315.199999999999 -1.43944,54.5397,5943.6 -1,54.17390000000001,5943.6 -1,54.17390000000001,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG YORKSHIRE LOWER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG YORKSHIRE LOWER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,54.17390000000001,7315.199999999999 -1,54,7315.199999999999 -1.39222,54,7315.199999999999 -1.25583,53.8661,7315.199999999999 -0.5341669999999999,53.7769,7315.199999999999 -1,54.17390000000001,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,54.17390000000001,5943.6 -1,54,5943.6 -1.39222,54,5943.6 -1.25583,53.8661,5943.6 -0.5341669999999999,53.7769,5943.6 -1,54.17390000000001,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,54.17390000000001,7315.199999999999 -1,54,7315.199999999999 -1,54,5943.6 -1,54.17390000000001,5943.6 -1,54.17390000000001,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1,54,7315.199999999999 -1.39222,54,7315.199999999999 -1.39222,54,5943.6 -1,54,5943.6 -1,54,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.39222,54,7315.199999999999 -1.25583,53.8661,7315.199999999999 -1.25583,53.8661,5943.6 -1.39222,54,5943.6 -1.39222,54,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-1.25583,53.8661,7315.199999999999 -0.5341669999999999,53.7769,7315.199999999999 -0.5341669999999999,53.7769,5943.6 -1.25583,53.8661,5943.6 -1.25583,53.8661,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.5341669999999999,53.7769,7315.199999999999 -1,54.17390000000001,7315.199999999999 -1,54.17390000000001,5943.6 -0.5341669999999999,53.7769,5943.6 -0.5341669999999999,53.7769,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES UPPER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES UPPER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">FL240</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53.2819,20116.8 -4.5,53,20116.8 -4,53,20116.8 -4,53.26279999999999,20116.8 -4.5,53.2819,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53.2819,7315.199999999999 -4.5,53,7315.199999999999 -4,53,7315.199999999999 -4,53.26279999999999,7315.199999999999 -4.5,53.2819,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53.2819,20116.8 -4.5,53,20116.8 -4.5,53,7315.199999999999 -4.5,53.2819,7315.199999999999 -4.5,53.2819,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53,20116.8 -4,53,20116.8 -4,53,7315.199999999999 -4.5,53,7315.199999999999 -4.5,53,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53,20116.8 -4,53.26279999999999,20116.8 -4,53.26279999999999,7315.199999999999 -4,53,7315.199999999999 -4,53,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53.26279999999999,20116.8 -4.5,53.2819,20116.8 -4.5,53.2819,7315.199999999999 -4,53.26279999999999,7315.199999999999 -4,53.26279999999999,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES UPPER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES UPPER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">FL240</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53.26279999999999,20116.8 -4,53,20116.8 -3.44167,53,20116.8 -3.434439999999999,53.1008,20116.8 -3.721109999999999,53.2514,20116.8 -4,53.26279999999999,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53.26279999999999,7315.199999999999 -4,53,7315.199999999999 -3.44167,53,7315.199999999999 -3.434439999999999,53.1008,7315.199999999999 -3.721109999999999,53.2514,7315.199999999999 -4,53.26279999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53.26279999999999,20116.8 -4,53,20116.8 -4,53,7315.199999999999 -4,53.26279999999999,7315.199999999999 -4,53.26279999999999,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53,20116.8 -3.44167,53,20116.8 -3.44167,53,7315.199999999999 -4,53,7315.199999999999 -4,53,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.44167,53,20116.8 -3.434439999999999,53.1008,20116.8 -3.434439999999999,53.1008,7315.199999999999 -3.44167,53,7315.199999999999 -3.44167,53,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.434439999999999,53.1008,20116.8 -3.721109999999999,53.2514,20116.8 -3.721109999999999,53.2514,7315.199999999999 -3.434439999999999,53.1008,7315.199999999999 -3.434439999999999,53.1008,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.721109999999999,53.2514,20116.8 -4,53.26279999999999,20116.8 -4,53.26279999999999,7315.199999999999 -3.721109999999999,53.2514,7315.199999999999 -3.721109999999999,53.2514,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES UPPER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES UPPER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">FL240</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.721109999999999,53.2514,20116.8 -3.434439999999999,53.1008,20116.8 -3.42667,53.2075,20116.8 -3.49139,53.24139999999999,20116.8 -3.721109999999999,53.2514,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.721109999999999,53.2514,7315.199999999999 -3.434439999999999,53.1008,7315.199999999999 -3.42667,53.2075,7315.199999999999 -3.49139,53.24139999999999,7315.199999999999 -3.721109999999999,53.2514,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.721109999999999,53.2514,20116.8 -3.434439999999999,53.1008,20116.8 -3.434439999999999,53.1008,7315.199999999999 -3.721109999999999,53.2514,7315.199999999999 -3.721109999999999,53.2514,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.434439999999999,53.1008,20116.8 -3.42667,53.2075,20116.8 -3.42667,53.2075,7315.199999999999 -3.434439999999999,53.1008,7315.199999999999 -3.434439999999999,53.1008,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.42667,53.2075,20116.8 -3.49139,53.24139999999999,20116.8 -3.49139,53.24139999999999,7315.199999999999 -3.42667,53.2075,7315.199999999999 -3.42667,53.2075,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.49139,53.24139999999999,20116.8 -3.721109999999999,53.2514,20116.8 -3.721109999999999,53.2514,7315.199999999999 -3.49139,53.24139999999999,7315.199999999999 -3.49139,53.24139999999999,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES UPPER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES UPPER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">FL240</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53,20116.8 -4.5,52.7322,20116.8 -4,52.445,20116.8 -4,53,20116.8 -4.5,53,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53,7315.199999999999 -4.5,52.7322,7315.199999999999 -4,52.445,7315.199999999999 -4,53,7315.199999999999 -4.5,53,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53,20116.8 -4.5,52.7322,20116.8 -4.5,52.7322,7315.199999999999 -4.5,53,7315.199999999999 -4.5,53,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,52.7322,20116.8 -4,52.445,20116.8 -4,52.445,7315.199999999999 -4.5,52.7322,7315.199999999999 -4.5,52.7322,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.445,20116.8 -4,53,20116.8 -4,53,7315.199999999999 -4,52.445,7315.199999999999 -4,52.445,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53,20116.8 -4.5,53,20116.8 -4.5,53,7315.199999999999 -4,53,7315.199999999999 -4,53,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES UPPER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES UPPER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL660</SimpleData>
+					<SimpleData name="Base">FL240</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53,20116.8 -4,52.5,20116.8 -3.668610000000001,52.5,20116.8 -3.65444,52.7056,20116.8 -3.45361,52.83529999999999,20116.8 -3.44167,53,20116.8 -4,53,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53,7315.199999999999 -4,52.5,7315.199999999999 -3.668610000000001,52.5,7315.199999999999 -3.65444,52.7056,7315.199999999999 -3.45361,52.83529999999999,7315.199999999999 -3.44167,53,7315.199999999999 -4,53,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53,20116.8 -4,52.5,20116.8 -4,52.5,7315.199999999999 -4,53,7315.199999999999 -4,53,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.5,20116.8 -3.668610000000001,52.5,20116.8 -3.668610000000001,52.5,7315.199999999999 -4,52.5,7315.199999999999 -4,52.5,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.668610000000001,52.5,20116.8 -3.65444,52.7056,20116.8 -3.65444,52.7056,7315.199999999999 -3.668610000000001,52.5,7315.199999999999 -3.668610000000001,52.5,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.65444,52.7056,20116.8 -3.45361,52.83529999999999,20116.8 -3.45361,52.83529999999999,7315.199999999999 -3.65444,52.7056,7315.199999999999 -3.65444,52.7056,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.45361,52.83529999999999,20116.8 -3.44167,53,20116.8 -3.44167,53,7315.199999999999 -3.45361,52.83529999999999,7315.199999999999 -3.45361,52.83529999999999,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.44167,53,20116.8 -4,53,20116.8 -4,53,7315.199999999999 -3.44167,53,7315.199999999999 -3.44167,53,20116.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES UPPER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES UPPER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL270</SimpleData>
+					<SimpleData name="Base">FL240</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.45361,52.83529999999999,8229.6 -3.65444,52.7056,8229.6 -3.668610000000001,52.5,8229.6 -3.4775,52.5,8229.6 -3.45361,52.83529999999999,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.45361,52.83529999999999,7315.199999999999 -3.65444,52.7056,7315.199999999999 -3.668610000000001,52.5,7315.199999999999 -3.4775,52.5,7315.199999999999 -3.45361,52.83529999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.45361,52.83529999999999,8229.6 -3.65444,52.7056,8229.6 -3.65444,52.7056,7315.199999999999 -3.45361,52.83529999999999,7315.199999999999 -3.45361,52.83529999999999,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.65444,52.7056,8229.6 -3.668610000000001,52.5,8229.6 -3.668610000000001,52.5,7315.199999999999 -3.65444,52.7056,7315.199999999999 -3.65444,52.7056,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.668610000000001,52.5,8229.6 -3.4775,52.5,8229.6 -3.4775,52.5,7315.199999999999 -3.668610000000001,52.5,7315.199999999999 -3.668610000000001,52.5,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.4775,52.5,8229.6 -3.45361,52.83529999999999,8229.6 -3.45361,52.83529999999999,7315.199999999999 -3.4775,52.5,7315.199999999999 -3.4775,52.5,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES UPPER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES UPPER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL270</SimpleData>
+					<SimpleData name="Base">FL240</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.5,8229.6 -4,52.445,8229.6 -3.50194,52.1531,8229.6 -3.4775,52.5,8229.6 -4,52.5,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.5,7315.199999999999 -4,52.445,7315.199999999999 -3.50194,52.1531,7315.199999999999 -3.4775,52.5,7315.199999999999 -4,52.5,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.5,8229.6 -4,52.445,8229.6 -4,52.445,7315.199999999999 -4,52.5,7315.199999999999 -4,52.5,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.445,8229.6 -3.50194,52.1531,8229.6 -3.50194,52.1531,7315.199999999999 -4,52.445,7315.199999999999 -4,52.445,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.50194,52.1531,8229.6 -3.4775,52.5,8229.6 -3.4775,52.5,7315.199999999999 -3.50194,52.1531,7315.199999999999 -3.50194,52.1531,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.4775,52.5,8229.6 -4,52.5,8229.6 -4,52.5,7315.199999999999 -3.4775,52.5,7315.199999999999 -3.4775,52.5,8229.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES LOWER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES LOWER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53.2819,7315.199999999999 -4.5,53,7315.199999999999 -4,53,7315.199999999999 -4,53.26279999999999,7315.199999999999 -4.5,53.2819,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53.2819,5943.6 -4.5,53,5943.6 -4,53,5943.6 -4,53.26279999999999,5943.6 -4.5,53.2819,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53.2819,7315.199999999999 -4.5,53,7315.199999999999 -4.5,53,5943.6 -4.5,53.2819,5943.6 -4.5,53.2819,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53,7315.199999999999 -4,53,7315.199999999999 -4,53,5943.6 -4.5,53,5943.6 -4.5,53,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53,7315.199999999999 -4,53.26279999999999,7315.199999999999 -4,53.26279999999999,5943.6 -4,53,5943.6 -4,53,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53.26279999999999,7315.199999999999 -4.5,53.2819,7315.199999999999 -4.5,53.2819,5943.6 -4,53.26279999999999,5943.6 -4,53.26279999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES LOWER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES LOWER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53.26279999999999,7315.199999999999 -4,53,7315.199999999999 -3.44167,53,7315.199999999999 -3.434439999999999,53.1008,7315.199999999999 -3.721109999999999,53.2514,7315.199999999999 -4,53.26279999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53.26279999999999,5943.6 -4,53,5943.6 -3.44167,53,5943.6 -3.434439999999999,53.1008,5943.6 -3.721109999999999,53.2514,5943.6 -4,53.26279999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53.26279999999999,7315.199999999999 -4,53,7315.199999999999 -4,53,5943.6 -4,53.26279999999999,5943.6 -4,53.26279999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53,7315.199999999999 -3.44167,53,7315.199999999999 -3.44167,53,5943.6 -4,53,5943.6 -4,53,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.44167,53,7315.199999999999 -3.434439999999999,53.1008,7315.199999999999 -3.434439999999999,53.1008,5943.6 -3.44167,53,5943.6 -3.44167,53,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.434439999999999,53.1008,7315.199999999999 -3.721109999999999,53.2514,7315.199999999999 -3.721109999999999,53.2514,5943.6 -3.434439999999999,53.1008,5943.6 -3.434439999999999,53.1008,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.721109999999999,53.2514,7315.199999999999 -4,53.26279999999999,7315.199999999999 -4,53.26279999999999,5943.6 -3.721109999999999,53.2514,5943.6 -3.721109999999999,53.2514,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES LOWER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES LOWER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.721109999999999,53.2514,7315.199999999999 -3.434439999999999,53.1008,7315.199999999999 -3.42667,53.2075,7315.199999999999 -3.49139,53.24139999999999,7315.199999999999 -3.721109999999999,53.2514,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.721109999999999,53.2514,5943.6 -3.434439999999999,53.1008,5943.6 -3.42667,53.2075,5943.6 -3.49139,53.24139999999999,5943.6 -3.721109999999999,53.2514,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.721109999999999,53.2514,7315.199999999999 -3.434439999999999,53.1008,7315.199999999999 -3.434439999999999,53.1008,5943.6 -3.721109999999999,53.2514,5943.6 -3.721109999999999,53.2514,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.434439999999999,53.1008,7315.199999999999 -3.42667,53.2075,7315.199999999999 -3.42667,53.2075,5943.6 -3.434439999999999,53.1008,5943.6 -3.434439999999999,53.1008,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.42667,53.2075,7315.199999999999 -3.49139,53.24139999999999,7315.199999999999 -3.49139,53.24139999999999,5943.6 -3.42667,53.2075,5943.6 -3.42667,53.2075,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.49139,53.24139999999999,7315.199999999999 -3.721109999999999,53.2514,7315.199999999999 -3.721109999999999,53.2514,5943.6 -3.49139,53.24139999999999,5943.6 -3.49139,53.24139999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES LOWER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES LOWER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53,7315.199999999999 -4.5,52.7322,7315.199999999999 -4,52.445,7315.199999999999 -4,53,7315.199999999999 -4.5,53,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53,5943.6 -4.5,52.7322,5943.6 -4,52.445,5943.6 -4,53,5943.6 -4.5,53,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,53,7315.199999999999 -4.5,52.7322,7315.199999999999 -4.5,52.7322,5943.6 -4.5,53,5943.6 -4.5,53,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4.5,52.7322,7315.199999999999 -4,52.445,7315.199999999999 -4,52.445,5943.6 -4.5,52.7322,5943.6 -4.5,52.7322,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.445,7315.199999999999 -4,53,7315.199999999999 -4,53,5943.6 -4,52.445,5943.6 -4,52.445,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53,7315.199999999999 -4.5,53,7315.199999999999 -4.5,53,5943.6 -4,53,5943.6 -4,53,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES LOWER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES LOWER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53,7315.199999999999 -4,52.5,7315.199999999999 -3.668610000000001,52.5,7315.199999999999 -3.65444,52.7056,7315.199999999999 -3.45361,52.83529999999999,7315.199999999999 -3.44167,53,7315.199999999999 -4,53,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53,5943.6 -4,52.5,5943.6 -3.668610000000001,52.5,5943.6 -3.65444,52.7056,5943.6 -3.45361,52.83529999999999,5943.6 -3.44167,53,5943.6 -4,53,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,53,7315.199999999999 -4,52.5,7315.199999999999 -4,52.5,5943.6 -4,53,5943.6 -4,53,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.5,7315.199999999999 -3.668610000000001,52.5,7315.199999999999 -3.668610000000001,52.5,5943.6 -4,52.5,5943.6 -4,52.5,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.668610000000001,52.5,7315.199999999999 -3.65444,52.7056,7315.199999999999 -3.65444,52.7056,5943.6 -3.668610000000001,52.5,5943.6 -3.668610000000001,52.5,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.65444,52.7056,7315.199999999999 -3.45361,52.83529999999999,7315.199999999999 -3.45361,52.83529999999999,5943.6 -3.65444,52.7056,5943.6 -3.65444,52.7056,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.45361,52.83529999999999,7315.199999999999 -3.44167,53,7315.199999999999 -3.44167,53,5943.6 -3.45361,52.83529999999999,5943.6 -3.45361,52.83529999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.44167,53,7315.199999999999 -4,53,7315.199999999999 -4,53,5943.6 -3.44167,53,5943.6 -3.44167,53,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES LOWER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES LOWER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.45361,52.83529999999999,7315.199999999999 -3.65444,52.7056,7315.199999999999 -3.668610000000001,52.5,7315.199999999999 -3.4775,52.5,7315.199999999999 -3.45361,52.83529999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.45361,52.83529999999999,5943.6 -3.65444,52.7056,5943.6 -3.668610000000001,52.5,5943.6 -3.4775,52.5,5943.6 -3.45361,52.83529999999999,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.45361,52.83529999999999,7315.199999999999 -3.65444,52.7056,7315.199999999999 -3.65444,52.7056,5943.6 -3.45361,52.83529999999999,5943.6 -3.45361,52.83529999999999,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.65444,52.7056,7315.199999999999 -3.668610000000001,52.5,7315.199999999999 -3.668610000000001,52.5,5943.6 -3.65444,52.7056,5943.6 -3.65444,52.7056,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.668610000000001,52.5,7315.199999999999 -3.4775,52.5,7315.199999999999 -3.4775,52.5,5943.6 -3.668610000000001,52.5,5943.6 -3.668610000000001,52.5,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.4775,52.5,7315.199999999999 -3.45361,52.83529999999999,7315.199999999999 -3.45361,52.83529999999999,5943.6 -3.4775,52.5,5943.6 -3.4775,52.5,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES LOWER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES LOWER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.5,7315.199999999999 -4,52.445,7315.199999999999 -3.50194,52.1531,7315.199999999999 -3.4775,52.5,7315.199999999999 -4,52.5,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.5,5943.6 -4,52.445,5943.6 -3.50194,52.1531,5943.6 -3.4775,52.5,5943.6 -4,52.5,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.5,7315.199999999999 -4,52.445,7315.199999999999 -4,52.445,5943.6 -4,52.5,5943.6 -4,52.5,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.445,7315.199999999999 -3.50194,52.1531,7315.199999999999 -3.50194,52.1531,5943.6 -4,52.445,5943.6 -4,52.445,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.50194,52.1531,7315.199999999999 -3.4775,52.5,7315.199999999999 -3.4775,52.5,5943.6 -3.50194,52.1531,5943.6 -3.50194,52.1531,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.4775,52.5,7315.199999999999 -4,52.5,7315.199999999999 -4,52.5,5943.6 -3.4775,52.5,5943.6 -3.4775,52.5,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TRAG WALES LOWER</name>
+			<styleUrl>#StyleWAVE</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#AirspaceId">
+					<SimpleData name="Name">TRAG WALES LOWER</SimpleData>
+					<SimpleData name="Category">Wave window</SimpleData>
+					<SimpleData name="Top">FL240</SimpleData>
+					<SimpleData name="Base">FL195</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.445,7315.199999999999 -4,52.0917,7315.199999999999 -3.510279999999999,52.0303,7315.199999999999 -3.50194,52.1531,7315.199999999999 -4,52.445,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.445,5943.6 -4,52.0917,5943.6 -3.510279999999999,52.0303,5943.6 -3.50194,52.1531,5943.6 -4,52.445,5943.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.445,7315.199999999999 -4,52.0917,7315.199999999999 -4,52.0917,5943.6 -4,52.445,5943.6 -4,52.445,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-4,52.0917,7315.199999999999 -3.510279999999999,52.0303,7315.199999999999 -3.510279999999999,52.0303,5943.6 -4,52.0917,5943.6 -4,52.0917,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.510279999999999,52.0303,7315.199999999999 -3.50194,52.1531,7315.199999999999 -3.50194,52.1531,5943.6 -3.510279999999999,52.0303,5943.6 -3.510279999999999,52.0303,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.50194,52.1531,7315.199999999999 -4,52.445,7315.199999999999 -4,52.445,5943.6 -3.50194,52.1531,5943.6 -3.50194,52.1531,7315.199999999999 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
