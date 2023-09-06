@@ -12,11 +12,77 @@
 </head>
 <body>
     <div id="map"></div>
-    <div id="waypoints">
-        <h2>Waypoints</h2>
-        <ul id="waypoint-list"></ul>
-        <button id="generate-plog-btn">Generate Plog</button>
-    </div>
+    <div id="container">
+        <div class="section collapsed" id="aircraft">
+            <h2>Aircraft<button class="collapse-button" data-target="aircraft">+</button></h2>
+            <div class="content">
+                <div class="input-group">
+                    <label for="registration">Registration:</label>
+                    <input type="text" id="registration" name="registration">
+                </div>
+                <div class="input-group">
+                    <label for="tas">TAS (True Airspeed):</label>
+                    <input type="number" id="tas" name="tas">
+                </div>
+                <div class="input-group">
+                    <label for="altitude">Planned Altitude (feet):</label>
+                    <input type="number" id="altitude" name="altitude">
+                </div>
+                <div class="input-group">
+                    <label for="fuel-burn">Fuel Burn (Litres/Hour):</label>
+                    <input type="number" id="fuel-burn" name="fuel-burn">
+                </div>
+            </div>
+        </div>
+        
+        <div class="section collapsed" id="wind">
+            <h2>Winds (F214)<button class="collapse-button" data-target="wind">+</button></h2>
+            <div class="content">
+                <h3>5000ft</h3>
+                <div class="line">
+                    <div class="input-group">
+                        <label for="wind-direction">Direction:</label>
+                        <input type="number" id="wind-direction-5000" name="wind-direction">
+                    </div>
+                    <div class="input-group">
+                        <label for="wind-speed">Speed:</label>
+                        <input type="number" id="wind-speed-5000" name="wind-speed">
+                    </div>
+                </div>
+                <h3>2000ft</h3>
+                <div class="line">
+                    <div class="input-group">
+                        <label for="wind-direction">Direction:</label>
+                        <input type="number" id="wind-direction-2000" name="wind-direction">
+                    </div>
+                    <div class="input-group">
+                        <label for="wind-speed">Speed:</label>
+                        <input type="number" id="wind-speed-2000" name="wind-speed">
+                    </div>
+                </div>
+                <h3>1000ft</h3>
+                <div class="line">
+                    <div class="input-group">
+                        <label for="wind-direction">Direction:</label>
+                        <input type="number" id="wind-direction-1000" name="wind-direction">
+                    </div>
+                    <div class="input-group">
+                        <label for="wind-speed">Speed:</label>
+                        <input type="number" id="wind-speed-1000" name="wind-speed">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section collapsed" id="waypoints">
+            <h2>Waypoints<button class="collapse-button" data-target="waypoints">+</button></h2>
+            <div class="content">
+                <ul id="waypoint-list"></ul>
+                <button id="generate-plog-btn">Generate Plog</button>
+            </div>
+        </div>
+    </div>    
 </body>
 <script src="map.js"></script>
+<script src="inputs.js"></script>
 </html>
